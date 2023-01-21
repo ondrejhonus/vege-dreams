@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tofu Dreams'
+
+theme = 'bean'
+
+summaryLength = 10
+paginate = 3
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Categories"
+    pre = "tag"
+    url = "/categories/"
+    weight = 3
+
+[params]
+  logo = "logo.png"

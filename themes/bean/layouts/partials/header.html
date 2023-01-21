@@ -1,0 +1,26 @@
+<div id="nav-border" class="container">
+    <nav id="nav">
+        <span class="identity">
+            <a href="/">
+                {{ $image := resources.Get "static/logo.png" }}
+                <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="logo" class="logo"/>
+                <h3>{{.Title}}</h3></a>
+            </a>
+        </span>
+        <span class="nav">
+            {{ range .Site.Menus.main }}
+            <a class="nav-link" href="{{ .URL }}">
+                {{ if .Pre }}
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                {{ $icon }}
+                {{ end }}
+                {{ $text := print .Name | safeHTML }}
+                {{ $text }}
+            </a>
+            {{ end }}
+            {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </span>
+    </nav>
+</div>

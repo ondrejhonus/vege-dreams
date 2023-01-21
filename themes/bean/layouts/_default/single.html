@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section>
+    <article class="content">
+        <div class="meta">
+            <h1>{{ .Title }}</h1>
+            <div class="cover">
+                {{ with .Resources.GetMatch "cover.*" }}
+                    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+                {{ end }}
+            </div>
+            <section>
+                <p id="date"> Posted on {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+                <p id="wordcount"> {{ .WordCount }} Words </p>
+            </section>
+        </div>
+        {{ .Content }}
+    </article>
+</section>
+<aside id="meta">
+    <div class="tags">
+    {{ with .GetTerms "tags" }}
+            {{ range . }}
+            <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+            {{ end }}
+        {{ end }}
+    </div>
+    <div>
+        {{ with .PrevInSection }}
+        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+        {{ with .NextInSection }}
+        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+    </div>
+</aside>
+{{ end }}
