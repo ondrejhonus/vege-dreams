@@ -1,11 +1,12 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://tofudreams.com/'
 languageCode = 'en-us'
 title = 'Tofu Dreams'
+description = "A blog about tofu and dreams"
 
 theme = 'bean'
 
 summaryLength = 10
-paginate = 3
+paginate = 6
 
 [markup.goldmark.renderer]
     unsafe= true
@@ -28,3 +29,7 @@ paginate = 3
 
 [params]
   logo = "logo.png"
+  name = "Tofu Dreams"
+  description = "A blog about tofu and dreams"
+
+

@@ -2,16 +2,16 @@
 title: "Apple muffins"
 date: 2023-01-20T23:11:13Z
 draft: false
-tags: ["sweet", "quick"]
+tags: ["sweet", "baked", "muffins"]
 categories: ["Sweet"]
 ---
 
 Are you craving something sweet and filling? Look no further! 
-These homemade apple muffins are the ultimate fall snack. 
+These homemade apple muffins are the ultimate autumn snack. 
 Not only are they easy to make, but they will also fill your home with the delicious 
 aroma of fresh baked goods. 
 
-And for an added touch of elegance, I suggest garnishing each muffin with a slice of your favorite berry on top.
+And for an added touch, you can garnish each muffin with your favorite berry on top.
 
 <div class="recipe">
 Prep time: 15 minutes

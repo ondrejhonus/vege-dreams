@@ -11,8 +11,8 @@
 
         <div class="category">
             {{ range (.Paginate (.Pages).ByDate.Reverse).Pages }}
-                <span class="article">
-                    <a href="{{ .Permalink }}">
+                <span class="article" onclick="location.href='{{ .Permalink }}';">
+                    <span><a href="{{ .Permalink }}">
                         {{ with .Resources }}
                             {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
                                     <div class="cover_image"
@@ -22,13 +22,15 @@
                     </a>
                     <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
                     {{ .Summary | truncate 200 }}
+                    </span>
+                    <span>
                     {{ if .Truncated }}
                     <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                    <div>
-                        <a href="{{ .RelPermalink }}">Read More…</a>
+                    <div class="bottom-link">
+                        <a href="{{ .RelPermalink }}">Continue reading…</a>
                     </div>
-
                     {{ end }}
+                    </span>
                 </span>
             {{ end }}
         </div>

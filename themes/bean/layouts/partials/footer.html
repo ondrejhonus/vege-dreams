@@ -1,1 +1,7 @@
-<p class="footer text-center">Copyright (c) 2023</p>
+<footer>
+    {{ with .Params.description }}
+    <span class="subtitle">{{.}}</span>
+    {{ end }}
+    <p class="footer text-center">Copyright (c) {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+    <p class="gray-text">Built with the <a href="https://gohugo.io/">Hugo</a> framework. This website doesn't track you. ❤️</p>
+</footer>

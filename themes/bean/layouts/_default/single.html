@@ -1,37 +1,79 @@
 {{ define "main" }}
 
-<section>
-    <article class="content">
-        <div class="meta">
-            <h1>{{ .Title }}</h1>
-            <div class="cover">
-                {{ with .Resources.GetMatch "cover.*" }}
-                    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+<article class="split-me">
+    <section>
+        <section>
+            <article class="content">
+                <div class="meta">
+                    <h1>{{ .Title }}</h1>
+                    <div class="cover">
+                        {{ with .Resources.GetMatch "cover.*" }}
+                            <div class="wrapper">
+                                <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+                            </div>
+                        {{ end }}
+                    </div>
+                    <section>
+                        <p id="date"> Posted on {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+                        <p class="dark-gray-text" id="wordcount"> {{ .WordCount }} Words - reading time: {{ math.Round (div (countwords .Content) 180.0) }} minutes. </p>
+                    </section>
+                </div>
+                <span class="main-content">
+                    {{ replace .Content "disabled" "" | safeHTML }}
+                </span>
+            </article>
+        </section>
+        <aside id="meta">
+            <div class="tags">
+            {{ with .GetTerms "tags" }}
+                    {{ range . }}
+                    <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+                    {{ end }}
                 {{ end }}
             </div>
-            <section>
-                <p id="date"> Posted on {{ .Date.Format "Mon Jan 2, 2006" }} </p>
-                <p id="wordcount"> {{ .WordCount }} Words </p>
-            </section>
-        </div>
-        {{ .Content }}
-    </article>
-</section>
-<aside id="meta">
-    <div class="tags">
-    {{ with .GetTerms "tags" }}
-            {{ range . }}
-            <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+
+        </aside>
+    </section>
+
+    <div class="sidebar">
+        <h2>Tofu Dreams</h2>
+        <img src="/me.png" alt="me" width="30%" height="auto" style="border-radius: 50%;">
+        <p>
+            Hi, I'm Daniel and this is my little vegan cooking blog.
+            I love comfort food and baking. I hope you find some of my recipes interesting and decide to make them yourself.
+        </p>
+        <p>
+            This site is intentionally minimal and doesn't need javascript to run. I don't want <i>your</i> cookies!
+        </p>
+        <h2>Recent recipes</h2>
+        <div class="recent-posts">
+            {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+                <div class="article" onclick="location.href='{{ .Permalink }}';">
+                        <div class="vertical"><a href="{{ .Permalink }}">
+                            {{ with .Resources }}
+                                {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+                                        <div class="cover_image"
+                                             style="background-image: url({{ .Permalink }});"></div>
+                                {{ end }}
+                            {{ end }}
+                        </a>
+                        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+                    </div>
+                    <span>
+                        {{ .Summary | truncate 200 }}
+                        </span>
+                        <span>
+                        {{ if .Truncated }}
+                            <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                        <div class="bottom-link">
+                            <a href="{{ .RelPermalink }}">Continue reading…</a>
+                        </div>
+                        {{ end }}
+                        </span>
+                </div>
             {{ end }}
-        {{ end }}
+        </div>
     </div>
-    <div>
-        {{ with .PrevInSection }}
-        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-        {{ with .NextInSection }}
-        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-    </div>
-</aside>
+</article>
+
 {{ end }}

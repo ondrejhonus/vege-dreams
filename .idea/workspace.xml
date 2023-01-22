@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/christmas-truffles/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/christmas-truffles/balls0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/christmas-truffles/balls1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/me.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/apple muffins/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/apple muffins/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/waffles/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/waffles/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,26 +50,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/daniel/WebstormProjects/cooking/content/posts/waffles",
+    "last_opened_file_path": "/home/daniel/WebstormProjects/cooking/content",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/content/posts" />
       <recent name="$PROJECT_DIR$/content/posts/waffles" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/posts/apple muffins" />
-      <recent name="$PROJECT_DIR$/content/posts/first" />
-      <recent name="$PROJECT_DIR$/themes/bean/layouts/_default" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/content/posts/christmas-balls/photos" />
+      <recent name="$PROJECT_DIR$/content/posts/christmas-balls" />
+      <recent name="$PROJECT_DIR$/content/posts" />
+      <recent name="$PROJECT_DIR$/content/lentil-dhal" />
     </key>
   </component>
   <component name="RunManager">
@@ -66,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674254318844</updated>
-      <workItem from="1674254319838" duration="19139000" />
+      <workItem from="1674254319838" duration="37632000" />
     </task>
     <servers />
   </component>
