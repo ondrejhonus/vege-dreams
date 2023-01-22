@@ -52,7 +52,8 @@
                         <div class="vertical"><a href="{{ .Permalink }}">
                             {{ with .Resources }}
                                 {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
-                                        <div class="cover_image"
+                                    <meta name="og:image" content="{{ .Permalink }}" />
+                                    <div class="cover_image"
                                              style="background-image: url({{ .Permalink }});"></div>
                                 {{ end }}
                             {{ end }}
