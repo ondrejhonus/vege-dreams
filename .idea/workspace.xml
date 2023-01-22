@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="compressed and new food">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="forgotten image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/chili/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/chili/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/lentil-dhal/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/lentil-dhal/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674254318844</updated>
-      <workItem from="1674254319838" duration="41002000" />
+      <workItem from="1674254319838" duration="41598000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -102,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674395120240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="yay">
+      <created>1674395335728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674395335729</updated>
+    </task>
+    <task id="LOCAL-00006" summary="forgotten image">
+      <created>1674395374876</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674395374876</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +141,8 @@
     <MESSAGE value="so much has changed!" />
     <MESSAGE value="readme change" />
     <MESSAGE value="compressed and new food" />
-    <option name="LAST_COMMIT_MESSAGE" value="compressed and new food" />
+    <MESSAGE value="yay" />
+    <MESSAGE value="forgotten image" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgotten image" />
   </component>
 </project>

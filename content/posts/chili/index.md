@@ -7,8 +7,8 @@ categories: ["Savory"]
 ---
 
 Chili is something I take very seriously. There are quite a few recipes on the internet,
-but naturally - mine is the best. It has been refined and perfected over many years
-, and I am very proud of it.
+but naturally - mine is the best. It has been refined and perfected over 
+many years, and I am very proud of it.
 
 It is a great dish to make in bulk and freeze for later. It keeps in the fridge for about 5 days max.
 
