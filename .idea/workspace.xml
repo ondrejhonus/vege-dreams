@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/christmas-truffles/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/christmas-truffles/balls0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/christmas-truffles/balls1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/me.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="so much has changed!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/apple muffins/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/apple muffins/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/waffles/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/waffles/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +72,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674254318844</updated>
-      <workItem from="1674254319838" duration="37632000" />
+      <workItem from="1674254319838" duration="38380000" />
     </task>
+    <task id="LOCAL-00001" summary="so much has changed!">
+      <created>1674390322886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674390322886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +89,20 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.toml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="so much has changed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="so much has changed!" />
   </component>
 </project>
