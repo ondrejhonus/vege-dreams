@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="typos">
-      <change afterPath="$PROJECT_DIR$/content/posts/chocolate muffins/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/chocolate muffins/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/apple muffins/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/apple muffins/cover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/apple muffins/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/apple muffins/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="wrong image order" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,35 +28,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/daniel/WebstormProjects/cooking/content/posts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/daniel/WebstormProjects/cooking/content/posts/apple muffins",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/posts/apple muffins" />
       <recent name="$PROJECT_DIR$/content/posts" />
       <recent name="$PROJECT_DIR$/content" />
       <recent name="$PROJECT_DIR$/content/posts/waffles" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/posts/chocolate muffins" />
       <recent name="$PROJECT_DIR$/content/posts/apple muffins" />
+      <recent name="$PROJECT_DIR$/content/posts" />
       <recent name="$PROJECT_DIR$/content/posts/tofu-scramble" />
       <recent name="$PROJECT_DIR$/content/posts/chili" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/content/posts/christmas-balls/photos" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674254318844</updated>
       <workItem from="1674254319838" duration="42790000" />
-      <workItem from="1674495655567" duration="622000" />
+      <workItem from="1674495655567" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -131,7 +128,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674396154214</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chocolate muffins!">
+      <created>1674496305784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496305784</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chocolate muffins!">
+      <created>1674496379104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496379104</updated>
+    </task>
+    <task id="LOCAL-00010" summary="wrong image order">
+      <created>1674496571566</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496571566</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +176,8 @@
     <MESSAGE value="yay" />
     <MESSAGE value="forgotten image" />
     <MESSAGE value="typos" />
-    <option name="LAST_COMMIT_MESSAGE" value="typos" />
+    <MESSAGE value="chocolate muffins!" />
+    <MESSAGE value="wrong image order" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong image order" />
   </component>
 </project>
