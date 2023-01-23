@@ -6,15 +6,15 @@ tags: ["lunch", "gluten-free", "red lentils", "legumes"]
 categories: ["Savory"]
 ---
 
-Dhal is a traditional indian dish made of lentils and spices, often served with rice or bread and garnished with fresh herbs.
+Dhal is a traditional indian dish made of lentils and spices, often served with rice or bread and garnished with fresh herbs. It's super easy to make and just absolutely delicious! 
 
-Dhal (also spelled dal or dahl) typically includes a combination of lentils, spices, 
-and aromatics such as onion and garlic. Common spices used in dhal include turmeric, cumin, 
-and mustard seeds. Some variations also include ginger, chilies, and tomatoes. 
-Additionally, dhal is often served with rice or bread, and garnished with fresh 
+Dhal typically includes a combination of lentils, spices, 
+and aromatics such as onion and garlic. Common spices include turmeric, cumin, 
+and mustard seeds (my favorite). Some variations also include ginger, chilies, and tomatoes. 
+It is generally served with rice or bread, and garnished with fresh 
 cilantro or other herbs.
 
-Dhal is a very flexible dish and we can add a variety of vegetables to it.
+Dhal is a very flexible dish and you can add a variety of vegetables to it.
 Don't be afraid to add in local vegetables that you have on hand. In this recipe I have
 used some zucchini, sweet potato and a tomato. 
 
