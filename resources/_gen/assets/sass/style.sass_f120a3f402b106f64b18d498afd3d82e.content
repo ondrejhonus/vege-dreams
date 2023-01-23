@@ -232,7 +232,9 @@ article.split-me {
 
 @media screen and (max-width: 1200px) {
   body main {
-    width: 90%; } }
+    width: 90%; }
+  div.recipe {
+    width: 80%; } }
 
 @media screen and (max-width: 1000px) {
   body main {
@@ -255,4 +257,6 @@ article.split-me {
       .category_container div.category span.article div.cover_image {
         height: 300px; }
   article.split-me {
-    flex-direction: column; } }
+    flex-direction: column; }
+  div.recipe {
+    width: 95%; } }
