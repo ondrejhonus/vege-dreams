@@ -29,6 +29,7 @@ paginate = 6
 
 [params]
   logo = "logo.png"
+  icon = "favicon.png"
   name = "Tofu Dreams"
   description = "A blog about tofu and dreams"
 

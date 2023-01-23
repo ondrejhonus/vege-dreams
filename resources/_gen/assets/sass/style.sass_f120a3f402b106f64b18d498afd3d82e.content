@@ -35,7 +35,8 @@ a {
     gap: .5rem; }
   .identity .logo {
     height: 7rem;
-    width: 7rem; }
+    width: 7rem;
+    border-radius: 25px; }
 
 .nav {
   display: flex;
@@ -223,3 +224,34 @@ article.split-me {
     flex: 1;
     padding: 0 0 0 1rem;
     border-left: 1px solid #bcbcbc; }
+
+@media screen and (max-width: 1700px) {
+  body main {
+    width: 80%; } }
+
+@media screen and (max-width: 1200px) {
+  body main {
+    width: 90%; } }
+
+@media screen and (max-width: 1000px) {
+  body main {
+    width: 98%; }
+  .identity a {
+    height: initial;
+    line-height: 1.4rem;
+    align-items: end; }
+  .nav {
+    margin: 1rem 0;
+    flex-wrap: wrap; }
+  nav#nav {
+    padding: .4rem; }
+  .category_container h2 {
+    margin-top: 1rem; }
+  .category_container div.category {
+    flex-direction: column; }
+    .category_container div.category span.article {
+      max-width: 100%; }
+      .category_container div.category span.article div.cover_image {
+        height: 300px; }
+  article.split-me {
+    flex-direction: column; } }

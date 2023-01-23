@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="wrong image order" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="wrong --recipe-- order">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,8 +59,8 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/posts/chocolate muffins" />
       <recent name="$PROJECT_DIR$/content/posts/apple muffins" />
+      <recent name="$PROJECT_DIR$/content/posts/chocolate muffins" />
       <recent name="$PROJECT_DIR$/content/posts" />
       <recent name="$PROJECT_DIR$/content/posts/tofu-scramble" />
       <recent name="$PROJECT_DIR$/content/posts/chili" />
@@ -77,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674254318844</updated>
       <workItem from="1674254319838" duration="42790000" />
-      <workItem from="1674495655567" duration="923000" />
+      <workItem from="1674495655567" duration="2671000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -149,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674496571566</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="wrong --recipe-- order">
+      <created>1674496721193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496721193</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +191,7 @@
     <MESSAGE value="typos" />
     <MESSAGE value="chocolate muffins!" />
     <MESSAGE value="wrong image order" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong image order" />
+    <MESSAGE value="wrong --recipe-- order" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong --recipe-- order" />
   </component>
 </project>
