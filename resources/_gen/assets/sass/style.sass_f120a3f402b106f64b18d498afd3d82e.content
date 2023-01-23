@@ -64,7 +64,8 @@ nav#nav {
     margin: .4rem; }
   .category_container div.category {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
     .category_container div.category span.article {
       flex: 1 1 30%;
       text-align: center;
@@ -76,7 +77,7 @@ nav#nav {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      max-width: 30%; }
+      max-width: 29%; }
       .category_container div.category span.article:hover a {
         color: #819e75; }
       .category_container div.category span.article div.bottom-link {

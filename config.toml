@@ -21,11 +21,6 @@ paginate = 6
     pre = "home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "Categories"
-    pre = "tag"
-    url = "/categories/"
-    weight = 3
 
 [params]
   logo = "logo.png"
