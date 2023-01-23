@@ -1,39 +1,35 @@
 ---
-title: "Apple muffins"
-date: 2023-01-20T23:11:13Z
+title: "Chocolate muffins"
+date: 2023-01-22T23:11:13Z
 draft: false
-tags: ["sweet", "baked", "muffins"]
+tags: ["sweet", "baked", "muffins", "chocolate"]
 categories: ["Sweet"]
 ---
 
-Are you craving something sweet and filling? Look no further! 
-These homemade apple muffins are the ultimate autumn snack. 
-Not only are they easy to make, but they will also fill your home with the delicious 
-aroma of fresh baked goods. 
-
-And for an added touch, you can garnish each muffin with your favorite berry on top.
+Another muffin recipe? No complaining, these are delicious! Similar to the apple muffins, these are 
+a bit more on the sweet side. This recipe has apple sauce in it, which makes it a bit more moist
+and gives us an excuse not to put in as much sugar.
 
 <div class="recipe">
-Prep time: 15 minutes
+Prep time: 10 minutes
 
 Cooking time: 20 minutes
 
 - [ ] 250g All Purpose Flour
-- [ ] 100g Brown Sugar
-- [ ] 4g teaspoon Baking Soda
+- [ ] 50g Brown Sugar
+- [ ] 4g Baking Powder
 - [ ] Pinch of Salt
-- [ ] Light grating of Nutmeg
-- [ ] 1 teaspoon of Cinnamon
-- [ ] 180 ml plant based milk
-- [ ] 60ml vegetable oil (canola, sunflower, melted vegan butter)
-- [ ] 5g Vanilla Extract
-- [ ] 30g Apple Sauce / Finely grated apple
+- [ ] 200ml plant based milk
+- [ ] 1/2 cup of chocolate chips
+- [ ] 100g apple sauce
+- [ ] shot of espresso
+- [ ] 50g melted coconut oil, or other neutral oil
+- [ ] 50g cocoa powder
 
-1. Sift the flour, baking soda, salt, nutmeg, and cinnamon into a bowl.
-2. Add the sugar and mix well.
-3. Add the milk, oil, and vanilla extract to the bowl.
-4. Add the apple sauce to the batter and mix well.
-5. Divide the batter into as many muffin cases as the batter will fill.
-6. Bake at 180°C for about 20 minutes, or until a skewer comes out clean.
+1. Sift the flour, baking powder, salt and cocoa powder into a bowl.
+2. Add the sugar and mix.
+3. Add the milk, apple sauce, espresso and oil and mix until combined.
+4. Add the chocolate chips and mix.
+5. Pour into muffin tins and bake at 180C for 20 minutes, or until a skewer comes out clean.
 
 </div>
