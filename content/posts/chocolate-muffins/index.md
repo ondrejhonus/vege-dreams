@@ -2,7 +2,7 @@
 title: "Chocolate muffins"
 date: 2023-01-22T23:11:13Z
 draft: false
-tags: ["sweet", "baked", "muffins", "chocolate"]
+tags: ["baked", "muffins", "chocolate"]
 categories: ["Sweet"]
 ---
 

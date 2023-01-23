@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="pagination splitting">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="css changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/apple muffins/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/apple muffins/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/chocolate-muffins/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/chocolate-muffins/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/waffles/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/waffles/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +85,8 @@
       <updated>1674254318844</updated>
       <workItem from="1674254319838" duration="42790000" />
       <workItem from="1674495655567" duration="3844000" />
-      <workItem from="1674502147394" duration="129000" />
+      <workItem from="1674502147394" duration="940000" />
+      <workItem from="1674503923305" duration="142000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -176,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674500935249</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="css changes">
+      <created>1674502312661</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674502312661</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +218,7 @@
     <MESSAGE value="wrong --recipe-- order" />
     <MESSAGE value="better mobile support and icon" />
     <MESSAGE value="pagination splitting" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination splitting" />
+    <MESSAGE value="css changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="css changes" />
   </component>
 </project>

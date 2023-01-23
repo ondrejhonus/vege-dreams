@@ -2,7 +2,7 @@
 title: "Apple muffins"
 date: 2023-01-20T23:11:13Z
 draft: false
-tags: ["sweet", "baked", "muffins"]
+tags: ["baked", "muffins"]
 categories: ["Sweet"]
 ---
 
