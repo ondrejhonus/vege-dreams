@@ -63,12 +63,12 @@ nav#nav {
   .category_container h2 {
     margin: .4rem; }
   .category_container div.category {
-    display: flex;
+    display: grid;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    grid-gap: .3rem;
+    grid-template-columns: 1fr 1fr 1fr; }
     .category_container div.category span.article {
-      flex: 1 1 29%;
       text-align: center;
       padding: 10px;
       border: 1px solid #bcbcbc;
@@ -78,7 +78,7 @@ nav#nav {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      max-width: 31%; }
+      min-height: 26rem; }
       .category_container div.category span.article:hover a {
         color: #819e75; }
       .category_container div.category span.article div.bottom-link {
@@ -130,17 +130,17 @@ div.recent-posts {
   flex-wrap: wrap;
   border-radius: 5px;
   gap: .5rem; }
-  .tags div {
-    margin: .3rem 0;
+  .tags a button.tag-button {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    border: none;
     padding: .3rem;
     border-radius: 5px;
     background: #c7c7c7;
-    color: black;
     cursor: pointer; }
-    .tags div:hover {
+    .tags a button.tag-button:hover {
+      color: white;
       background: #819e75; }
-      .tags div:hover * {
-        color: white; }
 
 .tags p {
   margin: 0; }
@@ -224,8 +224,9 @@ article.split-me {
     padding: 1rem; }
   article.split-me div.sidebar {
     flex: 1;
-    padding: 0 0 0 1rem;
     border-left: 1px solid #bcbcbc; }
+    article.split-me div.sidebar .sidebar-padding {
+      padding: 0 0 0 1rem; }
 
 @media screen and (max-width: 1700px) {
   body main {
@@ -252,7 +253,8 @@ article.split-me {
   .category_container h2 {
     margin-top: 1rem; }
   .category_container div.category {
-    flex-direction: column; }
+    flex-direction: column;
+    display: flex; }
     .category_container div.category span.article {
       max-width: 100%; }
       .category_container div.category span.article div.cover_image {
@@ -260,4 +262,13 @@ article.split-me {
   article.split-me {
     flex-direction: column; }
   div.recipe {
-    width: 95%; } }
+    width: 95%; }
+  article.content div.cover div.wrapper {
+    width: 100%;
+    margin: 0; }
+    article.content div.cover div.wrapper img {
+      width: 100%;
+      height: auto;
+      border-radius: 7px;
+      margin: 0;
+      display: block; } }

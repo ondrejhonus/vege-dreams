@@ -2,7 +2,7 @@
 title: "Only the best chili in the universe"
 date: 2023-01-22T14:11:41+01:00
 draft: false
-tags: ["lunch", "gluten-free", "beans", "legumes", "spicy", "pressure cooker"]
+tags: ["lunch", "gluten-free", "beans", "legumes", "spicy", "pressure-cooker"]
 categories: ["Savory"]
 ---
 

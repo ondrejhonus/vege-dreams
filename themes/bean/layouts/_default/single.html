@@ -27,7 +27,11 @@
             <div class="tags">
             {{ with .GetTerms "tags" }}
                     {{ range . }}
-                    <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+                    <a href="{{ .RelPermalink }}">
+                        <button uk-filter-control='[data-tag~="{{ . }}"]' class="tag-button">
+                            {{ .LinkTitle }}
+                        </button>
+                    </a>
                     {{ end }}
                 {{ end }}
             </div>
@@ -36,6 +40,7 @@
     </section>
 
     <div class="sidebar">
+        <div class="sidebar-padding">
         <h2>Tofu Dreams</h2>
         <img src="/me.png" alt="me" width="30%" height="auto" style="border-radius: 50%;">
         <p>
@@ -46,6 +51,7 @@
             This site is intentionally minimal and doesn't need javascript to run. I don't want <i>your</i> cookies!
         </p>
         <h2>Recent recipes</h2>
+        </div>
         <div class="recent-posts">
             {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
                 <div class="article" onclick="location.href='{{ .Permalink }}';">

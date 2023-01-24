@@ -65,12 +65,12 @@ nav#nav
   h2
     margin: .4rem
   div.category
-    display: flex
+    display: grid
     flex-direction: row
     flex-wrap: wrap
-    justify-content: space-between
+    grid-gap: .3rem
+    grid-template-columns: 1fr 1fr 1fr
     span.article
-      flex: 1 1 29%
       text-align: center
       padding: 10px
       border: 1px solid #bcbcbc
@@ -80,7 +80,7 @@ nav#nav
       display: flex
       flex-direction: column
       justify-content: space-between
-      max-width: 31%
+      min-height: 26rem
       &:hover
         a
           color: $link
@@ -98,6 +98,7 @@ nav#nav
         margin-bottom: 10px
       &:hover
         background: #e6dfcd
+
 div.recent-posts
   border-top: 1px solid silver
   div.article
@@ -132,16 +133,17 @@ div.recent-posts
     flex-wrap: wrap
     border-radius: 5px
     gap: .5rem
-    div
-        margin: .3rem 0
+    a
+      button.tag-button
+        font-family: 'Playfair Display', serif
+        font-size: 1rem
+        border: none
         padding: .3rem
         border-radius: 5px
         background: #c7c7c7
-        color: black
         cursor: pointer
         &:hover
-          *
-            color: white
+          color: white
           background: #819e75
 .tags p
   margin: 0
@@ -223,8 +225,9 @@ article.split-me
     padding: 1rem
   div.sidebar
     flex: 1
-    padding: 0 0 0 1rem
     border-left: 1px solid #bcbcbc
+    .sidebar-padding
+      padding: 0 0 0 1rem
 
 @media screen and (max-width: 1700px)
   body
@@ -256,6 +259,7 @@ article.split-me
       margin-top: 1rem
     div.category
       flex-direction: column
+      display: flex
       span.article
         max-width: 100%
         div.cover_image
@@ -264,3 +268,14 @@ article.split-me
     flex-direction: column
   div.recipe
     width: 95%
+  article.content
+    div.cover
+      div.wrapper
+        width: 100%
+        margin: 0
+        img
+          width: 100%
+          height: auto
+          border-radius: 7px
+          margin: 0
+          display: block

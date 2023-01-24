@@ -14,9 +14,11 @@
         <h3>All categories:</h3>
         <div class="tags">
             {{ range ($categories | uniq) }}
-            <div uk-filter-control='[data-tag~="{{ . }}"]'>
-                <a href="/tags/{{ . }}">{{ . }}</a>
-            </div>
+            <a href="/tags/{{ . }}">
+                <button uk-filter-control='[data-tag~="{{ . }}"]' class="tag-button">
+                    {{ . }}
+                </button>
+            </a>
             {{ end }}
         </div>
     {{ end }}
