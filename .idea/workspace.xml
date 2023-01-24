@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="removed logo bg">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="added logo shadow">
       <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1674495655567" duration="3844000" />
       <workItem from="1674502147394" duration="940000" />
       <workItem from="1674503923305" duration="704000" />
-      <workItem from="1674561681206" duration="5610000" />
+      <workItem from="1674561681206" duration="5699000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674600588162</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added logo shadow">
+      <created>1674600905808</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674600905808</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +254,7 @@
     <MESSAGE value="grid layout is better for this" />
     <MESSAGE value="this is better" />
     <MESSAGE value="removed logo bg" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed logo bg" />
+    <MESSAGE value="added logo shadow" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logo shadow" />
   </component>
 </project>
