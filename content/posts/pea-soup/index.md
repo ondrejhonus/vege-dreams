@@ -18,6 +18,7 @@ Cooking time: 10 minutes
 - [ ] 3 cloves of garlic
 - [ ] 2 teaspoons olive oil
 - [ ] 1.5 tablespoons paprika
+- [ ] 2 teaspoons marjoram
 - [ ] salt and pepper to taste
 #### Optionally add
 - [ ] chili powder to taste
@@ -29,5 +30,6 @@ Cooking time: 10 minutes
 4. Quickly add the frozen peas and mix.
 5. Sauteé the peas for about a minute and then pour in boiling water.
 6. Bring to a boil and cook for about 5 minutes.
+7. Finish with the marjoram and season with salt and pepper to taste.
 
 </div>

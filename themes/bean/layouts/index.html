@@ -6,7 +6,7 @@
         {{ end }}
     </header>
     <div class="category_container">
-        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.Reverse | first 3 }}
+        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle }}
         <h2>{{ .Title }}</h2>
 
         <div class="category">

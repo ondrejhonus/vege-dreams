@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="touchups">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="grid layout is better for this">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/chili/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/chili/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/pea-soup/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/pea-soup/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <workItem from="1674495655567" duration="3844000" />
       <workItem from="1674502147394" duration="940000" />
       <workItem from="1674503923305" duration="704000" />
-      <workItem from="1674561681206" duration="1604000" />
+      <workItem from="1674561681206" duration="4301000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674504073515</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="grid layout is better for this">
+      <created>1674563323003</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674563323003</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +232,7 @@
     <MESSAGE value="pagination splitting" />
     <MESSAGE value="css changes" />
     <MESSAGE value="touchups" />
-    <option name="LAST_COMMIT_MESSAGE" value="touchups" />
+    <MESSAGE value="grid layout is better for this" />
+    <option name="LAST_COMMIT_MESSAGE" value="grid layout is better for this" />
   </component>
 </project>
