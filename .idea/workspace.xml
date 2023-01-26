@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="some opengraph stuff">
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="more hacky opengraph stuff">
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1674561681206" duration="6495000" />
       <workItem from="1674653443204" duration="14000" />
       <workItem from="1674728747908" duration="4628000" />
-      <workItem from="1674736080088" duration="412000" />
+      <workItem from="1674736080088" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674736291322</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="more hacky opengraph stuff">
+      <created>1674736503920</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674736503920</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +311,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="compressed and new food" />
     <MESSAGE value="yay" />
     <MESSAGE value="forgotten image" />
     <MESSAGE value="typos" />
@@ -329,6 +335,7 @@
     <MESSAGE value="fixed" />
     <MESSAGE value="fixed stuff" />
     <MESSAGE value="some opengraph stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="some opengraph stuff" />
+    <MESSAGE value="more hacky opengraph stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="more hacky opengraph stuff" />
   </component>
 </project>
