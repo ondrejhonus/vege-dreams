@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="css!">
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="so strange">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <workItem from="1674503923305" duration="704000" />
       <workItem from="1674561681206" duration="6495000" />
       <workItem from="1674653443204" duration="14000" />
-      <workItem from="1674728747908" duration="859000" />
+      <workItem from="1674728747908" duration="1552000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674730156403</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="so strange">
+      <created>1674730406971</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674730406971</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +281,7 @@
     <MESSAGE value="added logo shadow" />
     <MESSAGE value="minor tweaks" />
     <MESSAGE value="css!" />
-    <option name="LAST_COMMIT_MESSAGE" value="css!" />
+    <MESSAGE value="so strange" />
+    <option name="LAST_COMMIT_MESSAGE" value="so strange" />
   </component>
 </project>
