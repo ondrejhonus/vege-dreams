@@ -278,7 +278,7 @@ article.split-me {
       article.split-me div.sidebar div.sidebar-padding {
         padding: 0 1rem; }
   div.recipe {
-    width: 95%; }
+    width: auto; }
   article.content div.cover div.wrapper {
     width: 100%;
     margin: 0; }

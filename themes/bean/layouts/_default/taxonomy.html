@@ -11,6 +11,7 @@
     {{ end }}
 
     {{ if ( gt ( len $categories ) 0 ) }}
+    <div class="category_container">
         <h3>All categories:</h3>
         <div class="tags">
             {{ range ($categories | uniq) }}
@@ -21,6 +22,7 @@
             </a>
             {{ end }}
         </div>
+    </div>
     {{ end }}
 
     <div class="category_container">

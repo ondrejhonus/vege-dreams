@@ -2,6 +2,10 @@
     {{ with .Params.description }}
     <span class="subtitle">{{.}}</span>
     {{ end }}
-    <p class="footer text-center">Copyright (c) {{ dateFormat "2006" now }} {{ .Site.Title }}</p>
-    <p class="gray-text">Built with the <a href="https://gohugo.io/">Hugo</a> framework. This website doesn't track you. ❤️</p>
+    <p class="footer text-center">
+        Copyright (c) {{ dateFormat "2006" now }} {{ .Site.Title }}. All rights reserved.
+    </p>
+    <p class="gray-text">
+        Built with <a href="https://gohugo.io/">Hugo</a>.
+        This website doesn't track you. ❤️</p>
 </footer>

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="removed google dep">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="more recents posts and style fix for mobile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <workItem from="1674503923305" duration="704000" />
       <workItem from="1674561681206" duration="6495000" />
       <workItem from="1674653443204" duration="14000" />
-      <workItem from="1674728747908" duration="3253000" />
+      <workItem from="1674728747908" duration="3977000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -264,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674731820047</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="more recents posts and style fix for mobile">
+      <created>1674733600107</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1674733600107</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +316,7 @@
     <MESSAGE value="caching fix maybe?" />
     <MESSAGE value="looks good" />
     <MESSAGE value="removed google dep" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed google dep" />
+    <MESSAGE value="more recents posts and style fix for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="more recents posts and style fix for mobile" />
   </component>
 </project>
