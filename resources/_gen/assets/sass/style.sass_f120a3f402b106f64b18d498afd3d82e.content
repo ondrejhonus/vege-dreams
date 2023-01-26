@@ -37,8 +37,8 @@ a {
     height: 7rem;
     width: 7rem;
     border-radius: 25px;
-    -webkit-filter: drop-shadow(5px 4px 5px #00000042);
-    filter: drop-shadow(5px 4px 5px #00000042); }
+    -webkit-filter: drop-shadow(5px 4px 2px #00000012);
+    filter: drop-shadow(5px 4px 2px #00000012); }
 
 .nav {
   display: flex;
@@ -229,6 +229,12 @@ article.split-me {
     border-left: 1px solid #bcbcbc; }
     article.split-me div.sidebar .sidebar-padding {
       padding: 0 0 0 1rem; }
+      article.split-me div.sidebar .sidebar-padding img {
+        border-radius: 25px;
+        height: 5em;
+        width: 5em;
+        float: left;
+        margin-right: .6rem; }
 
 @media screen and (max-width: 1700px) {
   body main {
