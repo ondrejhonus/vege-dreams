@@ -247,8 +247,10 @@ article.split-me {
     width: 80%; } }
 
 @media screen and (max-width: 1000px) {
-  body main {
-    width: 98%; }
+  body {
+    margin: 0; }
+    body main {
+      width: 100%; }
   .identity a {
     height: initial;
     line-height: 1.4rem;
@@ -258,17 +260,23 @@ article.split-me {
     flex-wrap: wrap; }
   nav#nav {
     padding: .4rem; }
-  .category_container h2 {
-    margin-top: 1rem; }
-  .category_container div.category {
-    flex-direction: column;
-    display: flex; }
-    .category_container div.category span.article {
-      max-width: 100%; }
-      .category_container div.category span.article div.cover_image {
-        height: 300px; }
+  .category_container {
+    padding: .8rem; }
+    .category_container h2 {
+      margin-top: 1rem; }
+    .category_container div.category {
+      flex-direction: column;
+      display: flex; }
+      .category_container div.category span.article {
+        max-width: 100%; }
+        .category_container div.category span.article div.cover_image {
+          height: 300px; }
   article.split-me {
     flex-direction: column; }
+    article.split-me div.sidebar {
+      border: none; }
+      article.split-me div.sidebar div.sidebar-padding {
+        padding: 0 1rem; }
   div.recipe {
     width: 95%; }
   article.content div.cover div.wrapper {

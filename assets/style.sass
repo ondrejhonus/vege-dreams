@@ -251,8 +251,9 @@ article.split-me
 
 @media screen and (max-width: 1000px)
   body
+    margin: 0
     main
-      width: 98%
+      width: 100%
   .identity
     a
       height: initial
@@ -264,6 +265,7 @@ article.split-me
   nav#nav
     padding: .4rem
   .category_container
+    padding: .8rem
     h2
       margin-top: 1rem
     div.category
@@ -275,6 +277,10 @@ article.split-me
           height: 300px
   article.split-me
     flex-direction: column
+    div.sidebar
+      border: none
+      div.sidebar-padding
+        padding: 0 1rem
   div.recipe
     width: 95%
   article.content
