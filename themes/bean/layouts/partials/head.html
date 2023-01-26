@@ -7,6 +7,7 @@
     {{ $title = print .Title " | " .Site.Title }}
     {{ end }}
     <title>{{ $title }} – {{.Site.Params.description}}</title>
+    <meta property="og:title" content="{{ $title }} – {{.Site.Params.description}}" />
     {{ $seed := now.Unix }}
     {{ $css := resources.Get "style.sass" }}
     {{ $css = $css | resources.ToCSS }}

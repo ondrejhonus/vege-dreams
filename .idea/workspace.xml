@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="more recents posts and style fix for mobile">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="fixed stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,8 @@
       <workItem from="1674503923305" duration="704000" />
       <workItem from="1674561681206" duration="6495000" />
       <workItem from="1674653443204" duration="14000" />
-      <workItem from="1674728747908" duration="3977000" />
+      <workItem from="1674728747908" duration="4628000" />
+      <workItem from="1674736080088" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -272,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674733600107</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fixed stuff">
+      <created>1674734883303</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674734883303</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +299,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="so much has changed!" />
     <MESSAGE value="readme change" />
     <MESSAGE value="compressed and new food" />
     <MESSAGE value="yay" />
@@ -317,6 +322,8 @@
     <MESSAGE value="looks good" />
     <MESSAGE value="removed google dep" />
     <MESSAGE value="more recents posts and style fix for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="more recents posts and style fix for mobile" />
+    <MESSAGE value="fixed" />
+    <MESSAGE value="fixed stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed stuff" />
   </component>
 </project>
