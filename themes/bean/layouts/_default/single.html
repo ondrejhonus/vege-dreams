@@ -1,5 +1,4 @@
 {{ define "main" }}
-<meta name="og:image" content="{{ .Permalink }}" />
 <article class="split-me">
     <section>
         <section>
@@ -10,6 +9,7 @@
                         {{ with .Resources.GetMatch "cover.*" }}
                             <div class="wrapper">
                                 <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
+                                <meta name="og:image" content="{{ .Permalink }}" />
                             </div>
                         {{ end }}
                     </div>

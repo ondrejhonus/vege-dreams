@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="fixed stuff">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="some opengraph stuff">
       <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1674561681206" duration="6495000" />
       <workItem from="1674653443204" duration="14000" />
       <workItem from="1674728747908" duration="4628000" />
-      <workItem from="1674736080088" duration="182000" />
+      <workItem from="1674736080088" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -278,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674734883303</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="some opengraph stuff">
+      <created>1674736291322</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674736291322</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +304,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme change" />
     <MESSAGE value="compressed and new food" />
     <MESSAGE value="yay" />
     <MESSAGE value="forgotten image" />
@@ -324,6 +328,7 @@
     <MESSAGE value="more recents posts and style fix for mobile" />
     <MESSAGE value="fixed" />
     <MESSAGE value="fixed stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed stuff" />
+    <MESSAGE value="some opengraph stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="some opengraph stuff" />
   </component>
 </project>
