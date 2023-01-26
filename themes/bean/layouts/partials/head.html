@@ -10,8 +10,6 @@
     {{ $seed := now.Unix }}
     {{ $css := resources.Get "style.sass" }}
     {{ $css = $css | resources.ToCSS }}
-    <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}?{{ printf "%.10s" (md5 $seed) }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}?{{ printf "%.12s" (md5 $seed) }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{.Site.BaseURL}}{{ .Site.Params.icon }}">
 </head>
