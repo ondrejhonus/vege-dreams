@@ -2,7 +2,7 @@
 title: "Red lentil dhal"
 date: 2023-01-22T11:11:41+01:00
 draft: false
-tags: ["lunch", "gluten-free", "red lentils", "legumes"]
+tags: ["lunch", "gluten-free", "red-lentils", "legumes"]
 categories: ["Savory"]
 ---
 

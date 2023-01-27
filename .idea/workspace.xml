@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="maybe this should be good enough">
-      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="pointless typo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/lentil-dhal/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/lentil-dhal/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <workItem from="1674728747908" duration="4628000" />
       <workItem from="1674736080088" duration="1079000" />
       <workItem from="1674831497447" duration="2246000" />
-      <workItem from="1674839569642" duration="13000" />
+      <workItem from="1674839569642" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -299,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674736674344</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="padding fix">
+      <created>1674839622331</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674839622331</updated>
+    </task>
+    <task id="LOCAL-00032" summary="pointless typo">
+      <created>1674839685128</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674839685128</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,8 +335,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="forgotten image" />
-    <MESSAGE value="typos" />
     <MESSAGE value="chocolate muffins!" />
     <MESSAGE value="wrong image order" />
     <MESSAGE value="wrong --recipe-- order" />
@@ -345,6 +358,8 @@
     <MESSAGE value="some opengraph stuff" />
     <MESSAGE value="more hacky opengraph stuff" />
     <MESSAGE value="maybe this should be good enough" />
-    <option name="LAST_COMMIT_MESSAGE" value="maybe this should be good enough" />
+    <MESSAGE value="padding fix" />
+    <MESSAGE value="pointless typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pointless typo" />
   </component>
 </project>
