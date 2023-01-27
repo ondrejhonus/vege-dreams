@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="rss">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="strange">
       <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <workItem from="1674736080088" duration="1079000" />
       <workItem from="1674831497447" duration="2246000" />
       <workItem from="1674839569642" duration="1361000" />
-      <workItem from="1674847671419" duration="1712000" />
+      <workItem from="1674847671419" duration="1733000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -335,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674852886817</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="strange">
+      <created>1674853133468</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674853133468</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="better mobile support and icon" />
     <MESSAGE value="pagination splitting" />
     <MESSAGE value="css changes" />
     <MESSAGE value="touchups" />
@@ -381,6 +387,7 @@
     <MESSAGE value="missing space in tag broken" />
     <MESSAGE value="secret ingredient" />
     <MESSAGE value="rss" />
-    <option name="LAST_COMMIT_MESSAGE" value="rss" />
+    <MESSAGE value="strange" />
+    <option name="LAST_COMMIT_MESSAGE" value="strange" />
   </component>
 </project>
