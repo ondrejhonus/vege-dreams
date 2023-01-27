@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="strange">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="???">
+      <change afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/rss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +90,7 @@
       <workItem from="1674736080088" duration="1079000" />
       <workItem from="1674831497447" duration="2246000" />
       <workItem from="1674839569642" duration="1361000" />
-      <workItem from="1674847671419" duration="1733000" />
+      <workItem from="1674847671419" duration="2121000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -342,7 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674853133468</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="stranger">
+      <created>1674853150963</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674853150963</updated>
+    </task>
+    <task id="LOCAL-00038" summary="???">
+      <created>1674853273951</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674853273951</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,8 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pagination splitting" />
-    <MESSAGE value="css changes" />
     <MESSAGE value="touchups" />
     <MESSAGE value="grid layout is better for this" />
     <MESSAGE value="this is better" />
@@ -388,6 +402,8 @@
     <MESSAGE value="secret ingredient" />
     <MESSAGE value="rss" />
     <MESSAGE value="strange" />
-    <option name="LAST_COMMIT_MESSAGE" value="strange" />
+    <MESSAGE value="stranger" />
+    <MESSAGE value="???" />
+    <option name="LAST_COMMIT_MESSAGE" value="???" />
   </component>
 </project>
