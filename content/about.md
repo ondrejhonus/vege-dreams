@@ -4,7 +4,7 @@ date: 2023-01-19T23:11:13Z
 draft: false
 ---
 
-What's this site about? Well food of course! I love to cook and bake, and I would love to share my recipes with others.
+What's this site about? Well food of course! I love to cook and bake, and I would like to share my recipes with others.
 The recipes are **all vegan**. I do usually make them *as healthy as possible*, but I also like to make some treats every now and then.
 I mostly aim to keep the description to the point and short. Also, I tend to mention some basic rules of the dish and which ingredients are optional.
 
