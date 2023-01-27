@@ -52,7 +52,7 @@ for a pressure cooker. You may use a regular pot, but it will take longer.
 6. Add the beans and peppers (in 2cm squares) and stir until they are coated in the mixture, then add your chocolate piece.
 7. Pour over the water until everything is covered by 3 centimeters or so of water.
 8. Cover the slow cooker and cook on low, enough to maintain a steady boil, for 1 hour. 
-9. 9.Add the lime juice and nutritional yeast and season with salt and pepper to taste.
+9. Add the lime juice and nutritional yeast and season with salt and pepper to taste.
 10. Serve with rice (ideally with peas) or flatbread.
 
 </div>

@@ -2,7 +2,7 @@ baseURL = 'https://tofudreams.com/'
 languageCode = 'en-us'
 title = 'Tofu Dreams'
 description = "A blog about tofu and dreams"
-
+copyright = "2023 Tofu Dreams"
 theme = 'bean'
 
 summaryLength = 10

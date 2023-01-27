@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="missing space in tag broken">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="secret ingredient">
+      <change afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/rss.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/posts/chili/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/chili/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/head.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +93,7 @@
       <workItem from="1674736080088" duration="1079000" />
       <workItem from="1674831497447" duration="2246000" />
       <workItem from="1674839569642" duration="1361000" />
-      <workItem from="1674847671419" duration="92000" />
+      <workItem from="1674847671419" duration="1466000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -322,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674840722260</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="secret ingredient">
+      <created>1674847774443</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1674847774443</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="wrong image order" />
     <MESSAGE value="wrong --recipe-- order" />
     <MESSAGE value="better mobile support and icon" />
     <MESSAGE value="pagination splitting" />
@@ -368,6 +378,7 @@
     <MESSAGE value="padding fix" />
     <MESSAGE value="pointless typo" />
     <MESSAGE value="missing space in tag broken" />
-    <option name="LAST_COMMIT_MESSAGE" value="missing space in tag broken" />
+    <MESSAGE value="secret ingredient" />
+    <option name="LAST_COMMIT_MESSAGE" value="secret ingredient" />
   </component>
 </project>
