@@ -35,6 +35,7 @@ Cooking time: 1 hour
 - [ ] 1.5 tablespoon of nutritional yeast
 - [ ] salt and pepper to taste
 - [ ] juice of 1/2 lime
+- [ ] 1 piece of chocolate
 - [ ] 2 tablespoons olive oil
 - [ ] 3 cups boiling water
 #### Optionally add
@@ -45,10 +46,10 @@ Soak the beans overnight or for at least 8 hours. Drain and rinse the beans. Thi
 for a pressure cooker. You may use a regular pot, but it will take longer.
 1. Heat the oil in a large pot over medium heat.
 2. Add the mustard seeds and onion and cook until the onion is translucent.
-3. Add the sweet potato (large qubes) and cook until it gets some color on it.
+3. Add the sweet potato (large cubes) and cook until it gets some color on it.
 4. Add the garlic and dry spices.
 5. Add in the tomatoes and tomato paste and stir until combined.
-6. Add the beans and peppers (in 2cm squares) and stir until they are coated in the mixture.
+6. Add the beans and peppers (in 2cm squares) and stir until they are coated in the mixture, then add your chocolate piece.
 7. Pour over the water until everything is covered by 3 centimeters or so of water.
 8. Cover the slow cooker and cook on low, enough to maintain a steady boil, for 1 hour. 
 9. 9.Add the lime juice and nutritional yeast and season with salt and pepper to taste.
