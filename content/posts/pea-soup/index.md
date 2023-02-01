@@ -2,7 +2,7 @@
 title: "Comforting pea soup"
 date: 2023-01-24T14:11:41+01:00
 draft: false
-tags: ["gluten-free", "legumes", "soup"]
+tags: ["gluten-free", "legumes", "soup", "simple"]
 categories: ["Savory"]
 ---
 
