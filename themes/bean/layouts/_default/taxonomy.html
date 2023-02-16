@@ -58,10 +58,14 @@
 
     <nav class="pagination">
         {{ if .Paginator.HasPrev }}
-        <a class="prev" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}{{ else }}#{{ end }}">« Prev</a>
+            <a class="prev" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}{{ else }}#{{ end }}">« Prev</a>
+        {{ else }}
+            <p class="prev">« Prev</p>
         {{ end }}
         {{ if .Paginator.HasNext }}
-        <a class="next" href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}{{ else }}#{{ end }}">Next »</a>
+            <a class="next" href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}{{ else }}#{{ end }}">Next »</a>
+        {{ else }}
+            <p class="next">Next »</p>
         {{ end }}
     </nav>
 </main>
