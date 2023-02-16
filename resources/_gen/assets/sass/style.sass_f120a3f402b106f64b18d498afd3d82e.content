@@ -151,6 +151,12 @@ article.content span.main-content p {
   text-align: justify;
   font-size: 1.1rem; }
 
+article.content span.main-content a {
+  color: #819e75; }
+  article.content span.main-content a:hover {
+    color: inherit;
+    text-decoration: underline; }
+
 article.content div.meta {
   display: flex;
   flex-direction: column;
