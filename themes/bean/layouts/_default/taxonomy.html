@@ -2,7 +2,7 @@
 <main aria-role="main">
     <!-- get subtags -->
     {{ $categories := slice }}
-    {{ range .Paginator.Pages }}
+    {{ range .Pages }}
         {{ with .GetTerms "tags" }}
             {{ range . }}
                 {{ $categories = $categories | append .LinkTitle }}

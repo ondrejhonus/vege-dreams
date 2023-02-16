@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="i worry about details too much">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="i worry about details WAY too much">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1675000724087" duration="8000" />
       <workItem from="1675279863464" duration="845000" />
       <workItem from="1675334365256" duration="5000" />
-      <workItem from="1676571006740" duration="2931000" />
+      <workItem from="1676571006740" duration="4907000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -418,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676573910391</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="i worry about details WAY too much">
+      <created>1676573954361</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1676573954361</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="so strange" />
     <MESSAGE value="caching fix maybe?" />
     <MESSAGE value="looks good" />
     <MESSAGE value="removed google dep" />
@@ -464,6 +472,7 @@
     <MESSAGE value="better pagination styling" />
     <MESSAGE value="improved cookies cover image" />
     <MESSAGE value="i worry about details too much" />
-    <option name="LAST_COMMIT_MESSAGE" value="i worry about details too much" />
+    <MESSAGE value="i worry about details WAY too much" />
+    <option name="LAST_COMMIT_MESSAGE" value="i worry about details WAY too much" />
   </component>
 </project>
