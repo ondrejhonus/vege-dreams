@@ -4,10 +4,13 @@ date: 2023-01-19T23:11:13Z
 draft: false
 ---
 
-What's this site about? Well food of course! I love to cook and bake, and I would like to share my recipes with others.
-The recipes are **all vegan**. I do usually make them *as healthy as possible*, but I also like to make some treats every now and then.
-I mostly aim to keep the description to the point and short. Also, I tend to mention some basic rules of the dish and which ingredients are optional.
+### What's this all about?
+Well food of course! This is a personal project to write down and share my recipes. I love to cook and bake, and I would like to share my recipes with others.
+The recipes are **all vegan** ([learn more](https://adaptt.org/)). I mostly aim to keep the description to the point and short. Also, I tend to mention some basic rules of the dish and which ingredients are optional.
 
+All photos are mine and are subject to copyright under CC BY-ND 3.0. [Read more](https://creativecommons.org/licenses/by-nd/3.0/).
+
+### Why this site?
 The problem with most cooking sites is that they **tend to be very cluttered** and filled with ads. Everything takes ages to load and 
 every recipe has to have a mountain of text about the author and their life story. I don't want to read that, I just want to see the recipe!
 

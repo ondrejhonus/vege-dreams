@@ -6,10 +6,10 @@ copyright = "2023 Tofu Dreams"
 theme = 'bean'
 
 summaryLength = 10
-paginate = 6
+paginate = 12
 
 [markup.goldmark.renderer]
-    unsafe= true
+    unsafe = true
 
 [taxonomies]
     tag = "tags"
