@@ -1,11 +1,17 @@
 {{ define "main" }}
 <main aria-role="main">
     <!-- get subtags -->
+    {{ $tags := dict }}
+
     {{ $categories := slice }}
     {{ range .Pages }}
         {{ with .GetTerms "tags" }}
             {{ range . }}
                 {{ $categories = $categories | append .LinkTitle }}
+                {{ if in $tags .LinkTitle}}
+                {{ else }}
+                {{ $tags = merge $tags (dict .LinkTitle (len .Pages)) }}
+                {{ end }}
             {{ end }}
         {{ end }}
     {{ end }}
@@ -14,12 +20,13 @@
     <div class="category_container">
         <h3>All categories:</h3>
         <div class="tags">
-            {{ range ($categories | uniq) }}
-            <a href="/tags/{{ . }}">
-                <button uk-filter-control='[data-tag~="{{ . }}"]' class="tag-button">
-                    {{ . }}
-                </button>
-            </a>
+            {{ range $key, $value := $tags }}
+                <a href="/tags/{{ $key }}">
+                    <button uk-filter-control='[data-tag~="{{ $key }}"]' class="tag-button">
+                        {{ $key }}
+                    </button>
+                    <div>{{ $value }}</div>
+                </a>
             {{ end }}
         </div>
     </div>

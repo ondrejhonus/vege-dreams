@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="this'll work">
-      <change afterPath="$PROJECT_DIR$/content/posts/oyster-mushroom-risotto/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/oyster-mushroom-risotto/index.md" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="mushroom risotto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/sass/style.sass_f120a3f402b106f64b18d498afd3d82e.content" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/_default/taxonomy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <workItem from="1676571006740" duration="7448000" />
       <workItem from="1676582039712" duration="6087000" />
       <workItem from="1676626399627" duration="1557000" />
-      <workItem from="1676639297606" duration="670000" />
+      <workItem from="1676639297606" duration="1926000" />
     </task>
     <task id="LOCAL-00001" summary="so much has changed!">
       <created>1674390322886</created>
@@ -437,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676575946703</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="mushroom risotto">
+      <created>1676640015902</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1676640015902</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="looks good" />
     <MESSAGE value="removed google dep" />
     <MESSAGE value="more recents posts and style fix for mobile" />
     <MESSAGE value="fixed" />
@@ -483,6 +490,7 @@
     <MESSAGE value="i worry about details too much" />
     <MESSAGE value="i worry about details WAY too much" />
     <MESSAGE value="this'll work" />
-    <option name="LAST_COMMIT_MESSAGE" value="this'll work" />
+    <MESSAGE value="mushroom risotto" />
+    <option name="LAST_COMMIT_MESSAGE" value="mushroom risotto" />
   </component>
 </project>

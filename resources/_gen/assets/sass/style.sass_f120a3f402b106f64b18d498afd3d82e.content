@@ -159,17 +159,27 @@ div.recent-posts {
   flex-wrap: wrap;
   border-radius: 5px;
   gap: .5rem; }
-  .tags a button.tag-button {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    border: none;
-    padding: .3rem;
-    border-radius: 5px;
+  .tags a {
     background: #cfcdcd;
-    cursor: pointer; }
-    .tags a button.tag-button:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .tags a button.tag-button {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      border: none;
+      padding: .3rem;
+      background: #cfcdcd;
+      cursor: pointer; }
+    .tags a div {
+      background: #b4b4b4;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 .3rem; }
+    .tags a:hover * {
       color: white;
-      background: #819e75; }
+      background: #819e75 !important; }
 
 .tags p {
   margin: 0; }
