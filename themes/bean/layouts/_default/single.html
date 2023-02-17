@@ -29,7 +29,7 @@
                     {{ range . }}
                     <a href="{{ .RelPermalink }}">
                         <button uk-filter-control='[data-tag~="{{ . }}"]' class="tag-button">
-                            {{ .LinkTitle }}
+                            {{ .LinkTitle }} ({{ len .Pages}})
                         </button>
                     </a>
                     {{ end }}
