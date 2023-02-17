@@ -20,12 +20,12 @@ Cooking time: 30 minutes
 
 ### Ingredients for 2 servings
 - [ ] 300g arborio rice
-- [ ] 1 small onion
-- [ ] 1/2 stalk celery
-- [ ] 1 medium carrot
-- [ ] 3 cloves of garlic
-- [ ] 1 cup of oyster mushrooms
-- [ ] 1 cup of spinach
+- [ ] 1 small onion, finely chopped
+- [ ] 1/2 stalk celery, finely chopped
+- [ ] 1 medium carrot, cut into small cubes
+- [ ] 3 cloves of garlic, finely chopped
+- [ ] 1 cup of oyster mushrooms, chopped
+- [ ] 1 cup of spinach, roughly chopped
 - [ ] 1.5l vegetable stock
 - [ ] 2 tablespoons olive oil
 - [ ] splash of white wine (optional)
