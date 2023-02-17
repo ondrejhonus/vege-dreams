@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="warmer colors">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="clarifications and license change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/oyster-mushroom-risotto/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/oyster-mushroom-risotto/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/me2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/_default/list.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +99,7 @@
       <workItem from="1676639297606" duration="3762000" />
       <workItem from="1676648237409" duration="643000" />
       <workItem from="1676657802135" duration="818000" />
-      <workItem from="1676673437664" duration="206000" />
-    </task>
-    <task id="LOCAL-00004" summary="compressed and new food">
-      <created>1674395120240</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1674395120240</updated>
+      <workItem from="1676673437664" duration="825000" />
     </task>
     <task id="LOCAL-00005" summary="yay">
       <created>1674395335728</created>
@@ -448,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676658011931</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="clarifications and license change">
+      <created>1676673661429</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1676673661429</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed stuff" />
     <MESSAGE value="some opengraph stuff" />
     <MESSAGE value="more hacky opengraph stuff" />
     <MESSAGE value="maybe this should be good enough" />
@@ -494,6 +489,7 @@
     <MESSAGE value="tag button style fix" />
     <MESSAGE value="taxonomy and about page touchups" />
     <MESSAGE value="warmer colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="warmer colors" />
+    <MESSAGE value="clarifications and license change" />
+    <option name="LAST_COMMIT_MESSAGE" value="clarifications and license change" />
   </component>
 </project>
