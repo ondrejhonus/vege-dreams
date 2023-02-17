@@ -169,10 +169,10 @@ div.recent-posts {
       font-size: 1rem;
       border: none;
       padding: .3rem;
-      background: #cfcdcd;
+      background: #d8d8d0;
       cursor: pointer; }
     .tags a div {
-      background: #b4b4b4;
+      background: #c5c4bb;
       height: 100%;
       display: flex;
       align-items: center;
