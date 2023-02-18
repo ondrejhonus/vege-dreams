@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="better contrast picture">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/brownies/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/brownies/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="clarification" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,14 +98,7 @@
       <workItem from="1676648237409" duration="643000" />
       <workItem from="1676657802135" duration="818000" />
       <workItem from="1676673437664" duration="1478000" />
-      <workItem from="1676713539388" duration="154000" />
-    </task>
-    <task id="LOCAL-00006" summary="forgotten image">
-      <created>1674395374876</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1674395374876</updated>
+      <workItem from="1676713539388" duration="228000" />
     </task>
     <task id="LOCAL-00007" summary="typos">
       <created>1674396154214</created>
@@ -446,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676674613643</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="clarification">
+      <created>1676713759729</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1676713759730</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="more hacky opengraph stuff" />
     <MESSAGE value="maybe this should be good enough" />
     <MESSAGE value="padding fix" />
     <MESSAGE value="pointless typo" />
@@ -492,6 +488,7 @@
     <MESSAGE value="warmer colors" />
     <MESSAGE value="clarifications and license change" />
     <MESSAGE value="better contrast picture" />
-    <option name="LAST_COMMIT_MESSAGE" value="better contrast picture" />
+    <MESSAGE value="clarification" />
+    <option name="LAST_COMMIT_MESSAGE" value="clarification" />
   </component>
 </project>
