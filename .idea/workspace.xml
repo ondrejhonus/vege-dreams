@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="clarifications and license change">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="better contrast picture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/brownies/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/brownies/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/daniel/WebstormProjects/cooking/content/posts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/daniel/WebstormProjects/cooking/content/posts/broccoli-soup&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -48,11 +49,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/posts/broccoli-soup" />
       <recent name="$PROJECT_DIR$/content/posts" />
       <recent name="$PROJECT_DIR$/content/posts/cookies" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/content/posts/apple muffins" />
-      <recent name="$PROJECT_DIR$/content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/bean/layouts" />
@@ -99,14 +100,8 @@
       <workItem from="1676639297606" duration="3762000" />
       <workItem from="1676648237409" duration="643000" />
       <workItem from="1676657802135" duration="818000" />
-      <workItem from="1676673437664" duration="825000" />
-    </task>
-    <task id="LOCAL-00005" summary="yay">
-      <created>1674395335728</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1674395335729</updated>
+      <workItem from="1676673437664" duration="1478000" />
+      <workItem from="1676713539388" duration="154000" />
     </task>
     <task id="LOCAL-00006" summary="forgotten image">
       <created>1674395374876</created>
@@ -444,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676673661429</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="better contrast picture">
+      <created>1676674613643</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676674613643</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some opengraph stuff" />
     <MESSAGE value="more hacky opengraph stuff" />
     <MESSAGE value="maybe this should be good enough" />
     <MESSAGE value="padding fix" />
@@ -490,6 +491,7 @@
     <MESSAGE value="taxonomy and about page touchups" />
     <MESSAGE value="warmer colors" />
     <MESSAGE value="clarifications and license change" />
-    <option name="LAST_COMMIT_MESSAGE" value="clarifications and license change" />
+    <MESSAGE value="better contrast picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="better contrast picture" />
   </component>
 </project>
