@@ -2,7 +2,7 @@
 title: "Red lentil bolognese"
 date: 2023-03-05T14:12:00+01:00
 draft: false
-tags: ["lunch", "lentils", "italian", "pasta"]
+tags: ["lunch", "red-lentils", "italian", "pasta"]
 categories: ["Savory"]
 ---
 
