@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="better pasta saturation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +112,7 @@
       <workItem from="1678057373138" duration="19000" />
       <workItem from="1678227309314" duration="142000" />
       <workItem from="1678259767344" duration="3000" />
+      <workItem from="1679605437206" duration="1227000" />
     </task>
     <task id="LOCAL-00012" summary="better mobile support and icon">
       <created>1674500405652</created>

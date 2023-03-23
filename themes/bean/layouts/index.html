@@ -10,7 +10,7 @@
         <h2>{{ .Title }}</h2>
 
         <div class="category">
-            {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 3 }}
+            {{ range (.Paginate (.Pages).ByTitle.Reverse).Pages | first 3 }}
                 <span class="article" onclick="location.href='{{ .Permalink }}';">
                     <span><a href="{{ .Permalink }}">
                         {{ with .Resources }}
