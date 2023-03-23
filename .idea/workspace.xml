@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="better pasta saturation">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="oatmeal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,14 +113,7 @@
       <workItem from="1678057373138" duration="19000" />
       <workItem from="1678227309314" duration="142000" />
       <workItem from="1678259767344" duration="3000" />
-      <workItem from="1679605437206" duration="1227000" />
-    </task>
-    <task id="LOCAL-00012" summary="better mobile support and icon">
-      <created>1674500405652</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1674500405652</updated>
+      <workItem from="1679605437206" duration="2052000" />
     </task>
     <task id="LOCAL-00013" summary="pagination splitting">
       <created>1674500935249</created>
@@ -457,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678227356055</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="oatmeal">
+      <created>1679606694200</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1679606694200</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rss" />
     <MESSAGE value="strange" />
     <MESSAGE value="stranger" />
     <MESSAGE value="???" />
@@ -503,6 +503,7 @@
     <MESSAGE value="typo" />
     <MESSAGE value="red" />
     <MESSAGE value="better pasta saturation" />
-    <option name="LAST_COMMIT_MESSAGE" value="better pasta saturation" />
+    <MESSAGE value="oatmeal" />
+    <option name="LAST_COMMIT_MESSAGE" value="oatmeal" />
   </component>
 </project>
