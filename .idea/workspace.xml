@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="oatmeal">
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="move to subdir">
+      <change afterPath="$PROJECT_DIR$/content/posts/ricenoodle-tofu/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/ricenoodle-tofu/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bean/layouts/partials/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,36 +35,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/daniel/WebstormProjects/cooking/content/posts/bolognese&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/daniel/WebstormProjects/cooking/content/posts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/content/posts/bolognese" />
       <recent name="$PROJECT_DIR$/content/posts" />
+      <recent name="$PROJECT_DIR$/content/posts/bolognese" />
       <recent name="$PROJECT_DIR$/content/posts/broccoli-soup" />
       <recent name="$PROJECT_DIR$/content/posts/cookies" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/posts/oatmeal" />
       <recent name="$PROJECT_DIR$/content/posts/bolognese" />
       <recent name="$PROJECT_DIR$/themes/bean/layouts" />
       <recent name="$PROJECT_DIR$/content/posts/apple muffins" />
       <recent name="$PROJECT_DIR$/content/posts/chocolate muffins" />
-      <recent name="$PROJECT_DIR$/content/posts" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,21 +113,9 @@
       <workItem from="1678057373138" duration="19000" />
       <workItem from="1678227309314" duration="142000" />
       <workItem from="1678259767344" duration="3000" />
-      <workItem from="1679605437206" duration="2052000" />
-    </task>
-    <task id="LOCAL-00013" summary="pagination splitting">
-      <created>1674500935249</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1674500935249</updated>
-    </task>
-    <task id="LOCAL-00014" summary="css changes">
-      <created>1674502312661</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1674502312661</updated>
+      <workItem from="1679605437206" duration="2991000" />
+      <workItem from="1679733443488" duration="8000" />
+      <workItem from="1679911236185" duration="599000" />
     </task>
     <task id="LOCAL-00015" summary="touchups">
       <created>1674504073515</created>
@@ -458,7 +446,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679606694200</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="hidden for now">
+      <created>1679607509617</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1679607509618</updated>
+    </task>
+    <task id="LOCAL-00063" summary="move to subdir">
+      <created>1679607827829</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1679607827829</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,8 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="strange" />
-    <MESSAGE value="stranger" />
     <MESSAGE value="???" />
     <MESSAGE value="oh, ubuntu's snap is down. CI failing." />
     <MESSAGE value="rss link fix" />
@@ -504,6 +504,8 @@
     <MESSAGE value="red" />
     <MESSAGE value="better pasta saturation" />
     <MESSAGE value="oatmeal" />
-    <option name="LAST_COMMIT_MESSAGE" value="oatmeal" />
+    <MESSAGE value="hidden for now" />
+    <MESSAGE value="move to subdir" />
+    <option name="LAST_COMMIT_MESSAGE" value="move to subdir" />
   </component>
 </project>
