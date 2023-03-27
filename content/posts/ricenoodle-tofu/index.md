@@ -1,6 +1,6 @@
 ---
 title: "Fried tofu with rice noodles"
-date: 2023-03-27T12:00:41+01:00
+date: 2023-03-27T11:00:41+01:00
 draft: false
 tags: ["lunch", "gluten-free", "tofu", "rice-noodles"]
 categories: ["Savory"]
