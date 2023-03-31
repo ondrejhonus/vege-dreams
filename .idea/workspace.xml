@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="tofu recipe">
-      <change beforePath="$PROJECT_DIR$/content/posts/ricenoodle-tofu/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/ricenoodle-tofu/index.md" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="typo">
+      <change afterPath="$PROJECT_DIR$/content/posts/cauliflower-curry/cover.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/cauliflower-curry/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/filling-pasta/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/filling-pasta/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +56,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/posts" />
+      <recent name="$PROJECT_DIR$/content/posts/strange-pasta" />
       <recent name="$PROJECT_DIR$/content/posts/bolognese" />
       <recent name="$PROJECT_DIR$/content/posts/broccoli-soup" />
       <recent name="$PROJECT_DIR$/content/posts/cookies" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/posts/oatmeal" />
@@ -113,21 +117,11 @@
       <workItem from="1678259767344" duration="3000" />
       <workItem from="1679605437206" duration="2991000" />
       <workItem from="1679733443488" duration="8000" />
-      <workItem from="1679911236185" duration="773000" />
-    </task>
-    <task id="LOCAL-00016" summary="grid layout is better for this">
-      <created>1674563323003</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1674563323003</updated>
-    </task>
-    <task id="LOCAL-00017" summary="this is better">
-      <created>1674599376297</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1674599376297</updated>
+      <workItem from="1679911236185" duration="1427000" />
+      <workItem from="1679931535350" duration="5000" />
+      <workItem from="1679937760187" duration="202000" />
+      <workItem from="1679990597481" duration="131000" />
+      <workItem from="1680261487929" duration="524000" />
     </task>
     <task id="LOCAL-00018" summary="removed logo bg">
       <created>1674600588162</created>
@@ -458,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679911841773</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="not immediate">
+      <created>1679912024159</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1679912024159</updated>
+    </task>
+    <task id="LOCAL-00066" summary="typo">
+      <created>1679912062581</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1679912062581</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="oh, ubuntu's snap is down. CI failing." />
     <MESSAGE value="rss link fix" />
     <MESSAGE value="cookies" />
     <MESSAGE value="cinnamon rolls" />
@@ -497,13 +504,14 @@
     <MESSAGE value="clarification" />
     <MESSAGE value="basic cooking error" />
     <MESSAGE value="bolognese" />
-    <MESSAGE value="typo" />
     <MESSAGE value="red" />
     <MESSAGE value="better pasta saturation" />
     <MESSAGE value="oatmeal" />
     <MESSAGE value="hidden for now" />
     <MESSAGE value="move to subdir" />
     <MESSAGE value="tofu recipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="tofu recipe" />
+    <MESSAGE value="not immediate" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
 </project>
