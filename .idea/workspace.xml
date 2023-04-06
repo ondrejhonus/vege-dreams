@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="typo">
-      <change afterPath="$PROJECT_DIR$/content/posts/cauliflower-curry/cover.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/cauliflower-curry/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/filling-pasta/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/posts/filling-pasta/index.md" afterDir="false" />
+    <list default="true" id="554996e1-152c-48ad-be6b-3a1a8a54814a" name="Changes" comment="curry and pasta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/daniel/WebstormProjects/cooking/content/posts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/daniel/WebstormProjects/cooking/content/posts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content/posts" />
@@ -121,14 +117,9 @@
       <workItem from="1679931535350" duration="5000" />
       <workItem from="1679937760187" duration="202000" />
       <workItem from="1679990597481" duration="131000" />
-      <workItem from="1680261487929" duration="524000" />
-    </task>
-    <task id="LOCAL-00018" summary="removed logo bg">
-      <created>1674600588162</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1674600588162</updated>
+      <workItem from="1680261487929" duration="1012000" />
+      <workItem from="1680357586514" duration="4000" />
+      <workItem from="1680357602078" duration="2000" />
     </task>
     <task id="LOCAL-00019" summary="added logo shadow">
       <created>1674600905808</created>
@@ -466,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679912062581</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="curry and pasta">
+      <created>1680262297442</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1680262297443</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rss link fix" />
     <MESSAGE value="cookies" />
     <MESSAGE value="cinnamon rolls" />
     <MESSAGE value="better pagination styling" />
@@ -512,6 +509,7 @@
     <MESSAGE value="tofu recipe" />
     <MESSAGE value="not immediate" />
     <MESSAGE value="typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo" />
+    <MESSAGE value="curry and pasta" />
+    <option name="LAST_COMMIT_MESSAGE" value="curry and pasta" />
   </component>
 </project>
