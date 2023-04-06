@@ -1,6 +1,6 @@
 ---
 title: "Kiwi"
-date: 2023-04-06112:12:00+01:00
+date: 2023-04-06T12:22:00+01:00
 draft: false
 tags: ["microwave", "fruit"]
 categories: ["Oatmeal"]
