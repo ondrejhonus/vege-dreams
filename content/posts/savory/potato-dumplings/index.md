@@ -43,7 +43,7 @@ Cooking time: 10 minutes
 ### Steps
 1. Heat the oil in a pan over medium high heat and add your onion. Cook until translucent.
 2. Add the cabbage and cook until it starts to wilt.
-3. Add the garlic powder, salt and sugar. Cook until the cabbage is soft. Then add the apple and cook for another 5 minutes.
+3. Add the garlic powder, salt and sugar. Pour in water so that the cabbage is submerged. Cook until the cabbage is soft. Then add the apple and cook for another 5 minutes.
 4. In a bowl, mix the protein powder with the spices and oil. Add water until you get a thick paste.
 5. In another bowl, mix the dumpling flour with the water until you get a dough.
 6. Take a small piece of dough and flatten it. Add a small amount of filling and close the dough around it. Repeat until you run out of dough.
