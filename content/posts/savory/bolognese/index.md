@@ -15,7 +15,7 @@ Prep time: 5 minutes
 
 Cooking time: 25 minutes
 
-### Ingredients for 10 servings
+### Ingredients for 2 servings
 - [ ] 1 tablespoon olive oil
 - [ ] 1 small onion
 - [ ] 1/2 stalk celery
@@ -26,7 +26,7 @@ Cooking time: 25 minutes
 - [ ] 1/2 can diced tomatoes
 - [ ] 2 tablespoons nutritional yeast
 - [ ] 2 tablespoons mixed herbs (oregano, thyme, rosemary)
-- [ ] 400g pasta of your choice
+- [ ] 300g pasta of your choice
 - [ ] salt and pepper to taste
 
 ### Steps
