@@ -6,7 +6,9 @@ tags: ["lunch", "gluten-free", "carrot", "sweet-potato", "pumpkin"]
 categories: ["Savory"]
 ---
 
-Today I have for you an absolutely delicous soup made from all the beautiful orange vegetables that I could get my hands on. It is perfect for a cold winter day, or a light dinner. Just hearthy enough, not to kill your energy for the rest of the day. 
+Today I have for you an absolutely delicous soup made from all the beautiful orange vegetables that I could get my hands on. It is perfect for a cold winter day, or a light dinner. Just hearthy enough, not to kill your energy for the rest of the day. It is a wonderful mix of sweet and savory flavors, with a hint of ginger and lemon.
+
+If you want to make it a bit more special, you can add half an orange and a piece of the peel. This will give it a bit more of a citrusy flavor. I have tried it both ways and I like them both.
 
 
 <div class="recipe">
@@ -15,7 +17,7 @@ Prep time: 5 minutes
 Cooking time: 15 minutes
 
 ### Ingredients for 2 servings
-- [ ] 2 tablespoons coconut oil
+- [ ] 1 tablespoon coconut oil
 - [ ] 1 medium red onion
 - [ ] 1 medium sweet potato
 - [ ] 3 medium carrots
@@ -26,7 +28,7 @@ Cooking time: 15 minutes
 - [ ] piece of ginger, grated
 - [ ] juice of 1/2 small lemon
 #### Optionally add
-- [ ] 1/2 orange, including a piece of the peel (to replace the lemon)
+- [ ] 1/2 orange, including a piece of the peel
 
 ### Steps
 1. Heat the oil in a large pot over medium heat.
