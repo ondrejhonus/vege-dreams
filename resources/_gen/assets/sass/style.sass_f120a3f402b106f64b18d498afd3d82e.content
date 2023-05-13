@@ -245,6 +245,10 @@ div.recipe {
   padding: 1rem;
   border-radius: 7px;
   border: 1px solid silver; }
+  div.recipe p:first-of-type {
+    margin-top: .3rem; }
+  div.recipe h3 {
+    margin-bottom: 0; }
 
 footer {
   margin: 1rem 0;
@@ -272,12 +276,16 @@ article.split-me {
     border-left: 1px solid #bcbcbc; }
     article.split-me div.sidebar .sidebar-padding {
       padding: 0 0 0 1rem; }
+      article.split-me div.sidebar .sidebar-padding p {
+        margin-top: .6rem; }
       article.split-me div.sidebar .sidebar-padding img {
         border-radius: 25px;
         height: 5em;
         width: 5em;
         float: left;
         margin-right: .6rem; }
+      article.split-me div.sidebar .sidebar-padding h2 {
+        margin-bottom: .6rem; }
 
 @media screen and (max-width: 1700px) {
   body main {

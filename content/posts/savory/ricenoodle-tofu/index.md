@@ -14,7 +14,7 @@ Prep time: 15 minutes
 
 Cooking time: 1 hour
 
-### Ingredients for 10 servings
+### Ingredients for 2 servings
 - [ ] 1 block firm tofu
 - [ ] 2 tablespoons soy sauce
 - [ ] 1 small onion, finely chopped

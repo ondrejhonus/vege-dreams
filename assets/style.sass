@@ -82,8 +82,10 @@ nav.pagination
       background: inherit
       color: gray
       cursor: default
+
 .category_container:first-of-type
   margin-left: 5px
+
 .category_container
   display: flex
   flex-direction: column
@@ -154,6 +156,7 @@ div.recent-posts
       background-position: center
       background-repeat: no-repeat
       margin-right: 10px
+
 .tags
     display: flex
     flex-direction: row
@@ -181,6 +184,7 @@ div.recent-posts
       &:hover *
         color: white
         background: #819e75!important
+
 .tags p
   margin: 0
 
@@ -244,6 +248,10 @@ div.recipe
   padding: 1rem
   border-radius: 7px
   border: 1px solid silver
+  p:first-of-type
+    margin-top: .3rem
+  h3
+    margin-bottom: 0
 
 footer
   margin: 1rem 0
@@ -253,8 +261,10 @@ footer
     color: #2a2926
     &:hover
       color: $link
+
 .gray-text
     color: gray
+
 .dark-gray-text
     color: #34332f
 
@@ -269,12 +279,16 @@ article.split-me
     border-left: 1px solid #bcbcbc
     .sidebar-padding
       padding: 0 0 0 1rem
+      p
+        margin-top: .6rem
       img
         border-radius: 25px
         height: 5em
         width: 5em
         float: left
         margin-right: .6rem
+      h2
+        margin-bottom: .6rem
 
 @media screen and (max-width: 1700px)
   body
