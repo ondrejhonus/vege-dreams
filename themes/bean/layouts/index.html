@@ -12,16 +12,16 @@
 
         <div class="category">
             {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 3 }}
-                <span class="article" onclick="location.href='{{ .Permalink }}';">
-                    <span><a href="{{ .Permalink }}">
+                <span class="article" onclick="location.href='{{ .RelPermalink }}';">
+                    <span><a href="{{ .RelPermalink }}">
                         {{ with .Resources }}
                             {{ with .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
                                     <div class="cover_image"
-                                        style="background-image: url({{ .Permalink }});"></div>
+                                        style="background-image: url({{ .RelPermalink }});"></div>
                             {{ end }}
                         {{ end }}
                     </a>
-                    <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+                    <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
                     {{ .Summary | truncate 200 }}
                     </span>
                     <span>
@@ -39,7 +39,7 @@
         <div class="flex-left">
             <div class="flex-push"></div>
             <div>
-                <a href="{{ .Permalink }}">
+                <a href="{{ .RelPermalink }}">
                     <h3>More {{ .Title }} > </h3>
                 </a>
             </div>
@@ -53,7 +53,7 @@
             <ul>
                 {{ range .Data.Pages }}
                 <li>
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                 </li>
                 {{ end }}
             </ul>

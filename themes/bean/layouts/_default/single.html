@@ -9,7 +9,7 @@
                         {{ with .Resources.GetMatch "cover.*" }}
                             <div class="wrapper">
                                 <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
-                                <meta name="og:image" content="{{ .Permalink }}" />
+                                <meta name="og:image" content="{{ .RelPermalink }}" />
                             </div>
                         {{ end }}
                     </div>
@@ -55,17 +55,17 @@
         </div>
         <div class="recent-posts">
             {{ range ( where .Site.RegularPages "Type" "posts" | first 4 ) }}
-                <div class="article" onclick="location.href='{{ .Permalink }}';">
-                        <div class="vertical"><a href="{{ .Permalink }}">
+                <div class="article" onclick="location.href='{{ .RelPermalink }}';">
+                        <div class="vertical"><a href="{{ .RelPermalink }}">
                             {{ with .Resources }}
                                 {{ with .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
 
                             <div class="cover_image"
-                                             style="background-image: url({{ .Permalink }});"></div>
+                                             style="background-image: url({{ .RelPermalink }});"></div>
                                 {{ end }}
                             {{ end }}
                         </a>
-                        <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+                        <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
                     </div>
                     <span>
                         {{ .Summary | truncate 200 }}
