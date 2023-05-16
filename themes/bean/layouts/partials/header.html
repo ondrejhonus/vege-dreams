@@ -13,7 +13,7 @@
         <span class="nav">
             <span>
                 {{ range .Site.Menus.main }}
-                <a class="nav-link" href="{{ .URL }}">
+                <a class="nav-link" href="{{ absURL .URL }}">
                     {{ if .Pre }}
                     {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
                     {{ $icon }}
@@ -23,7 +23,7 @@
                 </a>
                 {{ end }}
                 {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.Reverse }}
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
                 {{ end }}
             </span>
             <span>
