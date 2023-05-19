@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+    {{ if eq .Section "posts" }}
+    {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      "name": {{ .Title }},
+      "headline": {{ .Title }},
+      "category": {{ .Params.categories }},
+      {{ with .Resources.GetMatch "cover.*" }}"image": {{ .Permalink | absURL }},{{ end }}
+      "datePublished": {{ .PublishDate }},
+      "dateModified": {{ .Lastmod }},
+      "author": {
+        "@type": "Person",
+        "name": {{ "Tofu Dreams" }}
+      },
+      "mainEntityOfPage": { "@type": "WebPage" },
+       "publisher": {
+        "@type": "Organization",
+        "name": {{ "Tofu Dreams" }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tofudreams.com/logo.png"
+        }
+      },
+      "description": {{ .Summary | plainify | safeHTML }},
+      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+    }
+    {{ end }}
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Tofu Dreams",
+      "url": "https://tofudreams.com",
+    }
+    </script>

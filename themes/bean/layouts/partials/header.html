@@ -1,7 +1,7 @@
 <div id="nav-border" class="container">
     <nav id="nav">
         <span class="identity">
-            <a href="/">
+            <a href="{{ absURL "/" }}">
                 {{ $image := resources.Get "static/logo.png" }}
                 <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" class="logo"/>
                 {{ if eq .Title .Site.Title }}
@@ -15,8 +15,8 @@
                 {{ range .Site.Menus.main }}
                 <a class="nav-link" href="{{ absURL .URL }}">
                     {{ if .Pre }}
-                    {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-                    {{ $icon }}
+                        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                        {{ $icon }}
                     {{ end }}
                     {{ $text := print .Name | safeHTML }}
                     {{ $text }}
