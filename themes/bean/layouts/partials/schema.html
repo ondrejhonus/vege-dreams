@@ -26,10 +26,12 @@
       "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
     }
     {{ end }}
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Tofu Dreams",
-      "url": "https://tofudreams.com",
-    }
-    </script>
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tofu Dreams",
+    "url": "https://tofudreams.com",
+}
+</script>
