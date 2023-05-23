@@ -2,7 +2,7 @@
 title: "Oyster mushroom risotto"
 date: 2023-02-17T11:11:41+01:00
 draft: false
-tags: ["lunch", "gluten-free", "risotto", "oyster-mushrooms", "mushrooms", "spinach", "italian"]
+tags: ["lunch", "gluten-free", "risotto", "mushrooms", "spinach", "italian"]
 categories: ["Savory"]
 ---
 

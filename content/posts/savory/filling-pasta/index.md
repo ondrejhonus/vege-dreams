@@ -2,7 +2,7 @@
 title: "Filling pasta"
 date: 2023-01-19T14:00:00+01:00
 draft: false
-tags: ["lunch", "gluten-free", "tofu", "simple"]
+tags: ["lunch", "gluten-free", "pasta", "simple"]
 categories: ["Savory"]
 ---
 

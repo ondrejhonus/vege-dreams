@@ -19,16 +19,16 @@ Cooking time: 20 minutes
 - [ ] 50g Brown Sugar
 - [ ] 4g Baking Powder
 - [ ] Pinch of Salt
-- [ ] 200ml plant based milk
+- [ ] 220ml plant based milk
 - [ ] 1/2 cup of chocolate chips
-- [ ] 100g apple sauce
+- [ ] 125g apple sauce
 - [ ] shot of espresso
 - [ ] 50g melted coconut oil, or other neutral oil
-- [ ] 50g cocoa powder
+- [ ] 40g cocoa powder
 
 1. Sift the flour, baking powder, salt and cocoa powder into a bowl.
 2. Add the sugar and mix.
-3. Add the milk, apple sauce, espresso and oil and mix until combined.
+3. Add the milk, apple sauce, espresso and oil and mix until combined. The batter should be slightly runny. If it's too thick, add a bit more milk or applesauce.
 4. Add the chocolate chips and mix.
 5. Pour into muffin tins and bake at 180C for 20 minutes, or until a skewer comes out clean.
 
