@@ -6,7 +6,7 @@
         {{ end }}
     </header>
     <div class="category_container">
-        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByWeight }}
+        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByWeight.Reverse }}
         {{ if ne .Name "Oatmeal" }}
         <h2>{{ .Title }}</h2>
 
