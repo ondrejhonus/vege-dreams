@@ -6,7 +6,7 @@ tags: ["lunch", "gluten-free", "pasta", "simple"]
 categories: ["Savory"]
 ---
 
-Very simple recipe today for some pasta that looks blander than it was. Sometimes, though, you just want to eat something that is not too complicated and that you can make in 15 minutes. This is one of those recipes.
+Very simple recipe today for some pasta that looks blander than it was. Sometimes, though, you just want to eat something that is not too complicated and that you can make in 30 minutes. This is one of those recipes. I grew the chard myself, so i was very happy to be able to use it in a recipe.
 
 <div class="recipe">
 Prep time: 5 minutes
