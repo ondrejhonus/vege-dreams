@@ -13,7 +13,7 @@ Prep time: 5 minutes
 
 Cooking time: 10 minutes
 
-### Ingredients for 5 waffles
+### Ingredients for 4 medium pancakes
 - [ ] 100g all purpose flour
 - [ ] 2g salt
 - [ ] 125ml milk
