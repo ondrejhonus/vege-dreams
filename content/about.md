@@ -15,3 +15,6 @@ The problem with most cooking sites is that they **tend to be very cluttered** a
 every recipe has to have a mountain of text about the author and their life story. I don't want to read that, I just want to see the recipe!
 
 Therefore, I made this site. It's simple, it's fast, and it's easy to use. I hope you find a recipe you like!
+
+### What's with the measurements?
+I tend to mix the metric system with the less precise imperial measurements in my recipes. It's because most dishes don't need exact amounts of certain ingredients. So, when you see an imperial measurement, simply use an amount in the ballpark of what is in the recipe. This way, it's easier for me to write down and it also speeds up the cooking process.
