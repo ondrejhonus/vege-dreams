@@ -239,10 +239,10 @@ div.flex-left {
     margin: .3rem 0 0 0; }
 
 div.recipe {
-  width: 70%;
+  width: 80%;
   margin: 2rem auto;
   background: #f5f4ee;
-  padding: 1rem;
+  padding: .6rem;
   border-radius: 7px;
   border: 1px solid silver; }
   div.recipe p:first-of-type {
@@ -295,7 +295,7 @@ article.split-me {
   body main {
     width: 90%; }
   div.recipe {
-    width: 80%; } }
+    width: 95%; } }
 
 @media screen and (max-width: 1000px) {
   body {

@@ -22,7 +22,7 @@
                     {{ $text }}
                 </a>
                 {{ end }}
-                {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.Reverse }}
+                {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
                 {{ end }}
             </span>
