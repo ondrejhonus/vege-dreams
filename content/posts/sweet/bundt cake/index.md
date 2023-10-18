@@ -16,7 +16,7 @@ Prep time: 15 minutes
 Cooking time: 45 minutes
 
 ### Ingredients for 4 medium pancakes
-- [ ] 300g all purpose flour
+- [ ] 320g all purpose flour
 - [ ] 150g white sugar (yeah it's a lot)
 - [ ] 200g vegan yoghurt
 - [ ] 100ml plant-based milk

@@ -168,6 +168,9 @@ div.recent-posts
       display: flex
       flex-direction: row
       align-items: center
+      color: black
+      &:visited
+        color: black
       button.tag-button
         font-family: 'Playfair Display', serif
         font-size: 1rem
@@ -210,10 +213,11 @@ article.content
         text-decoration: overline
   p
     img
-      width: 50%
+      width: 70%
       margin: auto
       border-radius: 7px
       display: block
+      box-shadow: 0 0 5px #00000036
   div.cover
     display: flex
     width: 100%
@@ -346,3 +350,12 @@ article.split-me
           border-radius: 7px
           margin: 0
           display: block
+    p
+      img
+        width: 75%
+
+@media screen and ( max-width: 750px )
+  article.content
+    p
+      img
+        width: 100%
