@@ -15,7 +15,7 @@ Prep time: 15 minutes
 
 Cooking time: 45 minutes
 
-### Ingredients for 4 medium pancakes
+### Ingredients for 1 bundt cake
 - [ ] 320g all purpose flour
 - [ ] 150g white sugar (yeah it's a lot)
 - [ ] 200g vegan yoghurt
