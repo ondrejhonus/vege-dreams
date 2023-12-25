@@ -9,3 +9,35 @@
         <a href="{{.Site.BaseURL }}index.xml">RSS</a> feed. Built with <a href="https://gohugo.io/">Hugo</a>.
         This website doesn't track you. ❤️</p>
 </footer>
+
+<script> // let's save the state of checkboxes, so that we can reload the site
+    function saveCheckboxesState() {
+        const page_url = window.location.href;
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        const checkboxes_state = {};
+        for (let i = 0; i < checkboxes.length; i++) {
+            checkboxes[i].id = 'checkbox-' + i; // add ordinal id
+            const checkbox = checkboxes[i];
+            checkboxes_state[checkbox.id] = checkbox.checked;
+        }
+        sessionStorage.setItem(page_url, JSON.stringify(checkboxes_state));
+    }
+    function loadCheckboxesState() {
+        const page_url = window.location.href;
+        const checkboxes_state = JSON.parse(sessionStorage.getItem(page_url));
+        if (checkboxes_state) {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            for (let i = 0; i < checkboxes.length; i++) {
+                checkboxes[i].id = 'checkbox-' + i; // add ordinal id
+                const checkbox = checkboxes[i];
+                checkbox.checked = checkboxes_state[checkbox.id];
+            }
+        }
+    }
+    window.addEventListener('load', loadCheckboxesState);
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    for (let i = 0; i < checkboxes.length; i++) {
+        const checkbox = checkboxes[i];
+        checkbox.addEventListener('click', saveCheckboxesState);
+    }
+</script>
