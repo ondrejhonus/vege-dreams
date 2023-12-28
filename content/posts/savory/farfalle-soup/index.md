@@ -6,8 +6,7 @@ tags: ["lunch", "italian", "pasta", "soup", "tomates"]
 categories: ["Savory"]
 ---
 
-Soup in pasta will always be a favorite of mine. Especially if I have any leftovers. This recipe is for a kind of
-lasagna-like soup using a lot of tomatoes, cashew ricotta and farfalle pasta.
+Pasta in soup will always be a favorite of mine. Especially if I have any leftovers. This recipe is for a kind of lasagna-like soup using a lot of tomatoes, cashew ricotta and farfalle pasta.
 
 <div class="recipe">
 <h3 class="title">Farfalle soup</h3>
