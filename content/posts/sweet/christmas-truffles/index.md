@@ -2,7 +2,7 @@
 title: "Christmas Chocolate Truffles"
 date: 2022-12-29T12:41:27+01:00
 draft: false
-tags: ["christmas"]
+tags: ["christmas", "party-food"]
 categories: ["Sweet"]
 ---
 

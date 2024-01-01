@@ -2,7 +2,7 @@
 title: "Stuffed potato dumplings with cabbage"
 date: 2023-04-24T10:00:00+01:00
 draft: false
-tags: ["legumes", "czech", "simple"]
+tags: ["legumes", "czech", "lunch"]
 categories: ["Savory"]
 ---
 

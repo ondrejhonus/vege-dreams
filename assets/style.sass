@@ -90,8 +90,8 @@ nav.pagination
       color: gray
       cursor: default
 
-.category_container:first-of-type
-  margin-left: 5px
+// .category_container:first-of-type
+//   margin-left: 5px
 
 .category_container
   display: flex
@@ -147,6 +147,30 @@ nav.pagination
         box-shadow: 0 0 5px #00000061
         font-weight: 600
 
+div.round-teasers
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  gap: 1.5rem
+  justify-content: center
+  div a
+    img
+      width: 100px
+      height: 100px
+      border-radius: 50%
+      border: 2px solid #e6dfcd
+      box-shadow: 0 0 5px #00000036
+      display: block
+      margin: 0
+      &:hover
+        box-shadow: 0 0 5px #00000061
+        transition: box-shadow .3s ease-in-out
+    h3
+      margin: .3rem 0 0 0
+      font-size: 1rem
+      text-align: center
+      &:hover
+        color: $link
 div.recent-posts
   border-top: 1px solid silver
   div.article
