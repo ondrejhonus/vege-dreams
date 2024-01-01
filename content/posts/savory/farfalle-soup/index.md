@@ -2,7 +2,7 @@
 title: "Farfalle soup with cashew ricotta"
 date: 2023-12-28T11:00:00+01:00
 draft: false
-tags: ["lunch", "italian", "pasta", "soup", "tomates"]
+tags: ["lunch", "italian", "pasta", "soup"]
 categories: ["Savory"]
 ---
 

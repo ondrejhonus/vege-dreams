@@ -38,6 +38,10 @@
             <div class="category">
                 {{ range .Paginator.Pages.ByDate.Reverse }}
                 <span class="article" onclick="location.href='{{ .RelPermalink }}';">
+                        {{ $diff := now.Sub .Lastmod }}
+                        {{ if lt $diff.Hours 72 }}
+                            <div class="new">NEW</div>
+                        {{ end }}
                         <span><a href="{{ .RelPermalink }}">
                             {{ with .Resources }}
                                 {{ with .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
@@ -48,7 +52,7 @@
                         </a>
                         <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
                         {{ .Summary | truncate 200 }}
-                        </span>
+                        </span>                        
                         <span>
                         {{ if .Truncated }}
                             <!-- This <div> includes a read more link, but only if the summary is truncated... -->

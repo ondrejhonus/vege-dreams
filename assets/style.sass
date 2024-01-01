@@ -107,6 +107,7 @@ nav.pagination
     grid-gap: .3rem
     grid-template-columns: 1fr 1fr 1fr
     span.article
+      position: relative
       text-align: center
       padding: 10px
       border: 1px solid #bcbcbc
@@ -134,6 +135,16 @@ nav.pagination
         margin-bottom: 10px
       &:hover
         background: #e6dfcd
+      div.new
+        position: absolute
+        top: 1rem
+        right: 1rem
+        background: #819e75
+        color: white
+        padding: .2rem .5rem
+        border-radius: 5px
+        font-size: .8rem
+        box-shadow: 0 0 5px #00000061
 
 div.recent-posts
   border-top: 1px solid silver
