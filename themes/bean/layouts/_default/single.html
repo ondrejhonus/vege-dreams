@@ -13,8 +13,15 @@
                             </div>
                         {{ end }}
                     </div>
-                    <section>
-                        <p id="date"> Posted on {{ .Date.Format "Mon Jan 2, 2006" }} </p>
+                    <section class="post-meta">
+                        <span>
+                            <p id="date"> Posted on {{ .Date.Format "Mon Jan 2, 2006" }}
+                            {{ $diff := now.Sub .Lastmod }}
+                            {{ if lt $diff.Hours 72 }}
+                                <span class="new">NEW</span>
+                            {{ end }}
+                            </p>
+                        </span>
                         <p class="dark-gray-text" id="wordcount"> {{ .WordCount }} Words - reading time: {{ math.Round (div (countwords .Content) 180.0) }} minutes. </p>
                     </section>
                 </div>
@@ -56,6 +63,10 @@
         <div class="recent-posts">
             {{ range ( where .Site.RegularPages "Type" "posts" | first 4 ) }}
                 <div class="article" onclick="location.href='{{ .RelPermalink }}';">
+                    {{ $diff := now.Sub .Lastmod }}
+                    {{ if lt $diff.Hours 72 }}
+                        <div class="new">NEW</div>
+                    {{ end }}
                         <div class="vertical"><a href="{{ .RelPermalink }}">
                             {{ with .Resources }}
                                 {{ with .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}

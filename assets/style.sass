@@ -145,6 +145,7 @@ nav.pagination
         border-radius: 5px
         font-size: .8rem
         box-shadow: 0 0 5px #00000061
+        font-weight: 600
 
 div.recent-posts
   border-top: 1px solid silver
@@ -155,6 +156,7 @@ div.recent-posts
     border-bottom: 1px solid silver
     gap: .5rem
     cursor: pointer
+    position: relative
     &:hover
       background: #e6dfcd
       a
@@ -175,6 +177,17 @@ div.recent-posts
       background-position: center
       background-repeat: no-repeat
       margin-right: 10px
+    div.new
+      position: absolute
+      top: .3rem
+      right: .3rem
+      background: #819e75
+      color: white
+      padding: .2rem .5rem
+      border-radius: 5px
+      font-size: .8rem
+      box-shadow: 0 0 5px #00000061
+      font-weight: 600
 
 aside.meta-tags
   margin: auto
@@ -234,6 +247,25 @@ article.content
         margin: 1.5rem 0 1rem 0
         color: #2a2926
         text-decoration: overline
+    section.post-meta
+      margin-top: 1rem
+      span p
+        display: flex
+        flex-direction: row
+        justify-content: center
+        margin: .5rem 0 
+        gap: .6rem
+        span.new
+          background: #819e75
+          color: white
+          border-radius: 5px
+          font-size: .8rem
+          box-shadow: 0 0 5px #00000061
+          font-weight: 600
+          height: 1.5rem
+          display: flex
+          align-items: center
+          padding: 0 .5rem
   p
     img
       width: 70%
