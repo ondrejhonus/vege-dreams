@@ -2,7 +2,7 @@
 title: "🐌 Puff pastry snails"
 date: 2024-01-01T12:00:00+01:00
 draft: false
-tags: ["gluten-free", "broccoli", "soup", "simple", "spinach"]
+tags: ["puff-pastry", "simple", "snack", "party-food"]
 categories: ["Savory"]
 ---
 
