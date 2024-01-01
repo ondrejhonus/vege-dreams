@@ -61,7 +61,7 @@
         <h2>Recent recipes</h2>
         </div>
         <div class="recent-posts">
-            {{ range ( where .Site.RegularPages "Type" "posts" | first 4 ) }}
+            {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
                 <div class="article" onclick="location.href='{{ .RelPermalink }}';">
                     {{ $diff := now.Sub .Lastmod }}
                     {{ if lt $diff.Hours 72 }}
