@@ -314,6 +314,26 @@ article.content
       border-radius: 7px
       margin: 0
       display: block
+  div.image-split p
+    // put images side by side
+    display: flex
+    flex-direction: row
+    justify-content: center
+    gap: 1rem
+    width: 80%
+    margin: .6rem auto
+    img
+      height: 300px
+      width: auto
+      border-radius: 7px
+      box-shadow: 0 0 5px #00000036
+      margin: 0
+    span.caption
+      font-size: .9rem
+      text-align: center
+      margin: 0
+      padding: 0
+      color: gray
 
 div.flex-left
   display: flex
@@ -421,6 +441,15 @@ article.split-me
         div.wrapper
           width: 85%
           margin: auto
+  article.content
+    div.image-split p
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      img
+        margin: 0
+        width: 90%
+        height: auto
 
 @media screen and (max-width: 1000px)
   body

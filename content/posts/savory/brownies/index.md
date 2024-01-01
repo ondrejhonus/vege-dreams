@@ -2,7 +2,7 @@
 title: "Brownies"
 date: 2023-01-27T12:45:00Z
 draft: false
-tags: ["baked", "chocolate", "spongy"]
+tags: ["baked", "chocolate"]
 categories: ["Sweet"]
 ---
 

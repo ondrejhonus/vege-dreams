@@ -12,7 +12,13 @@ These balls are chewy, chocolatey, nutty and oh so good!
 
 They keep well in the fridge for a few weeks.
 
-![](/christmas-truffles/balls0.jpg)
+<div class="image-split">
+
+![](balls0.jpg)
+![](balls1.jpg)
+
+<span class="caption">Christmas balls</span>
+</div>
 
 <div class="recipe">
 Prep time: 5 minutes
