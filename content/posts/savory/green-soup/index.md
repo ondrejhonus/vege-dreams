@@ -17,7 +17,7 @@ Prep time: 5 minutes
 
 Cooking time: 20 minutes
 
-### Ingredients for 5 servings
+### Ingredients for 2 servings
 - [ ] 1 head of broccoli
 - [ ] 60g of spinach
 - [ ] 1 onion
