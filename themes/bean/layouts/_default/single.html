@@ -69,10 +69,11 @@
                     {{ end }}
                         <div class="vertical"><a href="{{ .RelPermalink }}">
                             {{ with .Resources }}
-                                {{ with .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
-
-                            <div class="cover_image"
-                                             style="background-image: url({{ .RelPermalink }});"></div>
+                                {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
+                                {{ $image := $image.Process "resize 250x" }}
+                                {{ if $image }}
+                                    <div class="cover_image"
+                                            style="background-image: url({{ $image.RelPermalink }});"></div>
                                 {{ end }}
                             {{ end }}
                         </a>
