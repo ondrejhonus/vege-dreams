@@ -34,7 +34,11 @@
 
     <div class="category_container">
         <div class="container">
-            <h1>{{ .Title }}</h1>
+            {{ $first := substr .Title 0 1 }}
+            {{ $rest := substr .Title 1 }}
+            {{ $first = upper $first }}
+            {{ $title := print $first $rest }}
+            <h1>{{ $title }}</h1>
             <div class="category">
                 {{ range .Paginator.Pages.ByDate.Reverse }}
                 <span class="article" onclick="location.href='{{ .RelPermalink }}';">
@@ -57,9 +61,9 @@
                         <span>
                         {{ if .Truncated }}
                             <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                        <div class="bottom-link">
+                        <!--<div class="bottom-link">
                             <a href="{{ .RelPermalink }}">Continue reading…</a>
-                        </div>
+                        </div>-->
                         {{ end }}
                         </span>
                     </span>

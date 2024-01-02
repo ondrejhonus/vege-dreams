@@ -1,7 +1,7 @@
 baseURL = 'tofudreams.com/'
 languageCode = 'en-us'
 title = 'Tofu Dreams'
-description = "A blog about tofu and dreams"
+description = "Vegan recipes to dream about"
 copyright = "2023 Tofu Dreams"
 theme = 'bean'
 
@@ -27,6 +27,6 @@ paginate = 12
   logo = "logo.png"
   icon = "favicon.png"
   name = "Tofu Dreams"
-  description = "A blog about tofu and dreams"
+  description = "Vegan recipes to dream about"
 
 

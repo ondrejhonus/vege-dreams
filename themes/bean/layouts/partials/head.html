@@ -4,7 +4,10 @@
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}
     {{ else }}
-    {{ $title = print .Title " | " .Site.Title }}
+        {{ $first := substr .Title 0 1 }}
+        {{ $rest := substr .Title 1 }}
+        {{ $first = upper $first }}
+        {{ $title = print $first $rest " | " .Site.Title }}
     {{ end }}
     <title>{{ $title }} – {{.Site.Params.description}}</title>
     <meta property="og:title" content="{{ $title }}" />
