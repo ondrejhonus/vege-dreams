@@ -15,6 +15,7 @@ Prep time: 10 minutes
 
 Cooking time: 20 minutes
 
+### Ingredients for 1 tray
 - [ ] 250g All Purpose Flour
 - [ ] 100g fine oats
 - [ ] 80g plant-based milk
@@ -25,7 +26,7 @@ Cooking time: 20 minutes
 - [ ] 80g sugar
 - [ ] chocolate chips. As many as you like!
 
-
+### Steps
 1. Preheat the oven to 180°C.
 2. Sift the flour, baking powder, baking soda and salt into a bowl.
 3. Add the oats and mix.

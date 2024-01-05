@@ -15,6 +15,7 @@ Prep time: 10 minutes
 
 Cooking time: 30 minutes
 
+### Ingredients for 1 tray
 - [ ] 200g All Purpose Flour
 - [ ] 100g melted butter/coconut oil
 - [ ] 200ml plant-based milk
@@ -26,6 +27,7 @@ Cooking time: 30 minutes
 - [ ] 7g baking powder
 - [ ] pinch of salt
 
+### Steps
 1. Melt the butter/coconut oil (I used a 50/50 mix) on a double boiler with the vanilla.
 2. Add your sugar and whisk. Then add the milk and continue whisking.
 3. In another bowl sift your flour, cocoa powder, baking powder and salt.

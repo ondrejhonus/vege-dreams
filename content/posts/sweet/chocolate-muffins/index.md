@@ -15,6 +15,7 @@ Prep time: 10 minutes
 
 Cooking time: 20 minutes
 
+### Ingredients for 1 tray
 - [ ] 250g All Purpose Flour
 - [ ] 50g Brown Sugar
 - [ ] 4g Baking Powder
@@ -26,6 +27,7 @@ Cooking time: 20 minutes
 - [ ] 50g melted coconut oil, or other neutral oil
 - [ ] 40g cocoa powder
 
+### Steps
 1. Sift the flour, baking powder, salt and cocoa powder into a bowl.
 2. Add the sugar and mix.
 3. Add the milk, apple sauce, espresso and oil and mix until combined. The batter should be slightly runny. If it's too thick, add a bit more milk or applesauce.

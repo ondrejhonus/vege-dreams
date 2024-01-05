@@ -18,6 +18,7 @@ Prep time: 15 minutes
 
 Cooking time: 20 minutes
 
+### Ingredients for 1 tray
 - [ ] 250g All Purpose Flour
 - [ ] 100g Brown Sugar
 - [ ] 4g teaspoon Baking Soda
@@ -29,6 +30,7 @@ Cooking time: 20 minutes
 - [ ] 5g Vanilla Extract
 - [ ] 30g Apple Sauce / Finely grated apple
 
+### Steps
 1. Sift the flour, baking soda, salt, nutmeg, and cinnamon into a bowl.
 2. Add the sugar and mix well.
 3. Add the milk, oil, and vanilla extract to the bowl.
