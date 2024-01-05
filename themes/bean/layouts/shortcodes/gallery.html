@@ -1,0 +1,18 @@
+{{ $dir := .Get "dir" }}
+{{ $images := .Page.Resources.ByType "image" }}
+
+<div class="masonry-gallery">
+  {{ range $images }}
+    {{ $ext := path.Ext .Name | strings.TrimPrefix "." }}
+    {{ if in (slice "jpg" "jpeg" "png" "webp") $ext }}
+      {{ $image := . }}
+      {{ $image = $image.Process "resize 700x" }}
+      {{ if $image }}
+        <figure class="masonry-item">
+          <img src="{{ $image.RelPermalink }}" alt="{{ .Name }}">
+          <figcaption>{{ path.Base .Name | strings.TrimSuffix (printf ".%s" $ext) | strings.Title }}</figcaption>
+        </figure>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>

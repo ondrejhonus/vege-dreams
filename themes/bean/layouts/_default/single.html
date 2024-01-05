@@ -64,7 +64,7 @@
             {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
                 <div class="article" onclick="location.href='{{ .RelPermalink }}';">
                     {{ $diff := now.Sub .Lastmod }}
-                    {{ if lt $diff.Hours 72 }}
+                    {{ if lt $diff.Hours 120 }}
                         <div class="new">NEW</div>
                     {{ end }}
                         <div class="vertical"><a href="{{ .RelPermalink }}">

@@ -43,7 +43,7 @@
                 {{ range .Paginator.Pages.ByDate.Reverse }}
                 <span class="article" onclick="location.href='{{ .RelPermalink }}';">
                         {{ $diff := now.Sub .Lastmod }}
-                        {{ if lt $diff.Hours 72 }}
+                        {{ if lt $diff.Hours 120 }}
                             <div class="new">NEW</div>
                         {{ end }}
                         <span><a href="{{ .RelPermalink }}">

@@ -14,7 +14,7 @@
             {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
                 <span class="article" onclick="location.href='{{ .RelPermalink }}';">
                     {{ $diff := now.Sub .Lastmod }}
-                    {{ if lt $diff.Hours 72 }}
+                    {{ if lt $diff.Hours 120 }}
                         <div class="new">NEW</div>
                     {{ end }}
                     <span><a href="{{ .RelPermalink }}">

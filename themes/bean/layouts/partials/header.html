@@ -5,13 +5,21 @@
                 {{ $image := resources.Get "static/logo.png" }}
                 <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" class="logo"/>
                 {{ if eq .Title .Site.Title }}
-                    <h3>{{.Title}}</h3></a>
+                    <span class="identity-text">
+                        <h3>{{.Title}}</h3>
+                        <span>{{ .Site.Params.description }}</span>
+                    </span>
+                </a>
                 {{ else }}
                     {{ $first := substr .Title 0 1 }}
                     {{ $rest := substr .Title 1 }}
                     {{ $first = upper $first }}
                     {{ $title := print $first $rest }}
-                    <h3>{{ $title }} | {{ .Site.Title }}</h3></a>
+                    <span class="identity-text">
+                        <h3>{{ $title }} | {{ .Site.Title }}</h3>
+                        <span>{{ .Site.Params.description }}</span>
+                    </span>
+                </a>
                 {{ end }}
         </span>
         <span class="nav">

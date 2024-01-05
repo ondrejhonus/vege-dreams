@@ -32,17 +32,21 @@ a
     flex-direction: row
     display: flex
     text-align: left
-    line-height: 7rem
     height: 7rem
     width: 100%
     gap: .5rem
     vertical-align: middle
+    span.identity-text
+      display: flex
+      flex-direction: column
+      justify-content: center
+      gap: .3rem
     h3
       font-size: 1.4rem
       line-height: 1.4rem
       margin: 1rem 0 0 0
       padding: 0
-      align-self: center
+      align-self: left
   .logo
     height: 7rem
     width: 7rem
@@ -243,6 +247,7 @@ aside.meta-tags
         padding: .3rem
         background: #d8d8d0
         cursor: pointer
+        color: black
       div
         background: #c5c4bb
         height: 100%
@@ -252,6 +257,8 @@ aside.meta-tags
       &:hover *
         color: white
         background: #819e75!important
+      &:hover button.tag-button
+        color: white
 
 .tags p
   margin: 0
@@ -417,6 +424,21 @@ article.split-me
       h2
         margin-bottom: .6rem
 
+$gallery-gap: 1rem
+.masonry-gallery
+  column-count: 3
+  column-gap: 2em
+  .masonry-item
+    display: inline-block
+    width: 100%
+    margin: 0 0 $gallery-gap 0
+    padding: 10px
+    border: 1px solid #bcbcbc
+    border-radius: 5px
+    img
+      width: 100%
+      height: auto
+
 @media screen and (max-width: 1700px)
   body
     main
@@ -455,8 +477,23 @@ article.split-me
         margin: 0
         width: 90%
         height: auto
+  .masonry-gallery
+    column-count: 2
+    column-gap: 2em
 
 @media screen and (max-width: 1000px)
+  body main
+    width: 96%
+  nav#nav
+    padding: .4rem
+  .category_container div.category
+    display: grid
+    flex-direction: row
+    flex-wrap: wrap
+    grid-gap: 0.3rem
+    grid-template-columns: 1fr 1fr
+
+@media screen and (max-width: 700px)
   body
     margin: 0
     main
@@ -465,15 +502,12 @@ article.split-me
     a
       height: initial
       line-height: 1.4rem
-      align-items: end
       h3
         font-size: 1.2rem
         line-height: 1.4rem
   .nav
     margin: 1rem 0
     flex-wrap: wrap
-  nav#nav
-    padding: .4rem
   .category_container
     padding: .8rem
     h1
@@ -482,7 +516,8 @@ article.split-me
       flex-direction: column
       display: flex
       span.article
-        max-width: 100%
+        width: 93%
+        margin: auto
         div.cover_image
           height: 300px
   article.split-me
@@ -514,6 +549,10 @@ article.split-me
         width: 75%
   div.recent-posts div.article h2
     font-size: revert
+  .masonry-gallery
+    column-count: 1
+    column-gap: 2em
+    width: 96%
 
 @media screen and ( max-width: 750px )
   article.content

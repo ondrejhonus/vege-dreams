@@ -6,7 +6,7 @@ draft: false
 
 ### What's this all about?
 Well food of course! This is a personal project to write down and share my recipes. I love to cook and bake, and I would like to share my recipes with others.
-The recipes are **all vegan** ([learn more](https://adaptt.org/)). I mostly aim to keep the description to the point and short. Also, I tend to mention some basic rules of the dish and which ingredients are optional.
+The recipes are **all vegan**, here is one of my [favorite books](https://grupojovenfl.files.wordpress.com/2019/10/peter-singer-animal-liberation-1.pdf) on the subject. I try to keep the talk short and to the point.  Some other interesting food photos can be found in the [snippets](/snippets) section.
 
 All photos are mine and are subject to copyright under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). All recipes are in the public domain.
 
