@@ -85,7 +85,7 @@ try {
             wakeLock.addEventListener('release', (e) => {
                 console.log(e);
                 wakeLockCheckbox.checked = false;
-                statusDiv.textContent = 'Wake Lock released';
+                statusDiv.textContent = 'Automatically turned off';
                 console.log('Wake Lock was released');                    
             });
             wakeLockCheckbox.checked = true;
