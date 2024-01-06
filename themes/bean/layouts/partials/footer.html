@@ -16,6 +16,9 @@
         const checkboxes = document.querySelectorAll('input[type="checkbox"]');
         const checkboxes_state = {};
         for (let i = 0; i < checkboxes.length; i++) {
+            if (checkboxes[i].id === 'wakeLockCheckbox') {
+                continue;
+            }
             checkboxes[i].id = 'checkbox-' + i; // add ordinal id
             const checkbox = checkboxes[i];
             checkboxes_state[checkbox.id] = checkbox.checked;
@@ -28,6 +31,9 @@
         if (checkboxes_state) {
             const checkboxes = document.querySelectorAll('input[type="checkbox"]');
             for (let i = 0; i < checkboxes.length; i++) {
+                if (checkboxes[i].id === 'wakeLockCheckbox') {
+                    continue;
+                }
                 checkboxes[i].id = 'checkbox-' + i; // add ordinal id
                 const checkbox = checkboxes[i];
                 checkbox.checked = checkboxes_state[checkbox.id];

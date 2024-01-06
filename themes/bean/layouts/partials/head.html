@@ -17,7 +17,7 @@
     {{ $css = $css | resources.ToCSS }}
     <link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}?{{ printf "%.12s" (md5 $seed) }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{.Site.BaseURL}}{{ .Site.Params.icon }}">
-
+    <script defer language="javascript" type="text/javascript"  src="{{ "/js/screen.js" | urlize | relURL }}"></script>
     <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
     {{ partial "schema.html" . }}
 </head>
