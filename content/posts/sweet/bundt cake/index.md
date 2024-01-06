@@ -25,7 +25,7 @@ Cooking time: 45 minutes
 - [ ] 120g neutral oil
 - [ ] juice of 1/2 lemon / vinegar
 - [ ] 15g cocoa powder
-### Optional
+#### Optionally add
 - [ ] confectioners' sugar to decorate
 
 ### Steps

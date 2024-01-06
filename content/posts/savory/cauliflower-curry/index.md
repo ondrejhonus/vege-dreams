@@ -29,7 +29,8 @@ Cooking time: 1 hour
 - [ ] 1 teaspoon salt
 - [ ] 1 teaspoon pepper
 - [ ] 2 cups white rice
-#### Optional
+
+#### Optionally add
 - [ ] 1/2 cup frozen peas
 - [ ] 1/2 cup cilantro, chopped
 ### Steps

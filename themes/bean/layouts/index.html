@@ -26,7 +26,7 @@
                             {{ end }}
                         {{ end }}
                     </a>
-                    <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
+                    <a href="{{ .RelPermalink }}"><h2>{{ strings.Title .Title }}</h2></a>
                     {{ .Summary | truncate 200 }}
                     </span>
                     <span>

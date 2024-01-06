@@ -20,7 +20,8 @@ Cooking time: 10 minutes
 - [ ] 3.5g baking powder
 - [ ] 1 large banana
 - [ ] 2 tablespoons oil/vegan butter to fry on
-### Optional
+
+#### Optionally add
 - [ ] maple syrup topping
 - [ ] strawberries or other fruit
 

@@ -27,7 +27,7 @@
         {{- end -}}
         {{ range $pages }}
         <item>
-            <title>{{ .Title }}</title>
+            <title>{{ strings.Title .Title }}</title>
             <link>{{ .Permalink }}</link>
             <image>
                 <url>{{ .Permalink }}</url>

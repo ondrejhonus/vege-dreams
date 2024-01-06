@@ -14,7 +14,7 @@
                     {{ $first := substr .Title 0 1 }}
                     {{ $rest := substr .Title 1 }}
                     {{ $first = upper $first }}
-                    {{ $title := print $first $rest }}
+                    {{ $title := strings.Title (print $first $rest) }}
                     <span class="identity-text">
                         <h3>{{ $title }} | {{ .Site.Title }}</h3>
                         <span>{{ .Site.Params.description }}</span>

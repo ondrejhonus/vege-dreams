@@ -9,7 +9,7 @@
         {{ $first = upper $first }}
         {{ $title = print $first $rest " | " .Site.Title }}
     {{ end }}
-    <title>{{ $title }} – {{.Site.Params.description}}</title>
+    <title>{{ strings.Title $title }} – {{.Site.Params.description}}</title>
     <meta property="og:title" content="{{ $title }}" />
     <meta property="og:description" content="{{.Site.Params.description}}" />
     {{ $seed := now.Unix }}
