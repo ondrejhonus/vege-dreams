@@ -10,7 +10,7 @@
       {{ if $image }}
         <figure class="masonry-item">
           <img src="{{ $image.RelPermalink }}" alt="{{ .Name }}">
-          <figcaption>{{ path.Base .Name | strings.TrimSuffix (printf ".%s" $ext) | strings.Title }}</figcaption>
+          <figcaption>{{ path.Base .Name | strings.TrimSuffix (printf ".%s" $ext) }}</figcaption>
         </figure>
       {{ end }}
     {{ end }}
