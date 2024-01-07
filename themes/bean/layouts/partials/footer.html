@@ -49,3 +49,47 @@
         checkbox.addEventListener('click', saveCheckboxesState);
     }
 </script>
+
+<script>
+    // make every image inside div.image-split clickable and open it in a large preview modal
+    // make every image inside div.image-split clickable and open it in a large preview modal
+    const imageSplitDivs = document.querySelectorAll('div.image-split');
+
+    imageSplitDivs.forEach((imageSplitDiv) => {
+        const images = imageSplitDiv.querySelectorAll('p img');
+
+        images.forEach((image) => {
+            image.addEventListener('click', function () {
+                const modal = document.createElement('div');
+                modal.classList.add('image-modal');
+                modal.innerHTML = '<div class="modal-content"><span class="close">&times;</span><img src="' + image.src + '"></div>';
+                document.body.appendChild(modal);
+
+                setTimeout(function () {
+                    modal.classList.add('visible');
+                }, 10);
+
+                const modalContent = modal.querySelector('.modal-content');
+                const modalImage = modal.querySelector('img');
+
+                modalImage.addEventListener('click', function (event) {
+                    event.stopPropagation();
+                });
+                const close = modal.querySelector('.close');
+                close.addEventListener('click', function () {
+                    modal.classList.remove('visible');
+                    setTimeout(function () {
+                        modal.remove();
+                    }, 100);
+                });
+                modalImage.addEventListener('click', function () {
+                    modal.classList.remove('visible');
+                    setTimeout(function () {
+                        modal.remove();
+                    }, 100);
+                });
+            });
+        });
+    });
+
+</script>
