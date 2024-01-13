@@ -16,16 +16,16 @@ Prep time: 10 minutes
 Cooking time: 20 minutes
 
 ### Ingredients for 1 tray
-- [ ] 250g All Purpose Flour
-- [ ] 50g Brown Sugar
-- [ ] 4g Baking Powder
+- [ ] 300g All Purpose Flour
+- [ ] 60g Brown Sugar
+- [ ] 7g Baking Powder
 - [ ] Pinch of Salt
-- [ ] 220ml plant based milk
+- [ ] 250ml plant based milk
 - [ ] 1/2 cup of chocolate chips
-- [ ] 125g apple sauce
+- [ ] 150g apple sauce
 - [ ] shot of espresso
-- [ ] 50g melted coconut oil, or other neutral oil
-- [ ] 40g cocoa powder
+- [ ] 60g melted coconut oil, or other neutral oil
+- [ ] 45g cocoa powder
 
 ### Steps
 1. Sift the flour, baking powder, salt and cocoa powder into a bowl.
