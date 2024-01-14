@@ -9,7 +9,7 @@ categories: ["Savory"]
 I make this recipe quite regularly. It's a great way to use up leftover cauliflower, and it's also very filling. I usually make a big batch and eat it for lunch for a few days.
 You can experiment with different spices and vegetables. I've tried it with carrots in place of the sweet potato and it was also very good.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 15 minutes
 
 Cooking time: 1 hour

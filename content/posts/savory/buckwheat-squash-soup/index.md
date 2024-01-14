@@ -10,7 +10,7 @@ Winter is the ideal season for soup. Full of squash and buckwheat, this is quite
 
 Feel free to alter the greens here, kale or spinach would work well too.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 30 minutes

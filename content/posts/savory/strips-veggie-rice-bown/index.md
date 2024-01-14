@@ -8,7 +8,7 @@ categories: ["Savory"]
 
 This simple dish makes use of some premade vegan soy/seitan strips. They are quite inexpensive and when mixed with a few different veggies, they can taste quite good!
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 3 minutes
 
 Cooking time: 10 minutes

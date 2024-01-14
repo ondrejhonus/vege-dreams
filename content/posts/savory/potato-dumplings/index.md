@@ -12,7 +12,7 @@ Therefore, these use some protein powder with spices as filling. It is inspired 
 
 In this recipe I cheated and used premade potato dumpling flour. You can make them yourself, they are actually quite simple to make. I thought it would take too much time.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 15 minutes
 
 Cooking time: 60 minutes

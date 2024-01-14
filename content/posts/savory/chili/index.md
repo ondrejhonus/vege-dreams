@@ -12,7 +12,7 @@ many years, and I am very proud of it.
 
 It is a great dish to make in bulk and freeze for later. It keeps in the fridge for about 5 days max.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 15 minutes
 
 Cooking time: 1 hour

@@ -10,7 +10,7 @@ In this oatmeal the blueberries are cooked for a bit, and then they are added at
 out a lot with the goopy texture of the oatmeal. Good balance, also the strawberries lift it up a bit.
 Topped with some shredded coconut and maple syrup.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 4 minutes
 
 Cooking time: 2 minutes

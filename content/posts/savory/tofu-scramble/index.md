@@ -12,7 +12,7 @@ Tofu is cheap has a lot of protein and is usually enriched with calcium.
 I usually make mine with curry spice, but as any simple dish like this you can
 use whatever you have on hand.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 5 minutes

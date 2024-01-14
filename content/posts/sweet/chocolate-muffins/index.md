@@ -10,7 +10,7 @@ Another muffin recipe? No complaining, these are delicious! Similar to the apple
 a bit more on the sweet side. This recipe has apple sauce in it, which makes it a bit more moist
 and gives us an excuse not to put in as much sugar.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 10 minutes
 
 Cooking time: 20 minutes

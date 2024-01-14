@@ -13,7 +13,7 @@ aroma of fresh baked goods.
 
 And for an added touch, you can garnish each muffin with your favorite berry on top.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 15 minutes
 
 Cooking time: 20 minutes

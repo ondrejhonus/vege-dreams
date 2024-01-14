@@ -12,7 +12,7 @@ Don't throw away the broccoli stem! It's perfectly edible and tastes great in th
 
 Don't cook the spinach for too long, it will lose its color and taste. Just add it at the end and cook until wilted.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 20 minutes

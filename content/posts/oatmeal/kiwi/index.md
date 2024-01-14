@@ -8,7 +8,7 @@ categories: ["Oatmeal"]
 
 This is an unusual flavor combination. Kiwi is actually a very decent oatmeal topping, as any fruit. I think the sourness is quite important to balance out the texture of the oatmeal. Almond milk is one of the better ones for oatmeal.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 4 minutes
 
 Cooking time: 2 minutes

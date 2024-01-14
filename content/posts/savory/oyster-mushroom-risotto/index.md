@@ -13,7 +13,7 @@ Really make sure to use a good quality stock. Today I cheated and used a vegetab
 Also, the finer you chop the onion and garlic, the better. You want them to essentially melt into the rice. I take my time and chop them very finely.
 
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 30 minutes

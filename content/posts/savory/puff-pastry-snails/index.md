@@ -8,7 +8,7 @@ categories: ["Savory"]
 
 Kicking off the new year with a very fitting recipe for puff pastry snails. These are a great snack to serve at a party. They tasted like lasagna, so take that as you will :).
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 10 minutes
 
 Cooking time: 20 minutes

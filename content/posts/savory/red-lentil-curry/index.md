@@ -10,7 +10,7 @@ I find myself in a bit of a curry rush lately, especially with the weather turni
 
 Here today is a *very* simple curry recipe even the most frostbitten of us can cook up in a heartbeat.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 45 minutes

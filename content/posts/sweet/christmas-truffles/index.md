@@ -22,7 +22,7 @@ They keep well in the fridge for a few weeks.
 <span class="caption">Christmas balls</span>
 </div>
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 10 minutes

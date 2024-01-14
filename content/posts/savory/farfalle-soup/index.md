@@ -8,7 +8,7 @@ categories: ["Savory"]
 
 Pasta in soup will always be a favorite of mine. Especially if I have any leftovers. This recipe is for a kind of lasagna-like soup using a lot of tomatoes, cashew ricotta and farfalle pasta.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 <h3 class="title">Farfalle soup</h3>
 
 Prep time: 15 minutes
@@ -40,7 +40,7 @@ Cooking time: 45 minutes
 
 </div>
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 <h3 class="title">Cashew ricotta</h3>
 
 Prep time: 5 minutes

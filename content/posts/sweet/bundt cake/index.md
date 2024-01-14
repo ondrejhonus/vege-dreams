@@ -17,7 +17,7 @@ In my inevitable descent into becoming a housewife I have turned to the humble m
 <span class="caption">Final result - Marble effect</span>
 </div>
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 15 minutes
 
 Cooking time: 45 minutes

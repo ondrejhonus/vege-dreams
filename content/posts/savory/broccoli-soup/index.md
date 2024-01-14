@@ -10,7 +10,7 @@ I love broccoli, but sometimes it is left around for a bit longer than ideal and
 
 Therefore, the best thing to do to it is blend it up! This recipe is for a simple soup made of broccoli and coconut milk.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 3 minutes
 
 Cooking time: 10 minutes

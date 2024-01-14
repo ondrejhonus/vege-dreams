@@ -9,7 +9,7 @@ categories: ["Savory"]
 For a cooking site calling itself after tofu, I sure rarely add any tofu recipes!
 Today we are changing that with a pretty simple recipe for fried tofu with rice noodles.
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 15 minutes
 
 Cooking time: 1 hour

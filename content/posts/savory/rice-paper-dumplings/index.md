@@ -8,7 +8,7 @@ categories: ["Savory"]
 
 This recipe is brought to you by: The long shelf life of rice paper; Made by finally using up my old pack of partially shattered rice paper. Tasty rice paper dumplings, filled with a simple tofu & cabbage filling.
 
-Now I have picked up on the frowns of any Asian foodie, rice paper dumplings are somewhat of a sacrilege. But they taste nice and I think that's all that counts :)
+Now, I have picked up on the frowns of any Asian foodie, rice paper dumplings are somewhat of a sacrilege. But they taste nice and I think that's all that counts :)
 
 Here is the shot of the filling, make sure to not overfill the dumplings, or they will break. Also, you want to chop the cabbage as finely as you can. These cook very quickly and you don't want raw cabbage!
 
@@ -22,7 +22,7 @@ Here's a quick video on how to wrap these. You don't have to double wrap, but th
     Your browser does not support the video tag.
 </video>
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 20 minutes
 
 Cooking time: 15 minutes

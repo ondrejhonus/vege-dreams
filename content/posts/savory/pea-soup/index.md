@@ -8,7 +8,7 @@ categories: ["Savory"]
 
 This very simple pea soup is everything you need after a long day in the coldness of this world. It tastes fresh, which is an achievement considering it is made from frozen peas!
 
-<div class="recipe">
+<div class="recipe" id="recipe">
 Prep time: 5 minutes
 
 Cooking time: 10 minutes
