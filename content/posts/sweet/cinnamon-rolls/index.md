@@ -18,7 +18,7 @@ Prep time: 45 minutes
 
 Cooking time: 30 minutes
 
-**Ingredients for 12 rolls**
+### Ingredients for 12 rolls
 - [ ] 700g All Purpose Flour
 - [ ] 115g vegan butter
 - [ ] 50g sugar (20g white sugar, 30g brown sugar)
@@ -26,11 +26,12 @@ Cooking time: 30 minutes
 - [ ] 480ml plant based milk
 - [ ] 1 packet dry yeast
 
-**For the filling**
+#### For the filling
 - [ ] 175g vegan butter
 - [ ] 150g brown granulated sugar
 - [ ] 3 tablespoons cinnamon
 
+### Steps
 1. In a large bowl, mix the melted butter, sugar and milk. Add the yeast and mix.
 2. Add the flour and mix until a dough forms. Add in the salt. 
 3. Cover the bowl with a towel and let it rest for 45 minutes to 1 hour.
