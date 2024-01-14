@@ -23,9 +23,11 @@
                             </p>
                         </span>
                         <p class="dark-gray-text" id="wordcount"> {{ .WordCount }} Words - reading time: {{ math.Round (div (countwords .Content) 180.0) }} minutes. </p>
-                        <a href="#recipe">
-                            <button class="jump-to-recipe">Jump to recipe</button>
-                        </a>
+                        {{ if .Params.tags }}
+                            <a href="#recipe">
+                                <button class="jump-to-recipe">Jump to recipe</button>
+                            </a>
+                        {{ end }}
                     </section>
                 </div>
                 <span class="main-content">
