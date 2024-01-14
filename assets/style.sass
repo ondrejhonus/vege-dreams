@@ -441,6 +441,14 @@ $gallery-gap: 1rem
       height: auto
       border-radius: 5px
 
+video.not-full-width
+  border-radius: 5px
+  padding: 10px
+  display: block
+  border: 1px solid #bcbcbc
+  max-width: 80%
+  margin: auto
+
 .cooking-mode
   display: flex
   flex-direction: row
@@ -565,7 +573,7 @@ div#statusDiv
   body
     main
       width: 90%
-  div.recipe
+  div.recipe, video.not-full-width
     width: 95%
   article.content
     div.meta
