@@ -17,7 +17,7 @@ Here is the shot of the filling, make sure to not overfill the dumplings, or the
 ## How to wrap
 Here's a quick video on how to wrap these. You don't have to double wrap, but the risk of breakage is a lot higher. But I'm sure you won't be able to tell which of the 4 dumplings in the final photo are double wrapped.
 
-<video width=100% controls loop muted class="video not-full-width">
+<video width=100% controls loop muted playsinline class="video not-full-width">
     <source src="/videos/52CC3982-2200-4E6B-8349-FDE022245C15.webm" type="video/webm">
     Your browser does not support the video tag.
 </video>
