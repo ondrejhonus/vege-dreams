@@ -2,7 +2,7 @@
 title: "Strips and vegetable rice bowl"
 date: 2023-03-16T14:11:41+01:00
 draft: false
-tags: ["gluten-free", "rice-bowl", "rice"]
+tags: ["gluten-free", "rice-bowl", "rice", "zucchini"]
 categories: ["Savory"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Vegetable soup with sweet potato"
 date: 2024-01-16T12:00:00+01:00
 draft: false
-tags: ["gluten-free", "broccoli", "soup", "simple", "spinach"]
+tags: ["soup", "broccoli", "gluten-free", "simple", "sweet-potato", "mushrooms"]
 categories: ["Savory"]
 ---
 
