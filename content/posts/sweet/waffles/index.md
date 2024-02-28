@@ -3,7 +3,7 @@ title: "Waffles"
 date: 2023-01-19T23:11:13Z
 draft: false
 tags: ["quick", "breakfast"]
-categories: ["🍬Sweet"]
+categories: ["Sweet"]
 ---
 
 Who doesn't like a good waffle! This recipe is a great way to start your day. It's quick and easy to make, and it's a great way to use up leftover bananas.

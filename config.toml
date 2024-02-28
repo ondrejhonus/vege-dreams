@@ -8,6 +8,7 @@ theme = 'bean'
 relativeURLs = true
 summaryLength = 10
 paginate = 12
+capitalizeListTitles = false
 
 [markup.goldmark.renderer]
     unsafe = true
