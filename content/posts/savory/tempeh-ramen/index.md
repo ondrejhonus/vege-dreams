@@ -6,7 +6,7 @@ tags: ["lunch", "asian", "ramen", "chili", "tempeh"]
 categories: ["Savory"]
 ---
 
-As my first attempt at anything resembling ramen, this recipe is for a chili ramen with tempeh. Ramen in its context is sort of a mysterious ingredient to me purely out of it being from a foreign culture. But it's never bad to start somewhere.
+As my first attempt at anything resembling ramen, this recipe for a chili ramen with tempeh turned out great! Ramen is a sort of a mysterious ingredient to me. It's from a different culture and cuisine and isn't server in my country. What better reason to try it out!? Maybe one day I will get to try the real deal, but for now, this will do :) .
 
 Features a broth, some coconut/cashew cream, and a bunch of veggies.
 

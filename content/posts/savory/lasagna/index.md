@@ -6,7 +6,7 @@ tags: ["pasta", "italian", "zucchini", "mushrooms", "lunch"]
 categories: ["Savory"]
 ---
 
-Oh but lasagna, what a dish! One of those recipes that makes you forget everything and just enjoy it. I must say, that is disappears very quickly. This is an adaptation of the exquisite [avantgardevegan](https://www.gazoakleychef.com/recipes/lasagne/) recipe, but with more mushrooms and smaller measurements. Turned out great!
+Oh but lasagna, what a beautiful dish. There surely isn't anyone who doesn't love good hot slice! I must say though, it disappears very quickly. This is an adaptation of the exquisite [avantgardevegan](https://www.gazoakleychef.com/recipes/lasagne/) recipe, but with more mushrooms and smaller measurements. Turned out great!
 
 I made the ragu a day in advance and apart from making this dish a bit less daunting, it also allowed the flavors to mingle a bit better I think. The bechamel is quite quick to make, but you could also infuse the milk in advance.
 
