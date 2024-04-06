@@ -81,7 +81,7 @@ Here are some more pictures 😉
 <div class="image-split">
 
 ![](plum.jpeg)
-![](slice.png)
+![](slice.jpeg)
 
 <span class="caption">Plum jam version | A single slice</span>
 </div>
