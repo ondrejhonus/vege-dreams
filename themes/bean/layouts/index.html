@@ -45,7 +45,9 @@
             <div class="flex-push"></div>
             <div>
                 <a href="{{ .RelPermalink }}">
-                    <h3>More {{ .Title }} > </h3>
+                    {{ $total := len .Pages  }}
+                    {{ $total := sub $total 6 }}
+                    <h3>{{ $total }} more {{ .Title }} > </h3>
                 </a>
             </div>
         </div>

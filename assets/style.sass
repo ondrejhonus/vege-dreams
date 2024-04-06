@@ -95,6 +95,29 @@ nav.pagination
       background: inherit
       color: gray
       cursor: default
+  ul.pages
+    display: flex
+    flex-direction: row
+    gap: .2rem
+    margin: 0 .6rem
+    padding: 0
+    a
+      display: inline-block
+      line-height: 2rem
+      font-size: 1.2rem
+      padding: 0 .5rem
+      &.active
+        background: #e6dfcd
+        color: $link
+    a.disabled
+      color: gray
+      cursor: default
+      &:hover
+        background: inherit
+        color: gray
+    li.active
+      background: #e6dfcd
+      color: $link
 
 // .category_container:first-of-type
 //   margin-left: 5px

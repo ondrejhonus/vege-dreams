@@ -34,9 +34,6 @@
                     {{ $text }}
                 </a>
                 {{ end }}
-                {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                {{ end }}
             </span>
             <span>
                 <a href="/about">About</a>

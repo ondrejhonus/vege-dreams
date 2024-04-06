@@ -2,7 +2,7 @@ baseURL = 'tofudreams.com/'
 languageCode = 'en-us'
 title = 'Tofu Dreams'
 description = "Vegan recipes to dream about"
-copyright = "2023 Tofu Dreams"
+copyright = "2024 Tofu Dreams"
 theme = 'bean'
 
 relativeURLs = true
@@ -20,9 +20,23 @@ capitalizeListTitles = false
 [menu]
   [[menu.main]]
     name = "Home"
-    pre = "home"
     url = "/"
     weight = 1
+  [[menu.main]]
+    name = "Savory"
+    pre = "savory"
+    pageref = "/categories/savory/"
+    weight = 2
+  [[menu.main]]
+    name = "Sweet"
+    pre = "sweet"
+    pageref = "/categories/sweet/"
+    weight = 3
+  [[menu.main]]
+    name = "Oatmeal"
+    pre = "oatmeal"
+    pageref = "/categories/oatmeal/"
+    weight = 4
 
 [params]
   logo = "logo.png"
