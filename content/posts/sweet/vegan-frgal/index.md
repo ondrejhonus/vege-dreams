@@ -2,15 +2,15 @@
 title: "Vegan frgál"
 date: 2024-04-05T00:00:00Z
 draft: false
-tags: ["czech", "baked"]
+tags: ["czech", "baked", 'pie']
 categories: ["Sweet"]
 ---
 
-A traditional Czech pie that is close to my heart. It's not as hard to make as it may seem and it's quite a fun recipe, so simple to make vegan too.
+A traditional Czech pie that is close to my heart. It's not as hard to make as it may seem and it's quite a fun recipe. Sooo simple to make vegan too!
 
-There is a variety of different fillings you can use, in this recipe I will show you how to make a plum jam version and a pear version. Although there is a hoast of other possible options, you can find them readily online. 
+There is a variety of different fillings you can use, in this recipe I will show you how to make a plum jam version and a pear version. However, there is a hoast of other possible options and you can find them readily online. 
 
-<i>Tip: The dough is quite sticky, so make sure to flour your hands and the surface you are working on.</i>
+<i>Tip: The dough can be quite sticky, so make sure to flour your hands and the surface you are working on.</i>
 
 <i>Tip: Homemade jams vary in thickness and sweetness, adjust accordingly.</i>
 
