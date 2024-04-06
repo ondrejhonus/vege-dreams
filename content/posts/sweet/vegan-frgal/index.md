@@ -22,7 +22,7 @@ Cooking time: 30 minutes
 ### Ingredients for 1 frgál
 #### Dough
 - [ ] 130g flour
-- [ ] 20g caster sugar
+- [ ] 20g icing sugar
 - [ ] 1 packet (7g) of instant yeast
 - [ ] 1/2 tsp salt
 - [ ] 60g soy milk 
@@ -31,7 +31,7 @@ Cooking time: 30 minutes
 
 #### Crumb topping (~'drobenka')
 - [ ] 40g vegan butter
-- [ ] 40g caster sugar
+- [ ] 40g icing sugar
 - [ ] 75g flour
 
 ### Steps
