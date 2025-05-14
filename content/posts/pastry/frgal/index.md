@@ -3,7 +3,7 @@ title: "Vegan frgál"
 date: 2024-04-05T00:00:00Z
 draft: false
 tags: ["czech", "baked", 'pie']
-categories: ["Sweet"]
+categories: ["Pastry"]
 ---
 
 A traditional Czech pie that is close to my heart. It's not as hard to make as it may seem and it's quite a fun recipe. Sooo simple to make vegan too!
