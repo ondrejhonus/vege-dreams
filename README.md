@@ -1,5 +1,5 @@
-# tofu-dreams
-This is my cooking website. It is built with Hugo and sass.
+# vege-dreams
+This is my cooking website. It is built with Hugo Bulma.io and Sass.
 
 ![image](tofudreams.png)
 

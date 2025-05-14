@@ -42,18 +42,19 @@
                 </div>
                 {{ end }}
             </div>
+            {{ $total := len .Pages }}
+            {{ if gt $total 6 }}
             <div class="column is-12">
                 <div class="has-text-left">
                     <a href="{{ .RelPermalink }}" class="button is-link">
-                        {{ $total := len .Pages  }}
-                        {{ $total := sub $total 6 }}
-                        <span>{{ $total }} more {{ .Title }} ></span>
+                        <span>{{ sub $total 6 }} more {{ .Title }} ></span>
                     </a>
                 </div>
             </div>
+            {{ end }}
             {{end}}
             {{end}}
-        <div class="column is-12">
+        <!-- <div class="column is-12">
             <h2 class="title">Featured categories</h2>
         </div>
         <div class="columns is-multiline"></div>
@@ -75,7 +76,7 @@
                 </div>
             </div>
             {{ end }}
-        </div>
+        </div> -->
     </div>
     </div>
 </main>

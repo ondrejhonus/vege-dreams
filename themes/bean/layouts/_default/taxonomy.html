@@ -94,7 +94,7 @@
             {{ range $pag.Pagers }}
             {{ $cur := .PageNumber }}
             {{ if in ($.Scratch.Get "show") $cur }}
-            <li><a class="pagination-link {{ if eq . $pag }}is-current has-background-success{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+            <li><a class="pagination-link {{ if eq . $pag }}is-current has-background-successz{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
             </li>
             {{ else if in (slice 2 (sub $total 1)) $cur }}
             <li><span class="pagination-ellipsis">&hellip;</span></li>

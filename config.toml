@@ -25,19 +25,19 @@ capitalizeListTitles = false
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Savory"
-    pre = "savory"
-    pageref = "/categories/savory/"
+    name = "Pasta"
+    pre = "pasta"
+    pageref = "/categories/pasta/"
     weight = 2
   [[menu.main]]
-    name = "Sweet"
-    pre = "sweet"
-    pageref = "/categories/sweet/"
+    name = "Pastry"
+    pre = "pastry"
+    pageref = "/categories/pastry/"
     weight = 3
   [[menu.main]]
-    name = "Oatmeal"
-    pre = "oatmeal"
-    pageref = "/categories/oatmeal/"
+    name = "Other"
+    pre = "other"
+    pageref = "/categories/other/"
     weight = 4
 
 [params]
