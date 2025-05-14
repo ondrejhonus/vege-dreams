@@ -1,43 +1,25 @@
-<div id="nav-border" class="container">
-    <nav id="nav">
-        <span class="identity">
-            <a href="{{ absURL "/" }}">
-                {{ $image := resources.Get "static/logo.png" }}
-                <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" class="logo"/>
-                {{ if eq .Title .Site.Title }}
-                    <span class="identity-text">
-                        <h3>{{.Title}}</h3>
-                        <span>{{ .Site.Params.description }}</span>
-                    </span>
-                </a>
-                {{ else }}
-                    {{ $first := substr .Title 0 1 }}
-                    {{ $rest := substr .Title 1 }}
-                    {{ $first = upper $first }}
-                    {{ $title := strings.Title (print $first $rest) }}
-                    <span class="identity-text">
-                        <h3>{{ $title }} | {{ .Site.Title }}</h3>
-                        <span>{{ .Site.Params.description }}</span>
-                    </span>
-                </a>
-                {{ end }}
-        </span>
-        <span class="nav">
-            <span>
+    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ absURL "/" }}">
+                <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Logo" class="logo" style="height: 50px; width: auto;">
+                <span class="brand-name" style="margin-left: 10px; font-size: 1.5rem; font-weight: bold;">{{ .Site.Params.name }}</span>
+            </a>
+        </div>
+
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-start">
                 {{ range .Site.Menus.main }}
-                <a class="nav-link" href="{{ absURL .URL }}">
+                <a class="navbar-item" href="{{ absURL .URL }}">
                     {{ if .Pre }}
                         {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
                         {{ $icon }}
                     {{ end }}
-                    {{ $text := print .Name | safeHTML }}
-                    {{ $text }}
+                    {{ .Name }}
                 </a>
                 {{ end }}
-            </span>
-            <span>
-                <a href="/about">About</a>
-            </span>
-        </span>
+            </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item" href="/about" style="font-weight: bold;">About</a>    </div>
+        </div>
     </nav>
-</div>

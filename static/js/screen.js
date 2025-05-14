@@ -20,7 +20,7 @@ try {
             cookingModeInput.setAttribute('type', 'checkbox');
             cookingModeInput.setAttribute('id', 'wakeLockCheckbox');
             const cookingModeSlider = document.createElement('span');
-            cookingModeSlider.classList.add('slider');
+            cookingModeSlider.classList.add('m-2');
         const cookingModeText = document.createElement('span');
             cookingModeText.textContent = 'Cooking mode';
         const cookingModeStatus = document.createElement('div');

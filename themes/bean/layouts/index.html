@@ -1,118 +1,82 @@
 {{ define "main" }}
-<main aria-role="main">
-    <header class="homepage-header">
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span>
-        {{ end }}
-    </header>
-    <div class="category_container">
-        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle}}
-        {{ if ne .Name "Oatmeal" }}
-        <h2>{{ .Title }}</h2>
-
-        <div class="category">
-            {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
-                <span class="article" onclick="location.href='{{ .RelPermalink }}';">
-                    {{ $diff := now.Sub .Lastmod }}
-                    {{ if lt $diff.Hours 120 }}
-                        <div class="new">NEW</div>
-                    {{ end }}
-                    <span><a href="{{ .RelPermalink }}">
-                        {{ with .Resources }}
+<main>
+    <div class="container">
+        <div class="columns is-multiline">
+            {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle}}
+            {{ if ne .Name "Oatmeal" }}
+            <div class="column is-12">
+                <h2 class="title">{{ .Title }}</h2>
+            </div>
+            <div class="columns is-multiline">
+                {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
+                <div class="column is-3">
+                    <div class="card" onclick="location.href='{{ .RelPermalink }}';">
+                        {{ $diff := now.Sub .Lastmod }}
+                        {{ if lt $diff.Hours 120 }}
+                        <div class="card-header">
+                            <p class="card-header-title has-background-success has-text-white">NEW</p>
+                        </div>
+                        {{ end }}
+                        <div class="card-image">
+                            {{ with .Resources }}
                             {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
                             {{ $image := $image.Process "resize 800x" }}
                             {{ if $image }}
-                                    <div class="cover_image" style="background-image: url({{ $image.RelPermalink }});"></div>
+                            <figure class="image is-4by3">
+                                <img src="{{ $image.RelPermalink }}" alt="Cover image">
+                            </figure>
                             {{ end }}
-                        {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ strings.Title .Title }}</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                {{ .Summary | truncate 200 }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="column is-12">
+                <div class="has-text-left">
+                    <a href="{{ .RelPermalink }}" class="button is-link">
+                        {{ $total := len .Pages  }}
+                        {{ $total := sub $total 6 }}
+                        <span>{{ $total }} more {{ .Title }} ></span>
                     </a>
-                    <a href="{{ .RelPermalink }}"><h2>{{ strings.Title .Title }}</h2></a>
-                    {{ .Summary | truncate 200 }}
-                    </span>
-                    <span>
-                    {{ if .Truncated }}
-                    <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                    <!--<div class="bottom-link">
-                        <a href="{{ .RelPermalink }}">Continue reading…</a>
-                    </div>-->
-                    {{ end }}
-                    </span>
-                </span>
-
+                </div>
+            </div>
+            {{end}}
+            {{end}}
+        <div class="column is-12">
+            <h2 class="title">Featured categories</h2>
+        </div>
+        <div class="columns is-multiline"></div>
+            {{ range (slice "soup" "lunch" "pasta" "gluten-free" "baked" "oatmeal" "simple") }}
+            <div class="column is-3">
+                <div class="card" onclick="location.href='{{ absURL (printf "/tags/%s" .) }}';">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="/teasers/{{ . }}.jpg" alt="{{ . | title }}">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4 has-text-centered">{{ . | title }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {{ end }}
         </div>
-        <div class="flex-left">
-            <div class="flex-push"></div>
-            <div>
-                <a href="{{ .RelPermalink }}">
-                    {{ $total := len .Pages  }}
-                    {{ $total := sub $total 6 }}
-                    <h3>{{ $total }} more {{ .Title }} > </h3>
-                </a>
-            </div>
-        </div>
-
-        {{end}}
-        {{end}}
-<!--
-        {{ range .Data.Pages }}
-            <h4>{{ .Title }}</h4>
-            <ul>
-                {{ range .Data.Pages }}
-                <li>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                </li>
-                {{ end }}
-            </ul>
-        {{ end }}
--->
+    </div>
     </div>
 </main>
-<div class="teaser_container">
-    <h2 style="text-align: center">Featured categories 🌱</h2>
-    <div class="round-teasers">
-        <div>
-            <a href="{{ absURL "/tags/soup" }}">
-                <img src="/teasers/soup.jpg" alt="me">
-                <h3>Soup</h3>
-            </a>
-        </div>
-        <div>
-            <a href="{{ absURL "/tags/lunch" }}">
-                <img src="/teasers/lunch.jpg" alt="me">
-                <h3>Lunch</h3>
-            </a>
-        </div>
-        <div>
-            <a href="{{ absURL "/tags/pasta" }}">
-                <img src="/teasers/pasta.jpg" alt="me">
-                <h3>Pasta</h3>
-            </a>
-        </div>
-        <div>
-            <a href="{{ absURL "/tags/gluten-free" }}">
-                <img src="/teasers/gluten-free.jpg" alt="me">
-                <h3>Gluten-free</h3>
-            </a>
-        </div>
-        <div>
-            <a href="{{ absURL "/tags/baked" }}">
-                <img src="/teasers/baked.jpg" alt="me">
-                <h3>Baked<br>goods</h3>
-            </a>
-        </div>
-        <div>
-            <a href="{{ absURL "/categories/oatmeal" }}">
-                <img src="/teasers/oatmeal.jpg" alt="me">
-                <h3>Oatmeal</h3>
-            </a>
-        </div>
-        <div>
-            <a href="{{ absURL "/tags/simple" }}">
-                <img src="/teasers/simple.jpg" alt="me">
-                <h3>Something<br>simple</h3>
-            </a>
-        </div>
-    </div>
-</div>
 {{ end }}

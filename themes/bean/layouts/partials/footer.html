@@ -1,18 +1,21 @@
-<footer>
-    {{ with .Params.description }}
-    <span class="subtitle">{{.}}</span>
-    {{ end }}
-    <p class="footer text-center">
-        Copyright (c) {{ dateFormat "2006" now }} {{ .Site.Title }}. All rights reserved.
-    </p>
-    <p class="gray-text">
-        <a href="{{.Site.BaseURL }}index.xml">RSS</a> feed. Built with <a href="https://gohugo.io/">Hugo</a>.
-        This website doesn't track you. ❤️</p>
+<footer class="footer">
+    <div class="content has-text-centered">
+        {{ with .Params.description }}
+        <p class="subtitle">{{.}}</p>
+        {{ end }}
+        <p>
+            <strong>{{ .Site.Title }}</strong> &copy; {{ dateFormat "2006" now }}. All rights reserved.
+        </p>
+        <p>
+            <a href="{{.Site.BaseURL }}index.xml">RSS</a> feed. Built with <a href="https://gohugo.io/">Hugo</a>.
+            This website doesn't track you. ❤️
+        </p>
+    </div>
 </footer>
 
-<script defer language="javascript" type="text/javascript"  src="{{ "/js/screen.js" | urlize | relURL }}"></script>
+<script defer language="javascript" type="text/javascript" src="{{ "/js/screen.js" | urlize | relURL }}"></script>
 
-<script> // let's save the state of checkboxes, so that we can reload the site
+<script>
     function saveCheckboxesState() {
         const page_url = window.location.href;
         const checkboxes = document.querySelectorAll('input[type="checkbox"]');
@@ -21,7 +24,7 @@
             if (checkboxes[i].id === 'wakeLockCheckbox') {
                 continue;
             }
-            checkboxes[i].id = 'checkbox-' + i; // add ordinal id
+            checkboxes[i].id = 'checkbox-' + i;
             const checkbox = checkboxes[i];
             checkboxes_state[checkbox.id] = checkbox.checked;
         }
@@ -36,7 +39,7 @@
                 if (checkboxes[i].id === 'wakeLockCheckbox') {
                     continue;
                 }
-                checkboxes[i].id = 'checkbox-' + i; // add ordinal id
+                checkboxes[i].id = 'checkbox-' + i;
                 const checkbox = checkboxes[i];
                 checkbox.checked = checkboxes_state[checkbox.id];
             }
@@ -51,8 +54,6 @@
 </script>
 
 <script>
-    // make every image inside div.image-split clickable and open it in a large preview modal
-    // make every image inside div.image-split clickable and open it in a large preview modal
     const imageSplitDivs = document.querySelectorAll('div.image-split');
 
     imageSplitDivs.forEach((imageSplitDiv) => {
@@ -91,5 +92,4 @@
             });
         });
     });
-
 </script>

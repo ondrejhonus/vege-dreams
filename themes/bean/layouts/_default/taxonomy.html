@@ -5,116 +5,108 @@
 
     {{ $categories := slice }}
     {{ range .Pages }}
-        {{ with .GetTerms "tags" }}
-            {{ range . }}
-                {{ $categories = $categories | append .LinkTitle }}
-                {{ if in $tags .LinkTitle}}
-                {{ else }}
-                {{ $tags = merge $tags (dict .LinkTitle (len .Pages)) }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
+    {{ with .GetTerms "tags" }}
+    {{ range . }}
+    {{ $categories = $categories | append .LinkTitle }}
+    {{ if in $tags .LinkTitle}}
+    {{ else }}
+    {{ $tags = merge $tags (dict .LinkTitle (len .Pages)) }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
     {{ end }}
 
     {{ if ( gt ( len $categories ) 0 ) }}
-    <div class="category_container">
-        <h3>All categories:</h3>
+    <div class="box container">
+        <h3 class="title is-4">All categories:</h3>
         <div class="tags">
             {{ range $key, $value := $tags }}
-                <a href="/tags/{{ $key }}">
-                    <button uk-filter-control='[data-tag~="{{ $key }}"]' class="tag-button">
-                        {{ $key }}
-                    </button>
-                    <div>{{ $value }}</div>
-                </a>
+            <a href="/tags/{{ $key }}">
+                <button class="button is-small is-link is-light" uk-filter-control='[data-tag~="{{ $key }}"]'>
+                    {{ $key }}
+                </button>
+                <span class="tag is-info">{{ $value }}</span>
+            </a>
             {{ end }}
         </div>
     </div>
     {{ end }}
 
-    <div class="category_container">
-        <div class="container">
-            {{ $first := substr .Title 0 1 }}
-            {{ $rest := substr .Title 1 }}
-            {{ $first = upper $first }}
-            {{ $title := print $first $rest }}
-            <h1>{{ $title }}</h1>
-            <div class="category">
-                {{ range .Paginator.Pages.ByDate.Reverse }}
-                <span class="article" onclick="location.href='{{ .RelPermalink }}';">
-                        {{ $diff := now.Sub .Lastmod }}
-                        {{ if lt $diff.Hours 120 }}
-                            <div class="new">NEW</div>
+    <div class="container">
+        {{ $first := substr .Title 0 1 }}
+        {{ $rest := substr .Title 1 }}
+        {{ $first = upper $first }}
+        {{ $title := print $first $rest }}
+        <h1 class="title">{{ $title }}</h1>
+        <div class="columns is-multiline">
+            {{ range .Paginator.Pages.ByDate.Reverse }}
+            <div class="column is-one-third">
+                <div class="card" onclick="location.href='{{ .RelPermalink }}';">
+                    {{ $diff := now.Sub .Lastmod }}
+                    {{ if lt $diff.Hours 120 }}
+                    <div class="tag is-danger is-pulled-right">NEW</div>
+                    {{ end }}
+                    <div class="card-image">
+                        {{ with .Resources }}
+                        {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
+                        {{ $image := $image.Process "resize 800x" }}
+                        {{ if $image }}
+                        <img class="image" src="{{ $image.RelPermalink }}" alt="Image">
                         {{ end }}
-                        <span><a href="{{ .RelPermalink }}">
-                            {{ with .Resources }}
-                                {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
-                                {{ $image := $image.Process "resize 800x" }}
-                                {{ if $image }}
-                                        <div class="cover_image" style="background-image: url({{ $image.RelPermalink }});"></div>
-                                {{ end }}
-                            {{ end }}
-                        </a>
-                        <a href="{{ .RelPermalink }}"><h2>{{ strings.Title .Title }}</h2></a>
-                        {{ .Summary | truncate 200 }}
-                        </span>                        
-                        <span>
-                        {{ if .Truncated }}
-                            <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                        <!--<div class="bottom-link">
-                            <a href="{{ .RelPermalink }}">Continue reading…</a>
-                        </div>-->
                         {{ end }}
-                        </span>
-                    </span>
-                {{ end }}
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-5"><a href="{{ .RelPermalink }}">{{ strings.Title .Title }}</a></p>
+                        <p class="content">{{ .Summary | truncate 200 }}</p>
+                    </div>
+                </div>
             </div>
+            {{ end }}
         </div>
     </div>
 
-    <nav class="pagination">
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
         {{ $pag := $.Paginator }}
-            {{ $window := $.Site.Params.paginateWindow | default 1 }}
-            {{ if gt $pag.TotalPages 1 }}
-            {{ $total := $pag.TotalPages }}
-            {{ $size := add 5 (add $window $window) }}
-            {{ $cur := $pag.PageNumber }}
-            {{ if gt $total $size }}
-                {{ if lt $cur (sub $size (add $window 1)) }}
-                {{ $.Scratch.Set "show" (seq 1 (sub $size 2)) }}
-                {{ else if lt (sub $total $cur) (sub $size (add $window 2)) }}
-                {{ $.Scratch.Set "show" (seq (add (sub $total $size) 3) $total) }}
-                {{ else }}
-                {{ $.Scratch.Set "show" (seq (sub $cur $window) (add $cur $window)) }}
-                {{ end }}
-                {{ $.Scratch.Add "show" 1 }}
-                {{ $.Scratch.Add "show" $total }}
-            {{ else }}
-                {{ $.Scratch.Set "show" (seq 1 $total) }}
-            {{ end }}
+        {{ $window := $.Site.Params.paginateWindow | default 1 }}
+        {{ if gt $pag.TotalPages 1 }}
+        {{ $total := $pag.TotalPages }}
+        {{ $size := add 5 (add $window $window) }}
+        {{ $cur := $pag.PageNumber }}
+        {{ if gt $total $size }}
+        {{ if lt $cur (sub $size (add $window 1)) }}
+        {{ $.Scratch.Set "show" (seq 1 (sub $size 2)) }}
+        {{ else if lt (sub $total $cur) (sub $size (add $window 2)) }}
+        {{ $.Scratch.Set "show" (seq (add (sub $total $size) 3) $total) }}
+        {{ else }}
+        {{ $.Scratch.Set "show" (seq (sub $cur $window) (add $cur $window)) }}
+        {{ end }}
+        {{ $.Scratch.Add "show" 1 }}
+        {{ $.Scratch.Add "show" $total }}
+        {{ else }}
+        {{ $.Scratch.Set "show" (seq 1 $total) }}
+        {{ end }}
+        <ul class="pagination-list">
             {{ if .Paginator.HasPrev }}
-                <a class="prev" href="{{ if .Paginator.HasPrev }}{{ .Paginator.Prev.URL }}{{ else }}#{{ end }}">« Prev</a>
+            <li><a class="pagination-previous" href="{{ .Paginator.Prev.URL }}">« Prev</a></li>
             {{ else }}
-                <p class="prev">« Prev</p>
+            <li><a class="pagination-previous" disabled>« Prev</a></li>
             {{ end }}
-            <ul class="pages">
-                {{ range $pag.Pagers }}
-                {{ $cur := .PageNumber }}
-                {{ if in ($.Scratch.Get "show") $cur }}
-                    <a href="{{ .URL }}"
-                    {{ if eq . $pag }}class="active"{{ end }}>{{ .PageNumber }}</a>
-                {{ else if in (slice 2 (sub $total 1)) $cur }}
-                    <a class="disabled">&hellip;</a>
-                {{ end }}
-                {{ end }}
-            </ul>
+            {{ range $pag.Pagers }}
+            {{ $cur := .PageNumber }}
+            {{ if in ($.Scratch.Get "show") $cur }}
+            <li><a class="pagination-link {{ if eq . $pag }}is-current has-background-success{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+            </li>
+            {{ else if in (slice 2 (sub $total 1)) $cur }}
+            <li><span class="pagination-ellipsis">&hellip;</span></li>
+            {{ end }}
+            {{ end }}
             {{ if .Paginator.HasNext }}
-                <a class="next" href="{{ if .Paginator.HasNext }}{{ .Paginator.Next.URL }}{{ else }}#{{ end }}">Next »</a>
+            <li><a class="pagination-next" href="{{ .Paginator.Next.URL }}">Next »</a></li>
             {{ else }}
-                <p class="next">Next
+            <li><a class="pagination-next" disabled>Next</a></li>
             {{ end }}
+        </ul>
         {{ end }}
     </nav>
 </main>
 {{ end }}
-

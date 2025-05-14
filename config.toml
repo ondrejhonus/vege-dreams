@@ -1,14 +1,16 @@
-baseURL = 'tofudreams.com/'
+baseURL = 'veg.ondrejhonus.com/'
 languageCode = 'en-us'
-title = 'Tofu Dreams'
-description = "Vegan recipes to dream about"
-copyright = "2024 Tofu Dreams"
+title = 'Vege Dreams'
+description = "Vegetarian recipes to dream about"
+copyright = "2025 Tofu Dreams"
 theme = 'bean'
 
 relativeURLs = true
 summaryLength = 10
-paginate = 12
 capitalizeListTitles = false
+
+[pagination]
+  paginate = 12
 
 [markup.goldmark.renderer]
     unsafe = true
@@ -41,5 +43,5 @@ capitalizeListTitles = false
 [params]
   logo = "logo.png"
   icon = "favicon.png"
-  name = "Tofu Dreams"
-  description = "Vegan recipes to dream about"
+  name = "Vege Dreams"
+  description = "Vegetarian recipes to dream about"

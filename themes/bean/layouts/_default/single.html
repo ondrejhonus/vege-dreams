@@ -1,104 +1,99 @@
 {{ define "main" }}
-<article class="split-me">
-    <section>
-        <section>
+<div class="container">
+    <article class="columns is-variable is-8">
+        <section class="column is-two-thirds">
+            <article class="content"></article>
             <article class="content">
                 <div class="meta">
-                    <h1>{{ strings.Title .Title }}</h1>
+                    <h1 class="title">{{ strings.Title .Title }}</h1>
                     <div class="cover">
                         {{ with .Resources.GetMatch "cover.*" }}
-                            <div class="wrapper">
-                                <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="">
-                                <meta name="og:image" content="{{ .RelPermalink }}" />
-                            </div>
+                        <div class="image is-16by9">
+                            <img src="{{ .RelPermalink }}" alt="">
+                            <meta name="og:image" content="{{ .RelPermalink }}" />
+                        </div>
                         {{ end }}
                     </div>
                     <section class="post-meta">
-                        <span>
-                            <p id="date"> Posted on {{ .Date.Format "Mon Jan 2, 2006" }}
+                        <p class="is-size-6">
+                            <span id="date">Posted on {{ .Date.Format "Mon Jan 2, 2006" }}</span>
                             {{ $diff := now.Sub .Lastmod }}
                             {{ if lt $diff.Hours 72 }}
-                                <span class="new">NEW</span>
+                            <span class="tag is-success is-light">NEW</span>
                             {{ end }}
-                            </p>
-                        </span>
-                        <p class="dark-gray-text" id="wordcount"> {{ .WordCount }} Words - reading time: {{ math.Round (div (countwords .Content) 180.0) }} minutes. </p>
+                        </p>
+                        <p class="is-size-6 has-text-grey-dark" id="wordcount">
+                            {{ .WordCount }} Words - reading time: {{ math.Round (div (countwords .Content) 180.0) }}
+                            minutes.
+                        </p>
+                        <div class="field is-grouped is-grouped-multiline mt-5">
+                            {{ with .GetTerms "tags" }}
+                            {{ range . }}
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <a href="{{ .RelPermalink }}" class="tag is-info">
+                                        {{ .LinkTitle }}
+                                    </a>
+                                    <span class="tag">{{ len .Pages }}</span>
+                                </div>
+                            </div>
+                            {{ end }}
+                            {{ end }}
+                        </div>
                         {{ if .Params.tags }}
-                            <a href="#recipe">
-                                <button class="jump-to-recipe">Jump to recipe</button>
-                            </a>
+                        <a href="#recipe" class="button is-primary mt-5 mb-5">Jump to recipe</a>
                         {{ end }}
                     </section>
                 </div>
-                <span class="main-content">
-                    {{ replace .Content "disabled" "" | safeHTML }}
-                </span>
+                <div>
+                    <div class="box">
+                        {{ replace .Content "disabled" "" | safeHTML }}
+                    </div>
+                </div>
             </article>
         </section>
-        <aside id="meta" class="meta-tags">
-            <div class="tags">
-            {{ with .GetTerms "tags" }}
-                    {{ range . }}
-                    <a href="{{ .RelPermalink }}">
-                        <button uk-filter-control='[data-tag~="{{ . }}"]' class="tag-button">
-                            {{ .LinkTitle }}
-                        </button>
-                        <div>{{ len .Pages}}</div>
-                    </a>
-                    {{ end }}
-                {{ end }}
+
+        <div class="column is-one-third">
+            <div class="box">
+                <h2 class="title is-4">Vege Dreams</h2>
+                <p>
+                    Hi, I'm Andrew and this is my little vegetarian cooking blog.
+                    I want to save recipes that I either made myself or had to ask for from around the world.
+                </p>
             </div>
-
-        </aside>
-    </section>
-
-    <div class="sidebar">
-        <div class="sidebar-padding">
-        <h2>Tofu Dreams</h2>
-        <img src="/me.jpg" alt="me">
-        <p>
-            Hi, I'm Daniel and this is my little vegan cooking blog.
-            I love comfort food and baking. I hope you find some of my recipes interesting and decide to try them yourself.
-        </p>
-        <p>
-            This site is intentionally minimal and doesn't need javascript to run. I don't want <i>your</i> <a href="/posts/sweet/cookies/">cookies</a>!
-        </p>
-        <h2>Recent recipes</h2>
-        </div>
-        <div class="recent-posts">
-            {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
-                <div class="article" onclick="location.href='{{ .RelPermalink }}';">
-                    {{ $diff := now.Sub .Lastmod }}
-                    {{ if lt $diff.Hours 120 }}
-                        <div class="new">NEW</div>
-                    {{ end }}
-                        <div class="vertical"><a href="{{ .RelPermalink }}">
-                            {{ with .Resources }}
-                                {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
-                                {{ $image := $image.Process "resize 250x" }}
-                                {{ if $image }}
-                                    <div class="cover_image"
-                                            style="background-image: url({{ $image.RelPermalink }});"></div>
-                                {{ end }}
-                            {{ end }}
-                        </a>
-                        <a href="{{ .RelPermalink }}"><h2>{{ strings.Title .Title }}</h2></a>
-                    </div>
-                    <span>
-                        {{ .Summary | truncate 200 }}
-                        </span>
-                        <span>
-                        {{ if .Truncated }}
-                            <!-- This <div> includes a read more link, but only if the summary is truncated... -->
-                        <!--<div class="bottom-link">
-                            <a href="{{ .RelPermalink }}">Continue reading…</a>
-                        </div>-->
+            <div class="box">
+                <h2 class="title is-5">Recent recipes</h2>
+                <div class="recent-posts">
+                    {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+                    <div class="card" onclick="location.href='{{ .RelPermalink }}';">
+                        {{ $diff := now.Sub .Lastmod }}
+                        {{ if lt $diff.Hours 120 }}
+                        <span class="tag is-success is-light">NEW</span>
                         {{ end }}
-                        </span>
+                        <div class="card-image">
+                            {{ with .Resources }}
+                            {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
+                            {{ $image := $image.Process "resize 250x" }}
+                            {{ if $image }}
+                            <figure class="image is-4by3">
+                                <img src="{{ $image.RelPermalink }}" alt="">
+                            </figure>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="card-content">
+                            <a href="{{ .RelPermalink }}">
+                                <h2 class="title is-6">{{ strings.Title .Title }}</h2>
+                            </a>
+                            <p class="content">
+                                {{ .Summary | truncate 200 }}
+                            </p>
+                        </div>
+                    </div>
+                    {{ end }}
                 </div>
-            {{ end }}
+            </div>
         </div>
-    </div>
-</article>
-
+    </article>
+</div>
 {{ end }}
