@@ -27,10 +27,16 @@ footer
 
 .card
   cursor: pointer
+  height: 27wh !important
+  text-overflow: hidden
 
   .recent-posts
     .card
-    marign: 1em
+    margin: 1em
 
 img
   object-fit: cover
+
+@media screen and (max-width: 768px)
+  .is-justify-content-center-mobile
+    justify-content: center

@@ -7,20 +7,20 @@
         </div>
       </section>
     <div class="container">
-        <div class="columns is-multiline">
+        <div class="columns is-multiline is-mobile">
             {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle}}
             {{ if ne .Name "Oatmeal" }}
             <div class="column is-12">
                 <h2 class="title is-size-1 mb-2">{{ .Title }}</h2>
             </div>
-            <div class="columns is-multiline">
+            <div class="columns is-multiline is-flex is-flex-wrap wrap is-justify-content-center-mobile is-mobile">
                 {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
-                <div class="column is-3">
+                <div class="column is-3-desktop is-10-mobile is-6-tablet"> 
                     <div class="card" onclick="location.href='{{ .RelPermalink }}';">
                         {{ $diff := now.Sub .Lastmod }}
                         {{ if lt $diff.Hours 120 }}
                         <div class="card-header">
-                            <p class="card-header-title has-background-success has-text-white">NEW</p>
+                            <p class="card-header-title has-background-success has-text-white" style="position: absolute; z-index: 1;">NEW</p>
                         </div>
                         {{ end }}
                         <div class="card-image">
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                             <div class="content">
-                                {{ .Summary | truncate 200 }}
+                                {{ .Summary | truncate 150 }}
                             </div>
                         </div>
                     </div>
