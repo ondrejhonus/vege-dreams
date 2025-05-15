@@ -19,7 +19,7 @@ Cooking time: 15 minutes
 - [ ] Small red onion, diced
 - [ ] Fresh tomatoes, diced (or canned tomatoes)
 - [ ] Salt and pepper to taste
-- [ ] Grated Parmiggiano Reggiano (NOT VEGETARIAN!!!)
+- [ ] Grated hard cheese
 
 #### Optional Ingredients
 - [ ] Diced carrots
@@ -35,6 +35,6 @@ Cooking time: 15 minutes
 5. Stir in the diced fresh tomatoes (or canned tomatoes). Let it simmer for a few minutes until the tomatoes break down into a sauce.
 6. Season the sauce with salt and pepper to taste. If desired, add a squeeze of lemon juice for brightness.
 7. Add the cooked pasta to the pan with the sauce. Mix it all together.
-8. Serve hot, topped with grated Parmiggiano Reggiano and optional mozzarella if desired.
+8. Serve hot, topped with grated hard cheese and optional mozzarella if desired.
 
 </div>
