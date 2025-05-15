@@ -1,6 +1,6 @@
 ---
 title: "Irish Buttermilk Soda Bread"
-date: 2023-03-23T22:22:00+01:00
+date: 2025-05-12T20:00:00+01:00
 draft: false
 tags: ["baking", "bread", "irish"]
 categories: ["Pastry"]
