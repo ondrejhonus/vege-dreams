@@ -4,6 +4,13 @@
                 <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Logo" class="logo" style="height: 50px; width: auto;">
                 <span class="brand-name" style="margin-left: 10px; font-size: 1.5rem; font-weight: bold;">{{ .Site.Params.name }}</span>
             </a>
+
+            <!-- Toggle button for mobile -->
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
 
         <div id="navbarMenu" class="navbar-menu">
@@ -20,6 +27,19 @@
             </div>
 
             <div class="navbar-end">
-                <a class="navbar-item" href="/about" style="font-weight: bold;">About</a>    </div>
+                <a class="navbar-item" href="/about" style="font-weight: bold;">About</a>
+            </div>
         </div>
     </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burger = document.querySelector('.navbar-burger');
+            const menu = document.querySelector('#navbarMenu');
+
+            burger.addEventListener('click', () => {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        });
+    </script>
