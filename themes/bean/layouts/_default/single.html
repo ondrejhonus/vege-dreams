@@ -74,7 +74,7 @@
                     <div class="card" onclick="location.href='{{ .RelPermalink }}';">
                         {{ $diff := now.Sub .Lastmod }}
                         {{ if lt $diff.Hours 120 }}
-                        <span class="tag is-success is-light">NEW</span>
+                        <span class="has-background-success has-text-white p-2 is-success is-light is-large has-text-weight-bold" style="position: absolute; z-index: 1;">NEW</span>
                         {{ end }}
                         <div class="card-image">
                             {{ with .Resources }}
