@@ -14,12 +14,12 @@ I never thought i could love bread, but here we are...
 Prep time: 10 minutes
 
 Cooking time: 35 minutes
-
+[text](index.md)
 ### Ingredients
 - [ ] 200 g plain white flour
 - [ ] 200 g plain wholemeal flour
 - [ ] 2 tsp salt
-- [ ] 1 tsp baking soda
+- [ ] 1½ tsp baking soda
 - [ ] 350 ml buttermilk
 
 ### Steps
