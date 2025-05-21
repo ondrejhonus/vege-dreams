@@ -6,7 +6,7 @@ tags: ["oven-baked", "snack", "vegetarian"]
 categories: ["Other"]
 ---
 
-Crispy, salty, and satisfying—these homemade tortilla chips are the perfect snack for when you’ve got old tortillas lying around. Pair them with one of three flavorful dips: creamy avocado-lime, warm cheesy queso, or a bright roasted tomato salsa. Ideal for parties, movie nights, or just procrastinating life.
+Crispy, salty, and satisfying. These homemade tortilla chips are the perfect snack for when you’ve got old tortillas lying around. Pair them with one of three flavorful dips: creamy avocado-lime, warm cheesy queso, or a bright roasted tomato salsa. Ideal for parties, movie nights, or just procrastinating life.
 
 <div class="recipe" id="recipe">
 Prep time: 10 minutes

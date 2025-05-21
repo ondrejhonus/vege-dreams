@@ -2,11 +2,11 @@
 title: "Vegetable Curry"
 date: 2025-05-21T21:00:00+01:00
 draft: false
-tags: ["stove-cooked", "vegan", "comfort-food", "gluten-free"]
+tags: ["concept", "stove-cooked", "vegan", "comfort-food", "gluten-free"]
 categories: ["Other"]
 ---
 
-This cozy vegetable curry is everything you need on a cloudy day — packed with fiber, color, and warmth. It’s flexible too: swap veggies based on what's lurking in your fridge. No rules, just spice and comfort.
+This cozy vegetable curry is everything you need on a cloudy day. packed with fiber, color, and warmth. It’s flexible too: swap veggies based on what's lurking in your fridge. No rules, just spice and comfort.
 
 <div class="recipe" id="recipe">
 Prep time: 15 minutes

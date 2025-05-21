@@ -7,6 +7,10 @@ draft: false
 ### What is this site?
 This site is my personal collection of recipes that I've made and loved over the years. I always wanted to keep track of stuff i cook and decide to cook them again so here we are...
 
+### Tag explanations
+**NEW**: Recipe was made in the last 3 days
+**CONCEPT** I haven't made the recipe yet and it may change in the future and i probably recently stole it from someone
+
 ### Why my recipes?
 I don't like to overcomplicate things. I make simple and fast to make recipes without any weird ingredients. So if you're like me and don't want to buy 20 different ingredients to make one meal, then i welcome to my website of vegetarian food.
 

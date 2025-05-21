@@ -9,7 +9,7 @@
 </section>
 <div class="container">
     <div class="columns is-multiline is-mobile">
-        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle.Reverse}}
+        {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle.Reverse }}
         <div class="column is-12">
             <h2 class="title is-size-1 mb-2">{{ .Title }}</h2>
         </div>
@@ -18,16 +18,29 @@
             <div class="column is-3-desktop is-6-tablet is-10-mobile">
                 <div class="card" onclick="location.href='{{ .RelPermalink }}';">
                     {{ $diff := now.Sub .Lastmod }}
+
                     {{ if lt $diff.Hours 120 }}
-                    <div class="card-header">
+                    <div class="card-header" style="position: relative;">
                         <p class="card-header-title has-background-success has-text-white"
                             style="position: absolute; z-index: 1;">NEW</p>
+                        
+                        {{ if in .Params.tags "concept" }}
+                        <p class="card-header-title has-background-warning"
+                            style="position: absolute; right: 0; z-index: 1;">CONCEPT</p>
+                        {{ end }}
+                    </div>
+                    {{ else if in .Params.tags "concept" }}
+                    <!-- If NOT new but concept tag exists, show only CONCEPT -->
+                    <div class="card-header" style="position: relative;">
+                        <p class="card-header-title has-background-warning has-text-black"
+                            style="position: absolute; z-index: 1; right: 0">CONCEPT</p>
                     </div>
                     {{ end }}
+
                     <div class="card-image">
                         {{ with .Resources }}
                         {{ $image := .GetMatch "{cover.*}" }}
-                        {{ $image := $image.Process "resize 800x" }}
+                        {{ $image = $image.Process "resize 800x" }}
                         {{ if $image }}
                         <figure class="image is-4by3 index-image">
                             <img src="{{ $image.RelPermalink }}" alt="Cover image">
@@ -49,7 +62,7 @@
             </div>
             {{ end }}
         </div>
-        {{end}}
+        {{ end }}
     </div>
 </div>
 {{ end }}
