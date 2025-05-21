@@ -1,89 +1,55 @@
 {{ define "main" }}
-<main>
-    <section class="hero is-danger is-small mt-0 mb-5">
-        <div class="hero-body">
-          <p class="title">Stock pictures</p>
-          <p class="subtitle">The pictures used in the recipe previews are NOT YET mine, because i need to take a picture of them when i make them next time. Don't worry tho, the recipes do work and will taste amazingly.</p>
+<section class="hero is-danger is-small mt-0 mb-5">
+    <div class="hero-body">
+        <p class="title">Stock pictures</p>
+        <p class="subtitle">The pictures used in the recipe previews are NOT YET mine, because i need to take a
+            picture of them when i make them next time. Don't worry tho, the recipes do work and will taste
+            amazingly.</p>
+    </div>
+</section>
+<div class="container">
+    <div class="columns is-multiline is-mobile">
+        {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle.Reverse}}
+        <div class="column is-12">
+            <h2 class="title is-size-1 mb-2">{{ .Title }}</h2>
         </div>
-      </section>
-    <div class="container">
         <div class="columns is-multiline is-mobile">
-            {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle}}
-            {{ if ne .Name "Oatmeal" }}
-            <div class="column is-12">
-                <h2 class="title is-size-1 mb-2">{{ .Title }}</h2>
-            </div>
-            <div class="columns is-multiline is-flex is-flex-wrap wrap is-justify-content-center-mobile is-mobile">
-                {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
-                <div class="column is-3-desktop is-10-mobile is-6-tablet"> 
-                    <div class="card" onclick="location.href='{{ .RelPermalink }}';">
-                        {{ $diff := now.Sub .Lastmod }}
-                        {{ if lt $diff.Hours 120 }}
-                        <div class="card-header">
-                            <p class="card-header-title has-background-success has-text-white" style="position: absolute; z-index: 1;">NEW</p>
-                        </div>
-                        {{ end }}
-                        <div class="card-image">
-                            {{ with .Resources }}
-                            {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
-                            {{ $image := $image.Process "resize 800x" }}
-                            {{ if $image }}
-                            <figure class="image is-4by3">
-                                <img src="{{ $image.RelPermalink }}" alt="Cover image">
-                            </figure>
-                            {{ end }}
-                            {{ end }}
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">{{ strings.Title .Title }}</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                {{ .Summary | truncate 150 }}
-                            </div>
-                        </div>
+            {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
+            <div class="column is-3-desktop is-6-tablet is-10-mobile">
+                <div class="card" onclick="location.href='{{ .RelPermalink }}';">
+                    {{ $diff := now.Sub .Lastmod }}
+                    {{ if lt $diff.Hours 120 }}
+                    <div class="card-header">
+                        <p class="card-header-title has-background-success has-text-white"
+                            style="position: absolute; z-index: 1;">NEW</p>
                     </div>
-                </div>
-                {{ end }}
-            </div>
-            {{ $total := len .Pages }}
-            {{ if gt $total 6 }}
-            <div class="column is-12">
-                <div class="has-text-left">
-                    <a href="{{ .RelPermalink }}" class="button is-link">
-                        <span>{{ sub $total 6 }} more {{ .Title }} ></span>
-                    </a>
-                </div>
-            </div>
-            {{ end }}
-            {{end}}
-            {{end}}
-        <!-- <div class="column is-12">
-            <h2 class="title">Featured categories</h2>
-        </div>
-        <div class="columns is-multiline"></div>
-            {{ range (slice "soup" "lunch" "pasta" "gluten-free" "baked" "oatmeal" "simple") }}
-            <div class="column is-3">
-                <div class="card" onclick="location.href='{{ absURL (printf "/tags/%s" .) }}';">
+                    {{ end }}
                     <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="/teasers/{{ . }}.jpg" alt="{{ . | title }}">
+                        {{ with .Resources }}
+                        {{ $image := .GetMatch "{cover.*}" }}
+                        {{ $image := $image.Process "resize 800x" }}
+                        {{ if $image }}
+                        <figure class="image is-4by3 index-image">
+                            <img src="{{ $image.RelPermalink }}" alt="Cover image">
                         </figure>
+                        {{ end }}
+                        {{ end }}
                     </div>
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4 has-text-centered">{{ . | title }}</p>
+                                <p class="title is-4">{{ strings.Title .Title }}</p>
                             </div>
+                        </div>
+                        <div class="content">
+                            {{ .Summary | truncate 100 }}
                         </div>
                     </div>
                 </div>
             </div>
             {{ end }}
-        </div> -->
+        </div>
+        {{end}}
     </div>
-    </div>
-</main>
+</div>
 {{ end }}

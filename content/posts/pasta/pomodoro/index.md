@@ -21,7 +21,7 @@ Cooking time: 15 minutes
 - [ ] Salt and pepper to taste
 - [ ] Grated hard cheese
 
-#### Optional Ingredients
+#### Optional Ingredients (Makes it not pomodoro tho lol)
 - [ ] Diced carrots
 - [ ] Diced bell pepper
 - [ ] A squeeze of lemon juice
