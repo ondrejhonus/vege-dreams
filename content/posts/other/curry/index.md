@@ -2,7 +2,7 @@
 title: "Curry with rice"
 date: 2025-05-21T21:00:00+01:00
 draft: false
-tags: ["concept", "stove-cooked", "vegan", "comfort-food", "gluten-free"]
+tags: ["concept", "stove-cooked", "vegan", "comfort-food", "indian"]
 categories: ["Other"]
 ---
 

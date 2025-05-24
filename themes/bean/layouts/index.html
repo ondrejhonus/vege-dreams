@@ -21,21 +21,40 @@
 
                     {{ if lt $diff.Hours 120 }}
                     <div class="card-header" style="position: relative;">
-                        <p class="card-header-title has-background-success has-text-white"
-                            style="position: absolute; z-index: 1;">NEW</p>
-                        
-                        {{ if in .Params.tags "concept" }}
                         <p class="card-header-title has-background-warning"
-                            style="position: absolute; right: 0; z-index: 1;">CONCEPT</p>
+                            style="position: absolute; z-index: 1;">NEW</p>
+
+                        {{ if in .Params.tags "concept" }}
+                        <p class="card-header-title has-background-danger"
+                            style="position: absolute; right: 35%; z-index: 1;">CONCEPT</p>
+                        {{ end }}
+
+                        {{ if in .Params.tags "vegan" }}
+                        <p class="card-header-title has-background-success has-text-white"
+                            style="position: absolute; right: 0; z-index: 1;">VEGAN</p>
                         {{ end }}
                     </div>
+
                     {{ else if in .Params.tags "concept" }}
                     <!-- If NOT new but concept tag exists, show only CONCEPT -->
                     <div class="card-header" style="position: relative;">
-                        <p class="card-header-title has-background-warning has-text-black"
-                            style="position: absolute; z-index: 1; right: 0">CONCEPT</p>
+                        <p class="card-header-title has-background-danger has-text-black"
+                            style="position: absolute; z-index: 1;">CONCEPT</p>
+
+                        {{ if in .Params.tags "vegan" }}
+                        <p class="card-header-title has-background-success has-text-white"
+                            style="position: absolute; right: 0; bottom: 0; z-index: 1;">VEGAN</p>
+                        {{ end }}
+                    </div>
+
+                    {{ else if in .Params.tags "vegan" }}
+                    <!-- If NOT new and no concept but vegan tag exists -->
+                    <div class="card-header" style="position: relative;">
+                        <p class="card-header-title has-background-success has-text-white"
+                            style="position: absolute; right: 0; z-index: 1;">VEGAN</p>
                     </div>
                     {{ end }}
+
 
                     <div class="card-image">
                         {{ with .Resources }}

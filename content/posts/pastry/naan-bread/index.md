@@ -2,7 +2,7 @@
 title: "Naan Bread"
 date: 2025-05-24T19:30:00+01:00
 draft: false
-tags: ["flatbread", "vegan", "stove-cooked", "side", "comfort-food"]
+tags: ["flatbread", "vegan", "stove-cooked", "side", "comfort-food", "indian"]
 categories: ["Pastry"]
 ---
 
@@ -22,7 +22,7 @@ Cooking time: 15 minutes
 - [ ] 2 tbsp olive oil
 - [ ] ⅓ cup unsweetened plant-based yogurt 
 - [ ] ~½ cup warm water (adjust as needed)
-- [ ] Olive oil or butter, for brushing
+- [ ] Olive oil or vegan butter, for brushing
 
 ### Steps
 1. **Mix the dry stuff:** In a bowl, combine flour, salt, baking powder, baking soda, and sugar. Stir well.
