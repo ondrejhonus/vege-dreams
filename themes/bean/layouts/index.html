@@ -1,12 +1,12 @@
 {{ define "main" }}
-<section class="hero is-danger is-small mt-0 mb-5">
+<!-- <section class="hero is-danger is-small mt-0 mb-5">
     <div class="hero-body">
         <p class="title">Stock pictures</p>
         <p class="subtitle">The pictures used in the recipe previews are NOT YET mine, because i need to take a
             picture of them when i make them next time. Don't worry tho, the recipes do work and will taste
             amazingly.</p>
     </div>
-</section>
+</section> -->
 <div class="container">
     <div class="columns is-multiline is-mobile">
         {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle.Reverse }}
