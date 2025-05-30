@@ -6,7 +6,7 @@ tags: ["baking", "bread", "irish"]
 categories: ["Pastry"]
 ---
 
-I fell in love with this bread on my student exchange trip in Dublin – Ireland. I give props to the sweet lady whose place I was staying at. I'll never forget that.
+I fell in love with this bread on my student exchange trip in Dublin, specifically <a href="https://www.aldi.ie/product/ballymore-crust-buttermilk-soda-bread-000000000000382196" alt="aldis buttermilk soda bread" target="_blank" title="Aldi's buttermilk soda bread">this one</a>. I give props to the sweet lady whose place I was staying at that gave me the recipe for it. I'll never forget that stay.
 
 I never thought I could love bread, but here we are...
 
