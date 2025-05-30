@@ -25,7 +25,7 @@ Cooking time: 60 minutes
 ### Steps
 1. Preheat your oven to 180°C and line a baking tray with parchment paper.
 2. In a large bowl, combine the white flour, wholemeal flour, salt, and bicarbonate of soda.
-TIP: You can siv the flour beforehand to avoid clumps.
+    <p><strong>TIP: You can siv the flour beforehand to avoid clumps.</strong></p>
 3. Add the buttermilk and mix everything together until you get a soft, shaggy dough. Don't overwork it.
 4. Turn the dough out onto a lightly floured surface and shape it however you like—round is traditional.
 5. Place the loaf on the prepared tray. Optionally, sprinkle a little flour on top and cut a deep cross to help it bake evenly.
