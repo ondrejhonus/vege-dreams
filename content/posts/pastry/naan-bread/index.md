@@ -1,44 +1,44 @@
----
-title: "Naan Bread"
+title: "Vegan Naan (2 Large, Metric)"
 date: 2025-05-24T19:30:00+01:00
 draft: false
-tags: ["flatbread", "vegan", "stove-cooked", "side", "comfort-food", "indian"]
+tags: ["flatbread", "vegan", "stove-cooked", "side", "comfort-food", "indian", "small-batch", "metric"]
 categories: ["Pastry"]
 ---
 
-Soft, pillowy, and perfect for scooping up curry — this vegan naan recipe delivers all the warm, chewy goodness of traditional naan without dairy or eggs. You won’t miss a thing.
+Soft, pillowy, and perfect for scooping up curry — this small-batch vegan naan recipe makes two generously sized naan without dairy or eggs. Metric-friendly for accuracy and ease.
 
 <div class="recipe" id="recipe">
 Prep time: 10 minutes  
 Rest time: 60 minutes  
-Cooking time: 15 minutes  
+Cooking time: 10 minutes  
+**Makes: 2 large naan**
 
 ### Ingredients
-- [ ] 2¼ cups all-purpose flour (plus extra for dusting)
-- [ ] 1 tsp sea salt
-- [ ] 1½ tsp baking powder
-- [ ] ½ tsp baking soda
-- [ ] 1 tsp sugar
-- [ ] 2 tbsp olive oil
-- [ ] ⅓ cup unsweetened plant-based yogurt 
-- [ ] ~½ cup warm water (adjust as needed)
-- [ ] Olive oil or vegan butter, for brushing
+- [ ] 100 g all-purpose flour (plus extra for dusting)
+- [ ] Pinch of salt
+- [ ] 2 g baking powder (about ½ tsp)
+- [ ] 1 g baking soda (a pinch, about ⅛ tsp)
+- [ ] Pinch of sugar
+- [ ] 2 tsp of olive oil
+- [ ] 2 tbsp unsweetened yogurt
+- [ ] 45 ml warm water (add gradually as needed)
+- [ ] Olive oil or butter, for brushing
 
 ### Steps
-1. **Mix the dry stuff:** In a bowl, combine flour, salt, baking powder, baking soda, and sugar. Stir well.
+1. **Mix the dry ingredients:** In a small bowl, combine flour, salt, baking powder, baking soda, and sugar. Mix well.
 
-2. **Add wet ingredients:** Mix in olive oil and plant yogurt. Gradually add warm water, stirring until a shaggy dough forms.
+2. **Add the wet ingredients:** Stir in olive oil and yogurt. Slowly add warm water until a soft, slightly tacky dough forms — you may not need all 45 ml.
 
-3. **Knead:** Knead on a lightly floured surface for about 5 minutes, until smooth and slightly tacky.
+3. **Knead:** On a lightly floured surface, knead the dough for 5 minutes until smooth and elastic.
 
-4. **Rest:** Return dough to the bowl, cover with a clean towel, and let rest at room temperature for 1 hour.
+4. **Rest:** Return the dough to the bowl, cover with a towel, and let rest at room temperature for 1 hour.
 
-5. **Shape:** Divide dough into 6 balls. Roll each out into a teardrop or oval shape, about ¼ inch thick.
+5. **Shape:** Divide into 2 equal balls. Roll each into a teardrop or oval about ½ cm thick.
 
 6. **Cook:**  
    Heat a skillet (preferably cast iron) over medium-high heat.  
-   Place a naan on the dry pan. Cook for 1–2 minutes until bubbles form, then flip.  
-   Cook the other side for 1–2 more minutes until golden and slightly blistered.
+   Cook naan for 1–2 minutes until bubbles appear, then flip.  
+   Cook the other side for another 1–2 minutes until golden and blistered.
 
-7. **Finish:** Brush with olive oil or melted butter. Serve hot, preferably with my <a href="/posts/other/curry/">curry</a>.  
+7. **Finish:** Brush with olive oil or vegan butter. Serve hot with your favorite curry or dip.
 </div>
