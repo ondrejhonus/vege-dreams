@@ -1,7 +1,7 @@
-title: "Vegan Naan (2 Large, Metric)"
-date: 2025-05-24T19:30:00+01:00
+title: "Naan bread"
+date: 2025-06-2T16:00:00+01:00
 draft: false
-tags: ["flatbread", "vegan", "stove-cooked", "side", "comfort-food", "indian", "small-batch", "metric"]
+tags: ["flatbread", "vegan", "stove-cooked", "side", "comfort-food", "indian"]
 categories: ["Pastry"]
 ---
 
