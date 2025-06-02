@@ -1,6 +1,6 @@
 ---
 title: "Naan bread"
-date: 2025-05-02T16:00:00+01:00
+date: 2025-06-02T16:00:00+01:00
 draft: false
 tags: ["bread", "vegan", "stove-cooked", "side", "indian"]
 categories: ["Pastry"]
@@ -15,14 +15,14 @@ Rest time: 60 minutes<br>
 Cooking time: 10 minutes<br>
 
 ### Ingredients for 2 large naan
-- [ ] 100 g all-purpose flour (plus extra for dusting)
+- [ ] 150 g all-purpose flour (plus extra for dusting)
 - [ ] Pinch of salt
 - [ ] 2 g baking powder (about ½ tsp)
 - [ ] 1 g baking soda (a pinch, about ⅛ tsp)
 - [ ] Pinch of sugar
 - [ ] 2 tsp of olive oil
 - [ ] 2 tbsp unsweetened yogurt
-- [ ] 45 ml warm water (add gradually as needed)
+- [ ] 50 ml warm water (add gradually as needed)
 - [ ] Olive oil or butter, for brushing
 
 ### Steps
