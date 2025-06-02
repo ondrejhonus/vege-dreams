@@ -9,9 +9,10 @@ categories: ["Pastry"]
 Soft, pillowy, and perfect for scooping up curry. This small-batch vegan naan recipe makes two generously sized naan without dairy or eggs.
 
 <div class="recipe" id="recipe">
-Prep time: 10 minutes  
-Rest time: 60 minutes  
-Cooking time: 10 minutes  
+<br>
+Prep time: 10 minutes<br>
+Rest time: 60 minutes<br>
+Cooking time: 10 minutes<br>
 
 ### Ingredients for 2 large naan
 - [ ] 100 g all-purpose flour (plus extra for dusting)
