@@ -2,7 +2,7 @@
 title: "Pasta Pomodoro"
 date: 2025-05-14T15:00:00+02:00
 draft: false
-tags: ["stove-cooked", "pasta", "italian"]
+tags: ["stove-cooked", "pasta", "italian", "stock-img"]
 categories: ["Pasta"]
 ---
 

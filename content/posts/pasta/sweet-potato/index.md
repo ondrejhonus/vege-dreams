@@ -2,7 +2,7 @@
 title: "Sweet Potato Pasta"
 date: 2025-05-15T20:30:00+01:00
 draft: false
-tags: ["stove-cooked", "pasta", "complicated"]
+tags: ["stove-cooked", "pasta", "complicated", "stock-img"]
 categories: ["Pasta"]
 ---
 

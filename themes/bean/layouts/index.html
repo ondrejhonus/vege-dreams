@@ -1,12 +1,12 @@
 {{ define "main" }}
 <section class="hero is-danger is-small mt-0 mb-5">
-  <div class="hero-body">
+  <!-- <div class="hero-body">
     <p class="title">Stock pictures</p>
     <p class="subtitle">
       The pictures used in the recipe previews are not mine yet. I still need to take them the next time I make these dishes.
       But don’t worry, the recipes work perfectly and taste amazing!
     </p>
-  </div>
+  </div> -->
 </section>
 
 <div class="container">
@@ -47,6 +47,12 @@
               {{ else if in .Params.tags "vegan" }}
                 <div class="card-header" style="position: relative;">
                   <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
+                </div>
+              {{ end }}
+
+              {{ if in .Params.tags "stock-img" }}
+                <div class="card-header" style="position: relative;">
+                  <span class="card-header-title has-background-info has-text-white" style="position: absolute; right: 0; z-index: 1;">STOCK IMAGE</span>
                 </div>
               {{ end }}
 
