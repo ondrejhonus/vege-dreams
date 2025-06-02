@@ -11,9 +11,8 @@ Soft, pillowy, and perfect for scooping up curry — this small-batch vegan naan
 Prep time: 10 minutes  
 Rest time: 60 minutes  
 Cooking time: 10 minutes  
-**Makes: 2 large naan**
 
-### Ingredients
+### Ingredients for 2 large naan
 - [ ] 100 g all-purpose flour (plus extra for dusting)
 - [ ] Pinch of salt
 - [ ] 2 g baking powder (about ½ tsp)
