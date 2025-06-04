@@ -25,7 +25,9 @@ Cooking time: 15 minutes
 - [ ] Diced carrots
 - [ ] Diced bell pepper
 - [ ] A squeeze of lemon juice
+- [ ] Mashed up avocado
 - [ ] Mozarella
+- [ ] Fresh basil
 
 ### Steps
 1. Bring a pot of salted water to a boil and cook the pasta according to the package instructions.
@@ -33,8 +35,7 @@ Cooking time: 15 minutes
 3. Add the minced garlic and diced red onion to the pan.
 4. If using, add the diced carrots and bell pepper shortly after the onion and garlic. Cook until softened.
 5. Stir in the diced fresh tomatoes (or canned tomatoes). Let it simmer for a few minutes until the tomatoes break down into a sauce.
-6. Season the sauce with salt and pepper to taste. If desired, add a squeeze of lemon juice for brightness.
+6. Season the sauce with salt and pepper to taste. If desired, add a squeeze of lemon juice for brightness. You can also add some mashed up avocado to improve the texture of the sauce.
 7. Add the cooked pasta to the pan with the sauce. Mix it all together.
-8. Serve hot, topped with grated hard cheese and optional mozzarella if desired.
-
+8. Top with grated hard cheese and optional mozzarella if desired. If you feel really fancy, you can put some fresh basil leaves on the top.
 </div>
