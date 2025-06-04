@@ -1,8 +1,8 @@
 ---
-title: "Pasta Pomodoro"
+title: "Pasta Pomodoro (fancy)"
 date: 2025-05-14T15:00:00+02:00
 draft: false
-tags: ["stove-cooked", "pasta", "italian", "stock-img"]
+tags: ["stove-cooked", "pasta", "italian"]
 categories: ["Pasta"]
 ---
 
