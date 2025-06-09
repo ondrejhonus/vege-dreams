@@ -2,7 +2,7 @@
 title: "Curry with rice"
 date: 2025-05-21T21:00:00+01:00
 draft: false
-tags: ["concept", "stove-cooked", "vegan", "comfort-food", "indian"]
+tags: ["stove-cooked", "vegan", "comfort-food", "indian"]
 categories: ["Other"]
 ---
 
@@ -19,10 +19,10 @@ Cooking time: 30 minutes
 - [ ] 1 carrot, sliced or chopped
 - [ ] 1 bell pepper, chopped
 - [ ] 1 small onion, diced
-- [ ] 2–3 garlic cloves, minced
+- [ ] 2 garlic cloves, minced
 - [ ] 1 tsp fresh grated ginger
-- [ ] 1 can (400ml) coconut milk
-- [ ] 1 can (400g) chopped tomatoes
+- [ ] 1 cup oat milk
+- [ ] 1 cup chopped tomatoes
 - [ ] 2 tbsp curry powder (adjust to taste)
 - [ ] 1/2 cup frozen peas
 - [ ] Olive oil
@@ -39,19 +39,19 @@ Cooking time: 30 minutes
    Stir in garlic and ginger and cook for 1 more minute.
 
 2. **Add spices:**  
-   Add curry powder (or your custom spice mix). Stir well for 30 seconds until fragrant.
+   Add curry powder. Stir well for 30 seconds until fragrant.
 
 3. **Add veggies:**  
    Toss in sweet potato, carrot, and bell pepper. Stir to coat in the spices.  
-   Pour in the chopped tomatoes and coconut milk. Stir well.
+   Pour in the chopped tomatoes and milk. Stir well.
 
 4. **Simmer:**  
    Bring to a gentle boil, then reduce heat.  
-   Cover and simmer for 15–20 minutes or until the sweet potatoes are tender.  
+   Cover and simmer for 15–20 minutes or until the sweet potatoes are tender. 
    Add broccoli florets and frozen peas (and any quick-cooking veggies like spinach) in the last 5–7 minutes.
 
 5. **Finish it:**  
    Season with salt, pepper, and a squeeze of lemon or lime juice.  
-   Garnish with fresh herbs and serve with rice and some of my <a href="/posts/pastry/naan-bread">naan bread</a>.
+   Garnish with fresh herbs and serve with rice and some of my <a href="/posts/pastry/naan-bread">naan bread</a> or <a href="/posts/pastry/irish-soda">soda bread</a>.
 
 </div>
