@@ -1,6 +1,6 @@
 ---
 title: "Cherry & Nut Bread"
-date: 2025-05-30T14:00:00+01:00
+date: 2025-06-09T18:00:00+01:00
 draft: false
 tags: ["baking", "bread", "fruit", "yeast-free"]
 categories: ["Pastry"]
