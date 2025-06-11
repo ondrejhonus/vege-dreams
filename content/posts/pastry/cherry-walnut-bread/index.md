@@ -6,7 +6,7 @@ tags: ["baking", "bread", "fruit", "yeast-free"]
 categories: ["Pastry"]
 ---
 
-This is a concept for something that's not too sweet and something I can spread some peanut butter over as a snack for when I'm too depressed and procrastinate too much.
+This is a soft bread that's not too sweet and something I can spread some peanut butter over as a snack for when I'm too depressed and procrastinate too much.
 It's more savoury than sweet to be honest and it's like a cloud on the inside and crunchy on the outside.
 
 <div class="recipe" id="recipe">
