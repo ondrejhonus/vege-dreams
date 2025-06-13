@@ -48,7 +48,7 @@
                     {{ end }}
                     <div class="card-image">
                         {{ with .Resources }}
-                        {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
+                        {{ $image := .GetMatch "cover*" }}
                         {{ $image := $image.Process "resize 800x" }}
                         {{ if $image }}
                         <img class="image" src="{{ $image.RelPermalink }}" alt="Image">

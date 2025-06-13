@@ -78,8 +78,8 @@
                         {{ end }}
                         <div class="card-image">
                             {{ with .Resources }}
-                            {{ $image := .GetMatch "{cover.*,*.jpg,*.webp,*.png,*.jpeg}" }}
-                            {{ $image := $image.Process "resize 250x" }}
+                            {{ $image := .GetMatch "cover.*" }}
+                            {{ $image := $image.Process "resize 480x" }}
                             {{ if $image }}
                             <figure class="image is-4by3">
                                 <img src="{{ $image.RelPermalink }}" alt="">
