@@ -28,8 +28,15 @@ footer
 
 .card
   cursor: pointer
-  height: 27wv !important
-  min-width: 27vh !important
+  height: 100% !important
+
+.columns
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  padding: 0 0.5em
+
+.column
+  width: 100%
 
 .recent-posts
   .card
@@ -48,3 +55,6 @@ img
 
 a
   color: $link
+
+.index-title
+  white-space: nowrap
