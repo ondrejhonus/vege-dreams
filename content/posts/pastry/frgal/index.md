@@ -47,8 +47,8 @@ Cooking time: 30 minutes
 10. Let it cool down before cutting it into slices.
 
 </div>
-
-<div class="recipe">
+<hr>
+<div class="box">
 <h3 class="title">Plum jam filling (1 frgál)</h3>
 Prep time: 5 minutes
 
@@ -61,7 +61,7 @@ Mix the jam with the vanilla sugar and rum. The filling should be only slightly 
 
 </div>
 
-<div class="recipe">
+<div class="box">
 <h3 class="title">Pear jam filling (1 frgál)</h3>
 Prep time: 5 minutes
 
@@ -79,9 +79,21 @@ Mix the jam with the vanilla sugar and rum. The filling should be only slightly 
 Here are some more pictures 😉
 
 <div class="image-split">
+<div class="image-in-split">
 
 ![](plum.jpeg)
-![](slice.jpeg)
-
-<span class="caption">Plum jam version | A single slice</span>
+<span class="caption">Plum jam version</span>
 </div>
+
+<div class="image-in-split">
+
+![](slice.jpeg)
+<span class="caption">A single slice</span>
+
+
+</div>
+
+
+</div>
+
+
