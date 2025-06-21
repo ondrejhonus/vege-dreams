@@ -15,8 +15,8 @@
         <h2 class="title is-size-1 mb-2">{{ .Title }}</h2>
       </div>
 
-      <div class="columns is-multiline is-mobile">
-        {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 6 }}
+      <div class="columns columns-index is-multiline is-mobile">
+        {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 8 }}
           <div class="column is-3-desktop is-6-tablet is-full-mobile">
             <div class="card" onclick="location.href='{{ .RelPermalink }}';">
               {{ $diff := now.Sub .Lastmod }}
