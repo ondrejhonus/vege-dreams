@@ -2,22 +2,16 @@
 title: "Tortilla Chips + dips"
 date: 2025-05-18T17:35:00+01:00
 draft: false
-tags: ["oven-baked", "snack", "vegetarian", "mexican", "stock-img"]
+tags: ["oven-baked", "snack", "vegetarian", "mexican"]
 categories: ["Other"]
 ---
 
-Crispy, salty, and satisfying. These homemade tortilla chips are the perfect snack for when you’ve got old tortillas lying around. Pair them with one of three flavorful dips: creamy avocado-lime, warm cheesy queso, or a bright roasted tomato salsa. Ideal for parties, movie nights, or just procrastinating life.
+If you got a dried out tortilla because your partner (or mom) forgot to close the bag, then you can just make these chips out of them to save them from having to throw them out.
 
 <div class="recipe" id="recipe">
 Prep time: 10 minutes
 
 Cooking time: 15 minutes
-
----
-
-Tortilla Chips
----
----
 
 ### Ingredients
 - [ ] 6–8 corn or flour tortillas
@@ -38,7 +32,8 @@ Tortilla Chips
 
 Dips
 ---
----
+
+<div class="box">
 
 ### Avocado-Lime Dip
 
@@ -56,8 +51,9 @@ Dips
 1. Mash avocado in a bowl or blend for smoothness.  
 2. Stir in yogurt, lime juice and add garlic.  
 3. Season to taste. Optionally mix in chili flakes.
+</div>
 
----
+<div class="box">
 
 ### Roasted Tomato Salsa
 
@@ -74,8 +70,9 @@ Dips
 
 #### Steps
 1. Literally just combine everything and spice depending to your taste
+</div>
 
----
+<div class="box">
 
 ### Cheese Dip (Queso)
 
@@ -95,4 +92,5 @@ Dips
 2. Slowly add milk, whisking constantly.  
 3. Add shredded cheese and stir until melted and smooth.  
 4. Season with garlic powder and salt. Mix in optional jalapeños or tomato. Serve warm.
+</div>
 </div>
