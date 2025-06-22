@@ -2,7 +2,7 @@
 title: "Banana & PB Cookies"
 date: 2025-06-20T21:00:00+01:00
 draft: false
-tags: ["bakeds", "vegan", "comfort-food", "sugar-free"]
+tags: ["baked", "vegan", "comfort-food", "sugar-free", "snack"]
 categories: ["Pastry"]
 ---
 

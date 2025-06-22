@@ -2,7 +2,7 @@
 title: "Flour Tortillas"
 date: 2025-05-15T19:30:00+02:00
 draft: false
-tags: ["stove-cooked", "tortilla", "mexican", "vegan", "stock-img"]
+tags: ["stove-cooked", "mexican", "vegan", "stock-img"]
 categories: ["Pastry"]
 ---
 
