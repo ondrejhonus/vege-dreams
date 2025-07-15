@@ -28,6 +28,7 @@ Cooking time: 60 minutes
 - [ ] 1/2 teaspoon baking soda
 - [ ] 1 tablespoon cinnamon
 - [ ] pinch of salt
+<hr>
 
 ### Steps
 1. Preheat the oven to 350°F (175°C). Line a 9-inch round cake pan with parchment paper.

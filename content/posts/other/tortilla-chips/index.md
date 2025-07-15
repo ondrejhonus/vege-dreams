@@ -18,6 +18,7 @@ Cooking time: 15 minutes
 - [ ] 2 tbsp olive oil or melted butter
 - [ ] ½ tsp salt
 - [ ] Optional: paprika, chili powder, cumin, or garlic powder
+<hr>
 
 ### Steps
 1. **Preheat oven** to 180 °C.
@@ -46,6 +47,7 @@ Dips
 - [ ] 1 small garlic clove, minced
 - [ ] Salt and pepper to taste
 - [ ] Optional: chili flakes
+<hr>
 
 #### Steps
 1. Mash avocado in a bowl or blend for smoothness.  
@@ -67,6 +69,7 @@ Dips
 - [ ] Some lime juice
 - [ ] Salt + pepper
 - [ ] Optional: 1 chili pepper
+<hr>
 
 #### Steps
 1. Literally just combine everything and spice depending to your taste
@@ -86,6 +89,7 @@ Dips
 - [ ] A pinch of garlic powder
 - [ ] Salt to taste
 - [ ] Optional: chopped jalapeños or diced tomato
+<hr>
 
 #### Steps
 1. Melt butter in saucepan, whisk in flour, and cook for 1 minute.  

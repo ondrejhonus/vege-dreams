@@ -24,6 +24,7 @@ Cooking time: 10 minutes<br>
 - [ ] 2 tbsp unsweetened yogurt
 - [ ] 50 ml warm water (add gradually as needed)
 - [ ] Olive oil or butter, for brushing
+<hr>
 
 ### Steps
 1. **Mix the dry ingredients:** In a small bowl, combine flour, salt, baking powder, baking soda, and sugar. Mix well.

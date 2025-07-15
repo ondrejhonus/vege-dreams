@@ -21,6 +21,7 @@ Cooking time: 60 minutes
 - [ ] 1 tsp salt  
 - [ ] 1 tsp bicarbonate of soda  
 - [ ] 500 ml buttermilk  
+<hr>
 
 ### Steps
 1. Preheat your oven to 180°C and line a baking tray with parchment paper.

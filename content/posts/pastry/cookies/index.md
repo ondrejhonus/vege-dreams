@@ -21,9 +21,9 @@ Cooking time: 15 minutes
 - [ ] 60 g chocolate chips
 - [ ] 1 tsp cinnamon
 - [ ] 1 tsp baking powder
+<hr>
 
 ### Steps
-
 1. **Preheat oven**
     Preheat your oven to 180˚C and line your baking tray with parchment paper.
 

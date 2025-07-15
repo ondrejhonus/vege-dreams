@@ -28,6 +28,7 @@ Cooking time: 30 minutes
 - [ ] Olive oil
 - [ ] Salt + pepper to taste
 - [ ] A squeeze of lemon or lime
+<hr>
 
 ### + Side
 - [ ] A portion of cooked rice (cook separately while curry simmers)

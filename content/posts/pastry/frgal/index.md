@@ -33,6 +33,7 @@ Cooking time: 30 minutes
 - [ ] 40g vegan butter
 - [ ] 40g icing sugar
 - [ ] 75g flour
+<hr>
 
 ### Steps
 1. Add the yeast to all the milk (warm, but not hot) and let it sit for 5 minutes.

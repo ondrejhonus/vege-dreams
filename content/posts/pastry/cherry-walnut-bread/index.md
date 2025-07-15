@@ -2,7 +2,7 @@
 title: "Cherry & Nut Bread"
 date: 2025-06-09T18:00:00+01:00
 draft: false
-tags: ["baking", "bread", "fruit", "yeast-free"]
+tags: ["baked", "bread", "fruit", "yeast-free"]
 categories: ["Pastry"]
 ---
 
@@ -25,7 +25,7 @@ Cooking time: 60 minutes
 - [ ] 1 tsp lemon juice (to activate the powder + soda)
 - [ ] 100g cherries, pitted and chopped
 - [ ] 60 g chopped walnuts or any nut of choice
-
+<hr>
 ### Optional:
 - Some honey or maple syrup for a bit of sweetness
 

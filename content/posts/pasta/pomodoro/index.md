@@ -28,6 +28,7 @@ Cooking time: 15 minutes
 - [ ] Mashed up avocado
 - [ ] Mozarella
 - [ ] Fresh basil
+<hr>
 
 ### Steps
 1. Bring a pot of salted water to a boil and cook the pasta according to the package instructions.

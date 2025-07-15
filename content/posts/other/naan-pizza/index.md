@@ -20,6 +20,7 @@ Cooking time: 10 minutes<br>
 - [ ] Any kind of cheese you want
 - [ ] Hard cheese
 - [ ] Fresh basil
+<hr>
 
 ### Steps
 1. **Tomato base:** Make a layer of tomatoes on the Naan bread.

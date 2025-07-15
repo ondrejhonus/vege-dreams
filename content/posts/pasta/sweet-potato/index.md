@@ -29,6 +29,7 @@ Cooking time: 25 minutes
 #### Optional Ingredients
 - [ ] A pinch of chili flakes
 - [ ] Sunflower seeds, pumpkin seeds, or toasted breadcrumbs
+<hr>
 
 ### Steps
 1. **Roast the Sweet Potato**  Preheat oven to 200°C. Toss sweet potato with olive oil, salt, and pepper. Roast for 20 minutes until tender. If you're depressed like me, microwave the potato for 3 minutes on each side in a wet paper towel, but that's only for the ones that gave up on life like me :\).

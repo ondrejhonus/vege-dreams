@@ -28,6 +28,7 @@ Cooking time: 60 minutes
 - [ ] 5ml Vanilla Extract (optional)  
 - [ ] 60g Chopped Walnuts (optional)
 - [ ] 120g Banana for decoration, sliced lengthways (optional)
+<hr>
 
 ### Steps
 1. Mash the bananas in a bowl until smooth.

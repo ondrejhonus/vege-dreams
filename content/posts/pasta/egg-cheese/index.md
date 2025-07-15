@@ -18,6 +18,7 @@ Cooking time: 20 minutes
 - [ ] 2 egg yolks
 - [ ] Your hard cheese of choice
 - [ ] Salt and fresh black pepper to taste
+<hr>
 
 ### Steps
 1. Bring a pot of salted water to a boil and cook the pasta according to the package instructions.
