@@ -20,7 +20,7 @@ Cooking time: 60 minutes
 - [ ] 250 g plain wholemeal flour  
 - [ ] 1 tsp salt  
 - [ ] 1 tsp bicarbonate of soda  
-- [ ] 500 ml buttermilk  
+- [ ] 400 ml buttermilk  
 <hr>
 
 ### Steps
