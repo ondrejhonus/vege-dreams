@@ -2,7 +2,7 @@
 title: "Veg Fried Rice"
 date: 2025-07-15T23:30:00+01:00
 draft: false
-tags: ["stove-cooked", "rice", "vegan"]
+tags: ["stove-cooked", "rice", "vegan", "lunch"]
 categories: ["Other"]
 ---
 

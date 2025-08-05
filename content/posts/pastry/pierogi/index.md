@@ -2,7 +2,7 @@
 title: "Pierogi"
 date: 2025-07-07T12:00:00+01:00
 draft: false
-tags: ["cooked", "polish"]
+tags: ["cooked", "polish", "dinner"]
 categories: ["Pastry"]
 ---
 

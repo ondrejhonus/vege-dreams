@@ -39,7 +39,7 @@
         {{ $title := print $first $rest }}
         <h1 class="title">{{ $title }}</h1>
         <div class="columns .columns-index is-multiline">
-            {{ range .Paginator.Pages.ByDate.Reverse }}
+            {{ range .Paginator.Pages }}
           <div class="column is-3-desktop is-6-tablet is-full-mobile">
             <div class="card" onclick="location.href='{{ .RelPermalink }}';">
               {{ $diff := now.Sub .Lastmod }}
@@ -98,7 +98,7 @@
                   </div>
                 </div>
                 <div class="content">
-                    <div style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                    <div style="display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
                     {{ .Summary }}
                     </div>
                 </div>

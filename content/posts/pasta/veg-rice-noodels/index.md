@@ -2,7 +2,7 @@
 title: "Simple Rice Noodles"
 date: 2025-07-15T23:30:00+01:00
 draft: false
-tags: ["stove-cooked", "noodles", "vegan"]
+tags: ["stove-cooked", "noodles", "vegan", "lunch"]
 categories: ["Pasta"]
 ---
 
