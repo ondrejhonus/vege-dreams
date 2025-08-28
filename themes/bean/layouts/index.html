@@ -16,7 +16,7 @@
   </div>
 
   <div class="columns columns-index is-multiline is-mobile">
-    {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 8 }}
+    {{ range (.Paginate (.Pages).ByDate.Reverse).Pages | first 4 }}
     <div class="column is-3-desktop is-6-tablet is-full-mobile">
       <div class="card" onclick="location.href='{{ .RelPermalink }}';">
         {{ $diff := now.Sub .Lastmod }}
@@ -93,10 +93,10 @@
     <div>
 
       <div class="right-div">
-      {{ if gt (len .Pages) 8 }}
+      {{ if gt (len .Pages) 4 }}
       <a href="{{ .RelPermalink }}">
         {{ $total := len .Pages }}
-        {{ $total = sub $total 8 }}
+        {{ $total = sub $total 4 }}
         <button class="button has-background-white">{{ $total }} more {{ .Title }} > </button>
       </a>
     

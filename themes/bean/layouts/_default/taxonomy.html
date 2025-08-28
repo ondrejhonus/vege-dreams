@@ -1,156 +1,113 @@
 {{ define "main" }}
 <main aria-role="main">
-    <!-- get subtags -->
-    {{ $tags := dict }}
+  <!-- get subtags -->
+  {{ $tags := dict }}
 
-    {{ $categories := slice }}
-    {{ range .Pages }}
-    {{ with .GetTerms "tags" }}
-    {{ range . }}
-    {{ $categories = $categories | append .LinkTitle }}
-    {{ if in $tags .LinkTitle}}
-    {{ else }}
-    {{ $tags = merge $tags (dict .LinkTitle (len .Pages)) }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
+  {{ $categories := slice }}
+  {{ range .Pages }}
+  {{ with .GetTerms "tags" }}
+  {{ range . }}
+  {{ $categories = $categories | append .LinkTitle }}
+  {{ if in $tags .LinkTitle}}
+  {{ else }}
+  {{ $tags = merge $tags (dict .LinkTitle (len .Pages)) }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ end }}
 
-    {{ if ( gt ( len $categories ) 0 ) }}
-    <div class="box container">
-        <h3 class="title is-4">All categories:</h3>
-        <div class="field is-grouped is-grouped-multiline">
-            {{ range $key, $value := $tags }}
-            <div class="control">
-                <div class="tags has-addons">
-                    <a class="tag is-info" href="/tags/{{ $key }}">{{ $key }}</a>
-                    <span class="tag is-light">{{ $value }}</span>
-                </div>
-            </div>
-            {{ end }}
+  {{ if ( gt ( len $categories ) 0 ) }}
+  <div class="box container">
+    <h3 class="title is-4">All categories:</h3>
+    <div class="field is-grouped is-grouped-multiline">
+      {{ range $key, $value := $tags }}
+      <div class="control">
+        <div class="tags has-addons">
+          <a class="tag is-info" href="/tags/{{ $key }}">{{ $key }}</a>
+          <span class="tag is-light">{{ $value }}</span>
         </div>
+      </div>
+      {{ end }}
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
 
-    <div class="container">
-        {{ $first := substr .Title 0 1 }}
-        {{ $rest := substr .Title 1 }}
-        {{ $first = upper $first }}
-        {{ $title := print $first $rest }}
-        <h1 class="title">{{ $title }}</h1>
-        <div class="columns .columns-index is-multiline">
-            {{ range .Paginator.Pages }}
-          <div class="column is-3-desktop is-6-tablet is-full-mobile">
-            <div class="card" onclick="location.href='{{ .RelPermalink }}';">
-              {{ $diff := now.Sub .Lastmod }}
+  <div class="container">
+    {{ $first := substr .Title 0 1 }}
+    {{ $rest := substr .Title 1 }}
+    {{ $first = upper $first }}
+    {{ $title := print $first $rest }}
+    <h1 class="title">{{ $title }}</h1>
+    <div class="columns .columns-index is-multiline">
+      {{ $pages := sort .Data.Pages "Date" "desc" }}
+      {{ range $pages }}
+      <div class="column is-3-desktop is-6-tablet is-full-mobile">
+      <div class="card" onclick="location.href='{{ .RelPermalink }}';">
+        {{ $diff := now.Sub .Lastmod }}
 
-              {{ if lt $diff.Hours 120 }}
-                <div class="card-header" style="position: relative;">
-                  <span class="card-header-title has-background-warning" style="position: absolute; z-index: 1;">NEW</span>
+        {{ if lt $diff.Hours 120 }}
+        <div class="card-header" style="position: relative;">
+          <span class="card-header-title has-background-warning" style="position: absolute; z-index: 1;">NEW</span>
 
-                  {{ if in .Params.tags "concept" }}
-                    <span class="card-header-title has-background-danger" style="position: absolute; right: 35%; z-index: 1;">CONCEPT</span>
-                  {{ end }}
+          {{ if in .Params.tags "concept" }}
+          <span class="card-header-title has-background-danger" style="position: absolute; right: 35%; z-index: 1;">CONCEPT</span>
+          {{ end }}
 
-                  {{ if in .Params.tags "vegan" }}
-                    <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
-                  {{ end }}
-                </div>
+          {{ if in .Params.tags "vegan" }}
+          <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
+          {{ end }}
+        </div>
 
-              {{ else if in .Params.tags "concept" }}
-                <div class="card-header" style="position: relative;">
-                  <span class="card-header-title has-background-danger has-text-black" style="position: absolute; z-index: 1;">CONCEPT</span>
+        {{ else if in .Params.tags "concept" }}
+        <div class="card-header" style="position: relative;">
+          <span class="card-header-title has-background-danger has-text-black" style="position: absolute; z-index: 1;">CONCEPT</span>
 
-                  {{ if in .Params.tags "vegan" }}
-                    <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
-                  {{ end }}
-                </div>
+          {{ if in .Params.tags "vegan" }}
+          <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
+          {{ end }}
+        </div>
 
-              {{ else if in .Params.tags "vegan" }}
-                <div class="card-header" style="position: relative;">
-                  <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
-                </div>
-              {{ end }}
+        {{ else if in .Params.tags "vegan" }}
+        <div class="card-header" style="position: relative;">
+          <span class="card-header-title has-background-success has-text-white" style="position: absolute; right: 0; z-index: 1;">VEGAN</span>
+        </div>
+        {{ end }}
 
-              {{ if in .Params.tags "stock-img" }}
-                <div class="card-header" style="position: relative;">
-                  <span class="card-header-title has-background-info has-text-white" style="position: absolute; right: 0; z-index: 1;">STOCK IMAGE</span>
-                </div>
-              {{ end }}
+        {{ if in .Params.tags "stock-img" }}
+        <div class="card-header" style="position: relative;">
+          <span class="card-header-title has-background-info has-text-white" style="position: absolute; right: 0; z-index: 1;">STOCK IMAGE</span>
+        </div>
+        {{ end }}
 
-              <div class="card-image">
-                {{ with .Resources.GetMatch "cover*" }}
-                  {{ $image := .Process "resize 800x" }}
-                  <figure class="image is-4by3 index-image">
-                    <img src="{{ $image.RelPermalink }}" alt="Cover image">
-                  </figure>
-                {{ else }}
-                  <figure class="image is-4by3 index-image">
-                    <img src="/images/default-cover.jpg" alt="Default cover image">
-                  </figure>
-                {{ end }}
-              </div>
+        <div class="card-image">
+        {{ with .Resources.GetMatch "cover*" }}
+          {{ $image := .Process "resize 800x" }}
+          <figure class="image is-4by3 index-image">
+          <img src="{{ $image.RelPermalink }}" alt="Cover image">
+          </figure>
+        {{ else }}
+          <figure class="image is-4by3 index-image">
+          <img src="/images/default-cover.jpg" alt="Default cover image">
+          </figure>
+        {{ end }}
+        </div>
 
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-4 index-title">{{ strings.Title .Title }}</p>
-                  </div>
-                </div>
-                <div class="content">
-                    <div style="display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
-                    {{ .Summary }}
-                    </div>
-                </div>
-              </div>
-            </div>
+        <div class="card-content">
+        <div class="media">
+          <div class="media-content">
+          <p class="title is-4 index-title">{{ strings.Title .Title }}</p>
           </div>
-        {{ end }}
         </div>
+        <div class="content">
+          <div style="display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+          {{ .Summary }}
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    {{ end }}
     </div>
-
-    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
-        {{ $pag := $.Paginator }}
-        {{ $window := $.Site.Params.paginateWindow | default 1 }}
-        {{ if gt $pag.TotalPages 1 }}
-        {{ $total := $pag.TotalPages }}
-        {{ $size := add 5 (add $window $window) }}
-        {{ $cur := $pag.PageNumber }}
-        {{ if gt $total $size }}
-        {{ if lt $cur (sub $size (add $window 1)) }}
-        {{ $.Scratch.Set "show" (seq 1 (sub $size 2)) }}
-        {{ else if lt (sub $total $cur) (sub $size (add $window 2)) }}
-        {{ $.Scratch.Set "show" (seq (add (sub $total $size) 3) $total) }}
-        {{ else }}
-        {{ $.Scratch.Set "show" (seq (sub $cur $window) (add $cur $window)) }}
-        {{ end }}
-        {{ $.Scratch.Add "show" 1 }}
-        {{ $.Scratch.Add "show" $total }}
-        {{ else }}
-        {{ $.Scratch.Set "show" (seq 1 $total) }}
-        {{ end }}
-        <ul class="pagination-list">
-            {{ if .Paginator.HasPrev }}
-            <li><a class="pagination-previous" href="{{ .Paginator.Prev.URL }}">« Prev</a></li>
-            {{ else }}
-            <li><a class="pagination-previous" disabled>« Prev</a></li>
-            {{ end }}
-            {{ range $pag.Pagers }}
-            {{ $cur := .PageNumber }}
-            {{ if in ($.Scratch.Get "show") $cur }}
-            <li><a class="pagination-link {{ if eq . $pag }}is-current has-background-successz{{ end }}" href="{{ .URL }}">{{ .PageNumber }}</a>
-            </li>
-            {{ else if in (slice 2 (sub $total 1)) $cur }}
-            <li><span class="pagination-ellipsis">&hellip;</span></li>
-            {{ end }}
-            {{ end }}
-            {{ if .Paginator.HasNext }}
-            <li><a class="pagination-next" href="{{ .Paginator.Next.URL }}">Next »</a></li>
-            {{ else }}
-            <li><a class="pagination-next" disabled>Next</a></li>
-            {{ end }}
-        </ul>
-        {{ end }}
-    </nav>
+  </div>
 </main>
 {{ end }}

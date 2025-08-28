@@ -6,11 +6,11 @@ copyright = "2025 Vege Dreams"
 theme = 'bean'
 
 relativeURLs = true
-summaryLength = 10
+summaryLength = 12
 capitalizeListTitles = false
 
 [pagination]
-  paginate = 12
+  paginate = 16
 
 [markup.goldmark.renderer]
     unsafe = true

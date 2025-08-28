@@ -1,6 +1,6 @@
 ---
-title: "Vegan frgál"
-date: 2024-04-05T00:00:00Z
+title: "Vegan frgal"
+date: 2025-05-16T00:00:00Z
 draft: false
 tags: ["czech", "baked", 'pie', 'vegan', "snack"]
 categories: ["Pastry"]
