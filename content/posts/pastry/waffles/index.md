@@ -1,5 +1,5 @@
 ---
-title: "Yogurt & Berry Waffles"
+title: "Waffles / Pancakes"
 date: 2025-08-05T11:00:00+01:00
 draft: false
 tags: ["snack", "sugar-free", "breakfast", "dinner"]
@@ -42,7 +42,23 @@ Cooking time: 5 minutes
 
 <hr>
 
-### Also i needed to share how GOOD these look 🥰🥰🥰
-<img src="./uhhh.JPG" width="400em">
+### Also i HAD to share these pics 🥰🥰🥰
+<div class="image-split">
+<div class="image-in-split">
+
+![](uhhh.JPG)
+<span class="caption">These just look too perfect</span>
+</div>
+
+<div class="image-in-split">
+
+![](pancake-pbanana.jpeg)
+<span class="caption">This is peanut butter with banana slices, SO GOOD!!!</span>
+
+
+</div>
+
+
+</div>
 
 </div>
