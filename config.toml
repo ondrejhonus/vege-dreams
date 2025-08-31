@@ -20,25 +20,30 @@ capitalizeListTitles = false
     category = "categories"
 
 [menu]
+#  [[menu.main]]
+#    name = "Home"
+#    url = "/"
+#    weight = 1
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+    name = "Everything"
+    pre = "everything"
+    pageref = "/all/"
+    weight = 2
   [[menu.main]]
     name = "Pasta"
     pre = "pasta"
     pageref = "/categories/pasta/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Pastry"
     pre = "pastry"
     pageref = "/categories/pastry/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "Other"
     pre = "other"
     pageref = "/categories/other/"
-    weight = 4
+    weight = 5
 
 [params]
   logo = "logo.png"

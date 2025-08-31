@@ -1,45 +1,65 @@
-    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="{{ absURL "/" }}">
-                <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Logo" class="logo" style="height: 50px; width: auto;">
-                <span class="brand-name" style="margin-left: 10px; font-size: 1.5rem; font-weight: bold;">{{ .Site.Params.name }}</span>
-            </a>
+<nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{ absURL "/" }}">
+            <img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Logo" class="logo"
+                style="height: 50px; width: auto;">
+            <span class="brand-name" style="margin-left: 10px; font-size: 1.5rem; font-weight: bold;">{{
+                .Site.Params.name }}</span>
+        </a>
 
-            <!-- Toggle button for mobile -->
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>
+        <!-- Toggle button for mobile -->
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
 
-        <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-start">
-                {{ range .Site.Menus.main }}
-                <a class="navbar-item" href="{{ absURL .URL }}">
-                    {{ if .Pre }}
-                        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-                        {{ $icon }}
-                    {{ end }}
-                    {{ .Name }}
-                </a>
+    <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            {{ range .Site.Menus.main }}
+            <a class="navbar-item" href="{{ absURL .URL }}">
+                {{ if .Pre }}
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                {{ $icon }}
                 {{ end }}
-            </div>
+                {{ .Name }}
+            </a>
+            {{ end }}
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    More
+                </a>
 
-            <div class="navbar-end">
-                <a class="navbar-item" href="/about" style="font-weight: bold;">About</a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="/tags/breakfast">
+                        Breakfast
+                    </a>
+                    <a class="navbar-item is-selected" href="/tags/lunch">
+                        Lunch
+                    </a>
+                    <a class="navbar-item" href="/tags/dinner">
+                        Dinner
+                    </a>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const burger = document.querySelector('.navbar-burger');
-            const menu = document.querySelector('#navbarMenu');
+    <div class="navbar-end">
+        <a class="navbar-item" href="/about" style="font-weight: bold;">About</a>
+    </div>
+    </div>
+</nav>
 
-            burger.addEventListener('click', () => {
-                burger.classList.toggle('is-active');
-                menu.classList.toggle('is-active');
-            });
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const burger = document.querySelector('.navbar-burger');
+        const menu = document.querySelector('#navbarMenu');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
         });
-    </script>
+    });
+</script>
