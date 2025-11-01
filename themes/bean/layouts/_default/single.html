@@ -7,12 +7,15 @@
                 <div class="meta">
                     <h1 class="title">{{ strings.Title .Title }}</h1>
                     <div class="cover">
-                        {{ with .Resources.GetMatch "cover.*" }}
-                        <div class="image is-16by9">
-                            <img src="{{ .RelPermalink }}" alt="">
-                            <meta name="og:image" content="{{ .RelPermalink }}" />
+                        {{ with .Resources.GetMatch "{cover.*}" }}
+                        {{ $image := .Process "resize 1280x jpg q75" }}
+                        <div class="wrapper">
+                            <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+                                alt="">
+                            <meta name="og:image" content="{{ $image.RelPermalink }}" />
                         </div>
                         {{ end }}
+
                     </div>
                     <section class="post-meta">
                         <p class="is-size-6">
@@ -74,7 +77,9 @@
                     <div class="card" onclick="location.href='{{ .RelPermalink }}';">
                         {{ $diff := now.Sub .Lastmod }}
                         {{ if lt $diff.Hours 120 }}
-                        <span class="has-background-success has-text-white p-2 is-success is-light is-large has-text-weight-bold" style="position: absolute; z-index: 1;">NEW</span>
+                        <span
+                            class="has-background-success has-text-white p-2 is-success is-light is-large has-text-weight-bold"
+                            style="position: absolute; z-index: 1;">NEW</span>
                         {{ end }}
                         <div class="card-image">
                             {{ with .Resources }}
