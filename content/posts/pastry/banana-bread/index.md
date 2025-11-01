@@ -9,9 +9,9 @@ categories: ["Pastry"]
 Forget everything i said about irish soda bread being my favorite...  The Irish aren't ready for actual flavor.
 
 <div class="recipe" id="recipe">
-Prep time: 15 minutes
+Prep time: 10 minutes
 
-Cooking time: 60 minutes
+Cooking time: ~60 minutes
 
 ### Ingredients for 1 tray
 - [ ] 225g All-Purpose Flour
@@ -38,6 +38,6 @@ Cooking time: 60 minutes
 5. Preheat the oven to 180°C (350°F) and line a baking tray with parchment paper.
 6. Pour the batter into the prepared tray and smooth the top.
 7. If desired, place banana slices on top for decoration.
-8. Bake for 20-25 minutes, or until a toothpick inserted into the center comes out clean.
+8. Bake for 50-60 minutes, or until a toothpick inserted into the center comes out clean.
 
 </div>
