@@ -6,7 +6,7 @@ tags: ["stove-cooked", "lunch", "high-protein", "high-fiber", "iron-rich", "heal
 categories: ["Other"]
 ---
 
-This is another simple pasta recipe, It's heavily inspired by Carbonara, but it has no guanciale. It can be messed up, but it still won't taste bad if you do. The only downside is that you only use egg yolks, so you have extra egg whites.
+This is a vegetable dish heavily inspired by my [egg-cheese pasta recipe](/posts/pasta/egg-cheese).
 
 <div class="recipe" id="recipe">
 Prep time: 10 minutes
