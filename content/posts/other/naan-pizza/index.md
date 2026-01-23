@@ -2,7 +2,7 @@
 title: "Naan pizza"
 date: 2025-06-02T15:00:00+01:00
 draft: false
-tags: ["main", "pizza", "baked", "lunch", "dinner"]
+tags: ["main", "pizza", "baked", "lunch", "dinner", "high-carb"]
 categories: ["Other"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Pesto Pasta"
 date: 2025-08-11T13:00:00+02:00
 draft: false
-tags: ["stove-cooked", "pasta", "italian", "lunch", "dinner"]
+tags: ["stove-cooked", "pasta", "italian", "lunch", "dinner", "healthy-fats", "high-carb"]
 categories: ["Pasta"]
 ---
 

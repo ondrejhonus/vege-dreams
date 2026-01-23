@@ -2,7 +2,7 @@
 title: "Naan bread"
 date: 2025-06-02T16:00:00+01:00
 draft: false
-tags: ["bread", "vegan", "stove-cooked", "side", "indian"]
+tags: ["bread", "vegan", "stove-cooked", "side", "indian", "high-carb", "high-fiber"]
 categories: ["Pastry"]
 ---
 

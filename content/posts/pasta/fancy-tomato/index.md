@@ -2,7 +2,7 @@
 title: "Fancy Tomato Pasta"
 date: 2025-05-14T15:00:00+02:00
 draft: false
-tags: ["stove-cooked", "pasta", "lunch"]
+tags: ["stove-cooked", "pasta", "lunch", "high-carb", "high-fiber"]
 categories: ["Pasta"]
 ---
 

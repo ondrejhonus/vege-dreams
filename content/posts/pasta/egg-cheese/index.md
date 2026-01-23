@@ -2,7 +2,7 @@
 title: "Egg-cheese pasta"
 date: 2025-05-14T16:00:00+02:00
 draft: false
-tags: ["stove-cooked", "pasta", "italian", "lunch"]
+tags: ["stove-cooked", "pasta", "italian", "lunch", "high-protein", "high-carb"]
 categories: ["Pasta"]
 ---
 

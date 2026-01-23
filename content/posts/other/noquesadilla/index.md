@@ -2,7 +2,7 @@
 title: "Vegedilla"
 date: 2025-08-28T17:00:00+01:00
 draft: false
-tags: ["lunch", "dinner", "stove-cooked"]
+tags: ["lunch", "dinner", "stove-cooked", "high-protein", "high-fiber"]
 categories: ["Other"]
 ---
 

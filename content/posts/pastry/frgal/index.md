@@ -2,7 +2,7 @@
 title: "Vegan frgal"
 date: 2025-05-16T00:00:00Z
 draft: false
-tags: ["czech", "baked", 'pie', 'vegan', "snack"]
+tags: ["czech", "baked", 'pie', 'vegan', "snack", "high-carb", "healthy-fats"]
 categories: ["Pastry"]
 ---
 

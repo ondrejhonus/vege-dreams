@@ -2,7 +2,7 @@
 title: "Cherry & Nut Bread"
 date: 2025-06-09T18:00:00+01:00
 draft: false
-tags: ["baked", "bread", "fruit", "yeast-free"]
+tags: ["baked", "bread", "fruit", "yeast-free", high-carb", "high-fiber"]
 categories: ["Pastry"]
 ---
 

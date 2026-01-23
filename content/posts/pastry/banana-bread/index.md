@@ -2,7 +2,7 @@
 title: "Banana bread"
 date: 2025-06-13T12:00:00Z
 draft: false
-tags: ["baked", "sweet", "vegan"]
+tags: ["baked", "sweet", "vegan", "high-carb", "high-fiber", "healthy-fats"]
 categories: ["Pastry"]
 ---
 

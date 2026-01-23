@@ -2,7 +2,7 @@
 title: "Waffles / Pancakes"
 date: 2025-08-05T11:00:00+01:00
 draft: false
-tags: ["snack", "sugar-free", "breakfast", "dinner"]
+tags: ["snack", "sugar-free", "breakfast", "dinner", "high-carb", "high-protein"]
 categories: ["Pastry"]
 ---
 

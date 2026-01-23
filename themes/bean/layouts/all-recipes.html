@@ -1,0 +1,60 @@
+{{ define "main" }}
+<div class="container">
+  <!-- Display tags at the top -->
+  {{ $tags := .Site.Taxonomies.tags }}
+  <div class="box container">
+    <h3 class="title is-4">Tags:</h3>
+    <div class="field is-grouped is-grouped-multiline">
+      {{ range $key, $value := $tags }}
+      <div class="control">
+        <div class="tags has-addons">
+          <a class="tag is-info" href="/tags/{{ $key }}">{{ $key }}</a>
+          <span class="tag is-light">{{ len $value }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Separate categories and display recipes -->
+  {{ range ($.Site.GetPage "taxonomyTerm" "categories").Pages.ByTitle.Reverse }}
+  <div class="column is-12">
+    <h2 class="title is-size-1 mb-2">{{ .Title }}</h2>
+  </div>
+
+  <div class="columns columns-index is-multiline is-mobile">
+    {{ range .Pages.ByDate.Reverse }}
+    <div class="column is-3-desktop is-6-tablet is-full-mobile">
+      <div class="card" onclick="location.href='{{ .RelPermalink }}';">
+        <div class="card-image">
+          {{ with .Resources.GetMatch "cover*" }}
+          {{ $image := .Process "resize 800x" }}
+          <figure class="image is-4by3 index-image">
+            <img src="{{ $image.RelPermalink }}" alt="Cover image">
+          </figure>
+          {{ else }}
+          <figure class="image is-4by3 index-image">
+            <img src="/images/default-cover.jpg" alt="Default cover image">
+          </figure>
+          {{ end }}
+        </div>
+
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4 index-title">{{ strings.Title .Title }}</p>
+            </div>
+          </div>
+          <div class="content">
+            <div style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+              {{ .Summary }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

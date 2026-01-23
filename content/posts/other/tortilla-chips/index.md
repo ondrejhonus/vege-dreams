@@ -2,7 +2,7 @@
 title: "Tortilla Chips + dips"
 date: 2025-05-18T17:35:00+01:00
 draft: false
-tags: ["oven-baked", "snack", "vegetarian", "comfort-food"]
+tags: ["oven-baked", "snack", "vegetarian", "comfort-food", "high-carb"]
 categories: ["Other"]
 ---
 

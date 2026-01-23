@@ -2,7 +2,7 @@
 title: "Pasta Pomodoro"
 date: 2025-08-05T18:00:00+02:00
 draft: false
-tags: ["stove-cooked", "pasta", "italian", "lunch", "dinner"]
+tags: ["stove-cooked", "pasta", "italian", "lunch", "dinner", "high-carb"]
 categories: ["Pasta"]
 ---
 

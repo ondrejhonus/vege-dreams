@@ -2,7 +2,7 @@
 title: "Irish Soda Bread"
 date: 2025-05-30T14:00:00+01:00
 draft: false
-tags: ["baked", "bread", "irish"]
+tags: ["baked", "bread", "irish", high-carb", "high-fiber"]
 categories: ["Pastry"]
 ---
 

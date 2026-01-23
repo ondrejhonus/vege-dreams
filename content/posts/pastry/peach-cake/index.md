@@ -2,7 +2,7 @@
 title: "Inverted Peach Cake"
 date: 2025-06-13T12:00:00Z
 draft: false
-tags: ["baked", "cake", "sweet", "vegan", "snack"]
+tags: ["baked", "cake", "sweet", "vegan", "snack", "high-carb"]
 categories: ["Pastry"]
 ---
 

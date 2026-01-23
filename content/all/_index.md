@@ -1,3 +1,4 @@
 ---
-title: "All Cards"
+title: "All Recipes"
+layout: "all-recipes"
 ---

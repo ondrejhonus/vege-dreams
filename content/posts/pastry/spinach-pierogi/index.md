@@ -2,7 +2,7 @@
 title: "Spinach Pierogi"
 date: 2025-07-07T13:00:00+01:00
 draft: false
-tags: ["cooked", "polish", "vegan", "dinner"]
+tags: ["cooked", "polish", "vegan", "dinner", "high-carb", "healthy-fats"]
 categories: ["Pastry"]
 ---
 
