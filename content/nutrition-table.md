@@ -1,6 +1,6 @@
 ---
 title: "Nutrition Table"
-date: 2025-01-23T17:11:13Z
+date: 2026-01-23T17:11:13Z
 draft: false
 ---
 
