@@ -1,12 +1,12 @@
 ---
-title: "Eggcheese sauce veggies"
+title: "Eggcheese veggies"
 date: 2026-01-23T20:00:00+02:00
 draft: false
 tags: ["stove-cooked", "lunch", "high-protein", "high-fiber", "iron-rich", "healthy-fat"]
 categories: ["Other"]
 ---
 
-This is a vegetable dish heavily inspired by my [egg-cheese pasta recipe](/posts/pasta/egg-cheese).
+This is a vegetable dish heavily inspired by my egg-cheese pasta recipe.
 
 <div class="recipe" id="recipe">
 Prep time: 10 minutes
