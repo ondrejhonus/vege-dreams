@@ -33,9 +33,9 @@ Cooking time: 15 minutes
 3. **Mix the dry:**  
    Add the oats, grated coconut and optionally cocoa powder in. mix it all until it's a thick, but not crumbly "dough", if using, sprinkle in the chocolate chips.
 
-5. **Scoop:**  
+4. **Scoop:**  
    Take an ice-cream scooper (or if you're build different just use hands) and make golf ball sized balls onto your tray and flatten them a bit because they won´t really expand much.
 
-7. **Bake**
+5. **Bake**
     Put the cookies in the oven for 10-15 minutes or until they're a bit golden on the top (if you're using cocoa powder, they're not gonna brown, so just until they're hard when you tap them).
 </div>
