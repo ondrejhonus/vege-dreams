@@ -1,6 +1,6 @@
 ---
 title: "Berry pancake bread"
-date: 2026-02-3T22:30:00+01:00
+date: 2026-02-03T22:30:00+01:00
 draft: false
 tags: ["baked", "comfort-food", "snack", "breakfast", "dinner", "lunch", "high-fiber", "high-carb", "high-protein"]
 categories: ["Pastry"]
