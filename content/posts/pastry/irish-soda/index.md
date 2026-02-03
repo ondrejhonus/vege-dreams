@@ -13,7 +13,7 @@ I never thought I could love bread, but here we are...
 <div class="recipe" id="recipe">
 Prep time: 10 minutes
 
-Cooking time: 60 minutes
+Baking time: 60 minutes
 
 ### Ingredients
 - [ ] 250 g plain white flour  
