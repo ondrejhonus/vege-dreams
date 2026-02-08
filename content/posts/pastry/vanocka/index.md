@@ -1,11 +1,11 @@
 ---
-title: "Czech Christmas bread"
+title: "Vegan Christmas bread"
 date: 2025-12-23T10:00:00+01:00
 draft: false
-tags: ["baked", "czech", "breakfast"]
+tags: ["baked", "czech", "breakfast", "vegan"]
 categories: ["Pastry"]
 ---
-If you want some christmas pastry, but don't want to induce a sugar coma, then u might want to think about making this one.
+This is a traditional Czech Christmas bread. If you want some christmas pastry, but don't want to induce a sugar coma, then u might want to think about making this one.
 
 <div class="recipe" id="recipe">
 Prep time: 1 hour 30 minutes
